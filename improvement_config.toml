@@ -1,0 +1,32 @@
+[paths]
+data_root = "data"
+baseline_detection_run = "outputs/detection/runs/fd67653dead6"
+output_root = "outputs/improvement"
+
+[analysis]
+seed = 20260818
+workers = 1
+sampling_rate = 1000
+trials_per_stream = 10
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+k_values = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+subset_cap = 200
+neighbor_bins_per_harmonic = 18
+target_fpr = 0.05
+target_detection = 0.80
+
+[methods]
+stored = ["D1_4Hz", "D8_all_equal", "D8_4_8_equal", "D8_train_weighted"]
+public_estimators = ["F1_Hann", "F2_Hilbert_demod", "F3_Thomson_line", "F3_Thomson_F"]
+spatial = ["S0", "S1"]
+
+[estimators]
+fft_crop_samples = 500
+hilbert_order = 4
+hilbert_half_bandwidth_hz = 0.5
+hilbert_edge_crop_seconds = 0.5
+dpss_time_bandwidth = 2.5
+dpss_tapers = 4
+
+[runtime]
+minimum_progress_interval_seconds = 0.25

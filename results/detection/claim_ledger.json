@@ -1,0 +1,57 @@
+{
+  "d2_d3_sensitivity": {
+    "evidence": "At fixed K, D2 and D3 are monotonic transformations of D1; only calibration and bias differ.",
+    "status": "not_an_independent_sensitivity_improvement"
+  },
+  "primary_candidate": {
+    "evidence": {
+      "baseline_trials_to_80": null,
+      "branches_numerically_merged": false,
+      "candidate_heldout_fpr": 0.0501234567901234,
+      "candidate_trials_to_80": null,
+      "comparison_k": 10,
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "crossed_bootstrap_gain_ci95": [
+        0.03553333333333333,
+        0.16977777777777778
+      ],
+      "d1_d2_d3_interpretation": "At fixed K, D2 and D3 are monotonic transformations of D1; only calibration and bias differ.",
+      "primary_baseline": "stored_matlab+F1+D1+S0",
+      "primary_candidate": "stored_matlab+F1+D8+S0",
+      "primary_candidate_succeeds": false
+    },
+    "prespecified": true,
+    "source": "stored_matlab",
+    "status": "not_supported"
+  },
+  "public_spatial_benchmark": {
+    "cross_source_equivalence_claim": false,
+    "source": "public_set_fdt",
+    "status": "within_source_benchmark"
+  },
+  "source_separation": {
+    "evidence": {
+      "missing_or_invalid": [],
+      "public_set_fdt": {
+        "allowed_estimators": [
+          "F1",
+          "F2",
+          "F3",
+          "F4_nominal",
+          "F4_measured"
+        ],
+        "cross_source_merge_allowed": false,
+        "fdt_files": 25,
+        "set_files": 25
+      },
+      "stored_matlab": {
+        "allowed_estimators": [
+          "F1"
+        ],
+        "cross_source_merge_allowed": false,
+        "source": "data/Matlab variables/Data_fft_all.mat"
+      }
+    },
+    "status": "enforced"
+  }
+}

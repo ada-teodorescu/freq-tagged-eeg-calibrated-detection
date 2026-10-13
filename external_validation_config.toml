@@ -1,0 +1,58 @@
+[paths]
+external_data_root = "data/external/ds007615"
+baseline_confirmatory_run = "outputs/confirmatory_study/4d6a54f6f902"
+output_root = "outputs/external_validation"
+export_root = "results/external_validation"
+
+[dataset]
+dataset_id = "ds007615"
+dataset_version = "1.0.0"
+primary_task = "ldaep_jittered_auditory"
+secondary_tasks = ["rest_eyes_open", "rest_eyes_closed"]
+minimum_primary_participants = 40
+minimum_secondary_participants = 50
+
+[analysis]
+seed = 20260826
+workers = 1
+sampling_rate = 1000
+epoch_seconds = 5.0
+trials_per_stream = 10
+streams_per_unit = 3
+k_values = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+auditory_windows_per_participant = 90
+rest_windows_per_participant = 30
+
+[preprocessing]
+l_freq = 1.0
+h_freq = 50.0
+average_reference = true
+maximum_bad_target_channels = 4
+structural_interpolation_targets = ["TP9", "TP10", "PO9", "PO10"]
+peak_to_peak_sensitivity_uv = 250.0
+
+[model]
+locked_c = 100.0
+maximum_iterations = 150
+tolerance = 1e-8
+target_fpr = 0.05
+
+[validation]
+bootstrap_iterations = 10000
+one_sided_confidence = 0.95
+external_fpr_upper_limit = 0.10
+
+[spatial]
+regions = [
+  ["Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8"],
+  ["FC5", "FC1", "FC2", "FC6"],
+  ["T7", "C3", "Cz", "C4", "T8"],
+  ["TP9", "CP5", "CP1", "CP2", "CP6", "TP10"],
+  ["P7", "P3", "Pz", "P4", "P8", "PO9", "O1", "Oz", "O2", "PO10"],
+]
+region_names = ["frontal", "frontocentral", "central_temporal", "centroparietal", "posterior"]
+
+[runtime]
+minimum_progress_interval_seconds = 0.25
+minimum_free_disk_gb = 20.0

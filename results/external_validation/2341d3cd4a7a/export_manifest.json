@@ -1,0 +1,20 @@
+{
+  "analysis_id": "2341d3cd4a7a",
+  "source": "outputs\\external_validation\\2341d3cd4a7a",
+  "files": [
+    "design_lock.json",
+    "external_validation_conclusions.json",
+    "figures/external_negative_fpr.png",
+    "input_fingerprints.json",
+    "models/deployment_models.npz",
+    "report.md",
+    "tables/deployment_model_records.csv",
+    "tables/epoch_artifact_sensitivity.csv",
+    "tables/external_exclusions.csv",
+    "tables/external_fpr_summary.csv",
+    "tables/external_negative_scores.csv",
+    "tables/negative_unit_membership.csv",
+    "tables/preprocessing_eligibility.csv",
+    "tables/recording_inventory.csv"
+  ]
+}

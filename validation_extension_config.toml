@@ -1,0 +1,63 @@
+[paths]
+data_root = "data"
+baseline_confirmatory_run = "outputs/confirmatory_study/4d6a54f6f902"
+baseline_external_run = "outputs/external_validation/2341d3cd4a7a"
+raw_events = "outputs/raw_replication/42ae2efcc15c/tables/events.csv"
+external_data_root = "data/external/ds007615"
+output_root = "outputs/validation_extension"
+export_root = "results/validation_extension"
+
+[analysis]
+seed = 20260826
+workers = 1
+sampling_rate = 1000
+trials_per_stream = 10
+streams_per_condition = 3
+conditions = 15
+channels = 32
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+k_values = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+surrogate_seeds = [20260826, 20260827]
+surrogates_per_seed = 100
+
+[estimators]
+window_start_seconds = 0.5
+window_end_seconds = 4.5
+hilbert_order = 4
+hilbert_half_bandwidth_hz = 0.5
+hilbert_edge_crop_seconds = 0.5
+bandwidth_sensitivity_hz = [0.25, 1.0]
+crop_sensitivity_seconds = [0.25, 0.75]
+kernel_frequency_hz = 4.0
+kernel_chunk_size = 64
+
+[model]
+locked_c = 100.0
+maximum_iterations = 150
+tolerance = 1e-8
+target_fpr = 0.05
+fpr_acceptance_high = 0.055
+simple_margin = 0.03
+
+[statistics]
+bootstrap_iterations = 20000
+sign_flip_iterations = 100000
+
+[external]
+window_resamples = 100
+one_sided_confidence = 0.95
+shared_channels_excluded = ["TP9", "TP10", "PO9", "PO10"]
+
+[spatial]
+regions = [
+  ["Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8"],
+  ["FC5", "FC1", "FC2", "FC6"],
+  ["T7", "C3", "Cz", "C4", "T8"],
+  ["TP9", "CP5", "CP1", "CP2", "CP6", "TP10"],
+  ["P7", "P3", "Pz", "P4", "P8", "PO9", "O1", "Oz", "O2", "PO10"],
+]
+region_names = ["frontal", "frontocentral", "central_temporal", "centroparietal", "posterior"]
+
+[runtime]
+minimum_progress_interval_seconds = 0.25
+minimum_free_disk_gb = 20.0

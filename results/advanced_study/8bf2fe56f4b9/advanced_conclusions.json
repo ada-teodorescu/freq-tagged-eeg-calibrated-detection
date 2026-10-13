@@ -1,0 +1,200 @@
+{
+  "analysis_id": "8bf2fe56f4b9",
+  "condition_sensitivity": {
+    "C1_ConditionITPC4": 0.584,
+    "C2_ConditionEqual4plus8": 0.7466666666666667,
+    "C3_RegionalMonotone4plus8": 0.7946666666666666,
+    "C4_PreviousRegionalMonotone4H": 0.8213333333333334
+  },
+  "external_negative_status": "external negatives unavailable",
+  "interpretation_guardrail": "Off-target controls are pseudo-negatives; operational FPR requires genuine external negatives.",
+  "negative_controls": [
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0053333333333333,
+      "family": "11+22 Hz",
+      "method": "S1_ITPC4",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0071111111111111,
+      "family": "11+22 Hz",
+      "method": "S2_Equal4plus8",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0702222222222222,
+      "family": "2.5+5 Hz",
+      "method": "S1_ITPC4",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0835555555555555,
+      "family": "2.5+5 Hz",
+      "method": "S2_Equal4plus8",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0764444444444444,
+      "family": "3+6 Hz",
+      "method": "S1_ITPC4",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0728888888888888,
+      "family": "3+6 Hz",
+      "method": "S2_Equal4plus8",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0462222222222222,
+      "family": "5+10 Hz",
+      "method": "S1_ITPC4",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.04,
+      "family": "5+10 Hz",
+      "method": "S2_Equal4plus8",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0373333333333333,
+      "family": "7+14 Hz",
+      "method": "S1_ITPC4",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0328888888888888,
+      "family": "7+14 Hz",
+      "method": "S2_Equal4plus8",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0177777777777777,
+      "family": "9+18 Hz",
+      "method": "S1_ITPC4",
+      "units": 1125
+    },
+    {
+      "control_kind": "off-target control",
+      "false_positive_rate": 0.0133333333333333,
+      "family": "9+18 Hz",
+      "method": "S2_Equal4plus8",
+      "units": 1125
+    }
+  ],
+  "operational_fpr_claim_allowed": false,
+  "primary": {
+    "candidate": "S2_Equal4plus8",
+    "comparator": "S1_ITPC4",
+    "condition_sign_flip_p": 0.00029997000299970003,
+    "crossed_bootstrap_ci95": [
+      0.05244444444444444,
+      0.17511111111111108
+    ],
+    "fpr_in_locked_interval": true,
+    "gain_ci_above_zero": true,
+    "heldout_surrogate_familywise_fpr": 0.04821037037037034,
+    "heldout_surrogate_fpr_ci95": [
+      0.0420679259259259,
+      0.05499859259259255
+    ],
+    "mean_detection_gain": 0.11111111111111112,
+    "success": true
+  },
+  "secondary_stream_comparisons": [
+    {
+      "candidate": "S3_RidgeComplex4plus8",
+      "comparator": "S2_Equal4plus8",
+      "condition_sign_flip_p": 0.011898810118988102,
+      "crossed_bootstrap_ci95": [
+        -0.07022222222222221,
+        0.0009111111111107962
+      ],
+      "holm_adjusted_p": 0.011898810118988102,
+      "mean_detection_gain": -0.035555555555555556
+    },
+    {
+      "candidate": "S4_RegionalMonotone4plus8",
+      "comparator": "S2_Equal4plus8",
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "crossed_bootstrap_ci95": [
+        0.047111111111111104,
+        0.1288888888888889
+      ],
+      "holm_adjusted_p": 0.00019998000199980003,
+      "mean_detection_gain": 0.08888888888888888
+    }
+  ],
+  "shrinkage_calibration": {
+    "S1_ITPC4": {
+      "population_participant_fpr_rmse": 0.027351133419186293,
+      "sensitivity_change": -0.013333333333333336,
+      "shrinkage_participant_fpr_rmse": 0.00905244587976289,
+      "success": true
+    },
+    "S2_Equal4plus8": {
+      "population_participant_fpr_rmse": 0.016375122487735483,
+      "sensitivity_change": 5.551115123125783e-17,
+      "shrinkage_participant_fpr_rmse": 0.00675324846895198,
+      "success": true
+    },
+    "S3_RidgeComplex4plus8": {
+      "population_participant_fpr_rmse": 0.008771483913292695,
+      "sensitivity_change": 0.004444444444444473,
+      "shrinkage_participant_fpr_rmse": 0.002172328783973338,
+      "success": true
+    },
+    "S4_RegionalMonotone4plus8": {
+      "population_participant_fpr_rmse": 0.012414443554954432,
+      "sensitivity_change": 0.001777777777777767,
+      "shrinkage_participant_fpr_rmse": 0.004536261460543137,
+      "success": true
+    }
+  },
+  "stream_population_performance": {
+    "S1_ITPC4": {
+      "heldout_familywise_fpr": 0.0521333333333333,
+      "participant_cluster_ci95": [
+        0.041611777777777734,
+        0.06338422222222218
+      ],
+      "sensitivity": 0.24355555555555555
+    },
+    "S2_Equal4plus8": {
+      "heldout_familywise_fpr": 0.04821037037037034,
+      "participant_cluster_ci95": [
+        0.0420679259259259,
+        0.05499859259259255
+      ],
+      "sensitivity": 0.35466666666666663
+    },
+    "S3_RidgeComplex4plus8": {
+      "heldout_familywise_fpr": 0.05026370370370366,
+      "participant_cluster_ci95": [
+        0.04690074074074069,
+        0.05387881481481476
+      ],
+      "sensitivity": 0.3191111111111111
+    },
+    "S4_RegionalMonotone4plus8": {
+      "heldout_familywise_fpr": 0.05075259259259255,
+      "participant_cluster_ci95": [
+        0.04612140740740736,
+        0.05588192592592588
+      ],
+      "sensitivity": 0.44355555555555554
+    }
+  }
+}

@@ -1,0 +1,43 @@
+[paths]
+data_root = "data"
+replication_output_root = "outputs/replication"
+output_root = "outputs/detection"
+
+[analysis]
+seed = 20260818
+workers = 1
+sampling_rate = 1000
+trials_per_stream = 10
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+k_values = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+subset_cap = 200
+neighbor_bins_per_harmonic = 18
+target_fpr = 0.05
+target_detection = 0.80
+surrogate_batches = 1000
+bootstrap_iterations = 5000
+permutation_iterations = 10000
+
+[methods]
+estimators = ["F1", "F2", "F3", "F4_nominal", "F4_measured"]
+detectors = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8"]
+spatial_methods = ["S0", "S1", "S2", "S3", "S4"]
+primary_baseline = "stored_matlab+F1+D1+S0"
+primary_candidate = "stored_matlab+F1+D8+S0"
+
+[estimators]
+fft_crop_samples = 500
+hilbert_order = 4
+hilbert_half_bandwidth_hz = 0.5
+hilbert_edge_crop_seconds = 0.5
+dpss_time_bandwidth = 2.5
+dpss_tapers = 4
+
+[spatial]
+regularization = 0.1
+cca_lag_start_ms = 0
+cca_lag_stop_ms = 400
+cca_lag_step_ms = 20
+
+[runtime]
+minimum_progress_interval_seconds = 0.25

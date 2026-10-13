@@ -1,0 +1,342 @@
+{
+  "inputs": [
+    {
+      "bytes": 2917,
+      "exists": true,
+      "path": "outputs\\confirmatory_study\\4d6a54f6f902\\confirmatory_conclusions.json",
+      "sha256": "e7bd2154d349a616d42d7d31b4c39eefacdb7c22008c2d03f56deb481a493133"
+    },
+    {
+      "bytes": 15949913,
+      "exists": true,
+      "path": "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\02_hilbert_condition\\condition_features.npz",
+      "sha256": "a58bac8de1e56891a12386c133cc7404872d6a87d10983b2d8108bc45db55ca8"
+    },
+    {
+      "bytes": 143372758,
+      "exists": true,
+      "path": "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\03_hilbert_sequential\\trajectories.npz",
+      "sha256": "2bf1565ad6f91f308f09278a369c7d6427b1bb958f0b9d25320e2d9d8c84a454"
+    },
+    {
+      "bytes": 694,
+      "exists": true,
+      "path": "outputs\\external_validation\\2341d3cd4a7a\\external_validation_conclusions.json",
+      "sha256": "47aaaa36764969e96422c463419525f31da9d07eaac253c6a4322941c06d6640"
+    },
+    {
+      "bytes": 128312,
+      "exists": true,
+      "path": "outputs\\external_validation\\2341d3cd4a7a\\tables\\external_negative_scores.csv",
+      "sha256": "31cecb8de13dc5cbb720fb6a552ed3bd5f65d06f2cb2e3a6f01ba4a2306aa92d"
+    },
+    {
+      "bytes": 341532,
+      "exists": true,
+      "path": "outputs\\raw_replication\\42ae2efcc15c\\tables\\events.csv",
+      "sha256": "9275582cdd76ea97253072741743e2572626ae97dd07a8bd01223efd58cc4574"
+    }
+  ],
+  "public_set_fdt": [
+    {
+      "bytes": 616320,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P10 E2 epochs.set",
+      "sha256": "d805db576bffa31da7845c62e4ac73de3109104224a8149a1f3d8686a93c2caa"
+    },
+    {
+      "bytes": 619904,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P12 E2 epochs.set",
+      "sha256": "914db6b57c1824dbb7ba922ad12bbe4c79d34dddcfe2f6d4f02dff59244ed894"
+    },
+    {
+      "bytes": 509920,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P13 E2 epochs.set",
+      "sha256": "75eaa61ffc9cb616629b844db91d68333291663e69afa62775ff7c3f5c78637f"
+    },
+    {
+      "bytes": 508728,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P15 E2 epochs.set",
+      "sha256": "f34ce68ccf254dad7909e7a6b3a6690428d23d406f9ee7a2ef77ff116fdbab89"
+    },
+    {
+      "bytes": 508728,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P16 E2 epochs.set",
+      "sha256": "0977370cb2524bbaa1422626c05bbc4e4dcf7e6dd6249210caa1c43a966eebc9"
+    },
+    {
+      "bytes": 507368,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P17 E2 epochs.set",
+      "sha256": "c3cf2514b7e1f99267db8ef5b857cae721c13936dd49751d3882d698bc4425c7"
+    },
+    {
+      "bytes": 616352,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P18 E2 epochs.set",
+      "sha256": "225941f739a9802d46bbf87cbcf6a5cdeb89400ec97fed4c51226832dfe5a130"
+    },
+    {
+      "bytes": 507368,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P19 E2 epochs.set",
+      "sha256": "4620a373392277b5a8bc9f25f23244940678dd3fd55dea30b14588db85ebbc31"
+    },
+    {
+      "bytes": 509544,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P20 E2 epochs.set",
+      "sha256": "a8d7c57016e18a32929a7b44f8769fba9470f78b1e8f3a2a481627f40c621c7a"
+    },
+    {
+      "bytes": 508136,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P21 E2 epochs.set",
+      "sha256": "24427ff572b29295df9f7eb48de2cf51d57b3d473d8b88e6f364e3c4f1a146ea"
+    },
+    {
+      "bytes": 506552,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P22 E2 epochs.set",
+      "sha256": "db8bbb4c04ea7ae63d416300932b0bea61d9c5ca1c88158ffa1e3a8dbaa5ce73"
+    },
+    {
+      "bytes": 616352,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P23 E2 epochs.set",
+      "sha256": "fc4ce450bd7b797bc58352320a0653734fd039ed8aa9b90ed88dc3e19bb2eee5"
+    },
+    {
+      "bytes": 618424,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P24 E2 epochs.set",
+      "sha256": "555bedaddd4efac040a5ce336145132938ab367618fa7565578ecf35d256c20c"
+    },
+    {
+      "bytes": 507368,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P25 E2 epochs.set",
+      "sha256": "ea6b3e7287f6bbd5e124cce2e7f11bde40473552316e0c42d452bdf68084ef5a"
+    },
+    {
+      "bytes": 507640,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P26 E2 epochs.set",
+      "sha256": "ebb04398cfc3743089a1439e6d1f36999112086baaf8078ed6789c2d0810ab4b"
+    },
+    {
+      "bytes": 518728,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P27 E2 epochs.set",
+      "sha256": "2004982cecac6bff2f0fb06c933d5a9ed925557f8290d78390532f1301c13041"
+    },
+    {
+      "bytes": 616896,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P28 E2 epochs.set",
+      "sha256": "1aefd368bcbf91460a6c086c3d09a5d553b311e2535e33271f470307f51e17de"
+    },
+    {
+      "bytes": 507096,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P29 E2 epochs.set",
+      "sha256": "8e71f6160ed1e43fbb773174b92193ccb9dbf79830f06e250118103e38922924"
+    },
+    {
+      "bytes": 507640,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P30 E2 epochs.set",
+      "sha256": "e59db44aa8c8d8aecb0bb134e624064d80a74c44f3440caf320af50e6cb83be9"
+    },
+    {
+      "bytes": 506824,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P31 E2 epochs.set",
+      "sha256": "a72513270cee2ac87700bb401d531564e0dc3c17447218af3c1333ffcb4c044e"
+    },
+    {
+      "bytes": 616624,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P32 E2 epochs.set",
+      "sha256": "6996b3adc6640334678f402ea74119313fafd1fd88f7d526611502d6be01a20a"
+    },
+    {
+      "bytes": 507640,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P33 E2 epochs.set",
+      "sha256": "df50f7ba831cfcc3e553f1fb8dcb6846c2929787bf942b7c27ad9f0f49d00832"
+    },
+    {
+      "bytes": 616328,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P34 E2 epochs.set",
+      "sha256": "95c2e6900eb4ba5277d97ab567e0d2b576e70bdc2089d8d3e35e5eab637945c7"
+    },
+    {
+      "bytes": 515576,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P35 E2 epochs.set",
+      "sha256": "d60f8efbb214b5223ca4314880abb07168b46772e0aef15a6cefd9a02eb2a774"
+    },
+    {
+      "bytes": 616056,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P9 E2 epochs.set",
+      "sha256": "7eef221337aa83e6072382ea550565a582994c2b36818ad82d8b306ff08416b2"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P10 E2 epochs.fdt",
+      "sha256": "b1ab049890dc916a9ea3f4e3f7c1d6e9ed7ac84502a1ee56b82801be8bae6382"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P12 E2 epochs.fdt",
+      "sha256": "2a04487a60ac73108d7f8deee6078eb0fa157b0ddd17c72a5e23de71a3245b48"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P13 E2 epochs.fdt",
+      "sha256": "3c90367bfb0a82cbc139d98f1f9cfc6c1ea027e7bcb1e80757740965b96df8e9"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P15 E2 epochs.fdt",
+      "sha256": "825ea505f51c1464d99414afaeb8b8ec749501a1890795f843deb52136c7d4f9"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P16 E2 epochs.fdt",
+      "sha256": "6ee7fd974775010d92c1c6a5b360537eb8a6b1225767fc4e6d059ed14eb13eb3"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P17 E2 epochs.fdt",
+      "sha256": "89d3ebd396bb8937d3055cee5e603b5f5f5b280930d36c8b7e80557cabb99c35"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P18 E2 epochs.fdt",
+      "sha256": "ed268e4d68577c58348f5a158dd5bc808ddb5e5ec573272745017eb5ad7dd43c"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P19 E2 epochs.fdt",
+      "sha256": "d8dd91c8d12bcff347b853ecbeee8d5a38f2ca613ab4d3b143f01e0b97ac17ab"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P20 E2 epochs.fdt",
+      "sha256": "efe8f155ad656597ca91aa7d4399ea24b30d53af1eedaea6c13bb96143d5b65f"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P21 E2 epochs.fdt",
+      "sha256": "72869fcc6a6e1952f7dcad852a29b1a1449a49e0ea155732935dd6ba2f5f9acf"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P22 E2 epochs.fdt",
+      "sha256": "b1305946996fd70f5974ada7b5fdb17ae8c52782265543c70e5d478f377de9eb"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P23 E2 epochs.fdt",
+      "sha256": "1a3cefe70a060ec8d2218fd9b19af98ed80f6d66a19841954dd007268c9de476"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P24 E2 epochs.fdt",
+      "sha256": "dcc4fa887076a2c8b93f2d1bb59c6891adb90dd77ab1658b2db23eecaf472a00"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P25 E2 epochs.fdt",
+      "sha256": "e8d4abe9aec6c65b8b2488d0ce1e9ead54e365ff1563fa6e2b3981b467814745"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P26 E2 epochs.fdt",
+      "sha256": "7952760494248a4c3b86ae447ac0f4766f5729a0c96354e5edd9daed1b070bc0"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P27 E2 epochs.fdt",
+      "sha256": "bff40b5e30fdd2ecc4be2bd91056a116df9f83949e1a1bd57eae3bb91699c7d8"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P28 E2 epochs.fdt",
+      "sha256": "6a4a86af53e0f76608429ed507063a5c5e26d76e7bfb74b5b58ded2e8eee6f7a"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P29 E2 epochs.fdt",
+      "sha256": "cbe1a22df3636968b4bed2ebb76f150877c07280f69d2b3c2261f4e5257cb828"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P30 E2 epochs.fdt",
+      "sha256": "aa1a669e55a40c3dffc4d71f95d21aa72748c41d8571ec6d3ceaf582b0c60499"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P31 E2 epochs.fdt",
+      "sha256": "cea326594f5f866ddfe2f4615b9ea5b312d864a0f8b8d6ed3e0dc16b39560ac0"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P32 E2 epochs.fdt",
+      "sha256": "9803e006f3e329984523eab55b0051f4df3bd996cdf2e31d1980295e65549fb6"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P33 E2 epochs.fdt",
+      "sha256": "c0319c28f488e649e205ee10035dc75b3f6f22ebb51eb114a5f38f2002f59266"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P34 E2 epochs.fdt",
+      "sha256": "b7b2e11149ab3cbf4005f2b8e52e65dca7292a72434d8ab3722d3be5b438e72e"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P35 E2 epochs.fdt",
+      "sha256": "578f58db817f4ba53a08e114a2d343703e74a214174e1ac82cc61ab8c2501ca8"
+    },
+    {
+      "bytes": 288000000,
+      "exists": true,
+      "path": "data\\Pre-processed EEGLAB datasets\\P9 E2 epochs.fdt",
+      "sha256": "15bda70387a1b266d321b0b470851888dfe4bc928b631fd20773652a48710ce8"
+    }
+  ]
+}

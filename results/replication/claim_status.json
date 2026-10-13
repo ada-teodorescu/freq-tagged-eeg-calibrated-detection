@@ -1,0 +1,368 @@
+{
+  "continuous_stream_acoustic_reconstruction": {
+    "evidence": {
+      "feature": "maximum_derivative_latency",
+      "outcome": "itpc_4hz",
+      "pearson_p": 0.8432421279434446,
+      "pearson_r": -0.0558653864731476,
+      "source": "independently_reconstructed_from_45_continuous_stream_wavs",
+      "spearman_p": 0.8101088187105132,
+      "spearman_rho": 0.0678571428571428
+    },
+    "source": "independently_reconstructed_from_45_stream_wavs",
+    "status": "robustness_extension"
+  },
+  "filter_induced_false_positive_rate": {
+    "evidence": {
+      "chance_mean_squared_itpc": 0.1,
+      "configurations": 21,
+      "flagged_configurations": 21,
+      "phase_randomization": "independent per trial and channel after anti-aliased downsampling",
+      "pointwise_empirical_95_percent_threshold": 0.29127249171148306,
+      "randomization_batches": 3,
+      "sampling_rate": 100,
+      "source": "public_set_fdt_phase_randomized",
+      "unique_filters": 12
+    },
+    "source": "public_set_fdt_phase_randomized",
+    "status": "flagged"
+  },
+  "frequency_mismatch": {
+    "evidence": {
+      "audio_source": "target_stream_wavs_1_to_45",
+      "corrected_group_anova": {
+        "df1": 2.0,
+        "df2": 48.0,
+        "f": 10.621384397206935,
+        "gg_df1": 1.6834434519614625,
+        "gg_df2": 40.4026428470751,
+        "gg_epsilon": 0.8417217259807313,
+        "p_gg": 0.00040034061943262597,
+        "p_uncorrected": 0.00015163640619494709
+      },
+      "eeg_source": "public_set_fdt",
+      "fallback_streams": 0,
+      "frequency_range_hz": [
+        3.989403217845167,
+        4.034372054766705
+      ],
+      "interpretation": "published_condition_pattern_robust_to_frequency_offset_test",
+      "mean_fitted_frequency_hz": 4.003667304845401,
+      "mean_pc1_change": 5.808905332720408e-05,
+      "nominal_corrected_condition_order_p": 2.4159793199703526e-15,
+      "nominal_corrected_condition_order_spearman": 0.9964285714285712,
+      "nominal_group_anova": {
+        "df1": 2.0,
+        "df2": 48.0,
+        "f": 10.5505908130758,
+        "gg_df1": 1.7132781405102513,
+        "gg_df2": 41.11867537224603,
+        "gg_epsilon": 0.8566390702551256,
+        "p_gg": 0.0003811647101248786,
+        "p_uncorrected": 0.00015927159331672255
+      },
+      "published_pc1_frequency_regression": {
+        "coefficient_95_ci": [
+          [
+            -17.130792281179485,
+            14.234710018878255
+          ],
+          [
+            -5.751650121925804,
+            6.967346550108561
+          ],
+          [
+            -14.25620856137937,
+            17.141080042052522
+          ]
+        ],
+        "coefficients": [
+          3.5230106140896242,
+          -0.09628293859521797,
+          -3.530069752165372
+        ],
+        "p_permutation": 0.19658034196580343,
+        "r_squared": 0.23956319853903285
+      }
+    },
+    "source": "target_stream_wavs_and_public_set_fdt",
+    "status": "published_condition_pattern_robust_to_frequency_offset_test"
+  },
+  "hilbert_group_level_robustness": {
+    "evidence": [
+      {
+        "condition_mean_pearson_r": 0.918009685979012,
+        "condition_mean_spearman_rho": 0.9107142857142856,
+        "fft_mean_squared_itpc": 0.1682711896563319,
+        "harmonic_hz": 4.0,
+        "hilbert_mean_squared_itpc": 0.1389576494693756,
+        "participant_condition_pearson_r": 0.1067969626829057,
+        "participant_condition_spearman_rho": 0.1276479690522243
+      },
+      {
+        "condition_mean_pearson_r": 0.9484203323326708,
+        "condition_mean_spearman_rho": 0.9035714285714284,
+        "fft_mean_squared_itpc": 0.1484231177211661,
+        "harmonic_hz": 8.0,
+        "hilbert_mean_squared_itpc": 0.1288765519857406,
+        "participant_condition_pearson_r": 0.0737855478332193,
+        "participant_condition_spearman_rho": 0.0796591193537376
+      },
+      {
+        "condition_mean_pearson_r": 0.8969847896549259,
+        "condition_mean_spearman_rho": 0.8928571428571428,
+        "fft_mean_squared_itpc": 0.114837786280743,
+        "harmonic_hz": 12.0,
+        "hilbert_mean_squared_itpc": 0.1081370338797569,
+        "participant_condition_pearson_r": 0.0009809784032572,
+        "participant_condition_spearman_rho": 0.0215628626692456
+      },
+      {
+        "condition_mean_pearson_r": 0.6533976023124337,
+        "condition_mean_spearman_rho": 0.6392857142857141,
+        "fft_mean_squared_itpc": 0.1066348322430436,
+        "harmonic_hz": 16.0,
+        "hilbert_mean_squared_itpc": 0.1039788797497749,
+        "participant_condition_pearson_r": 0.0574067188891639,
+        "participant_condition_spearman_rho": 0.0377954261008078
+      }
+    ],
+    "interpretation_level": "group_level_only",
+    "source": "public_set_fdt_vs_stored_matlab",
+    "status": "reported"
+  },
+  "original_maximum_derivative_latency_relationship": {
+    "evidence": {
+      "pearson_p": 2.0350447684917752e-06,
+      "pearson_r": -0.9129993328907952,
+      "spearman_p": 2.3950208372070674e-06,
+      "spearman_rho": -0.9107142857142855
+    },
+    "scope": "stored-product replication; raw 75-syllable marker extraction unavailable",
+    "source": "original_repository_stored_acoustic_matrix",
+    "status": "supported"
+  },
+  "paper_reported_pca": {
+    "evidence": {
+      "branch": "paper_reported_pca",
+      "explained_variance_ratio": [
+        0.7620270499707695,
+        0.2007875816966206,
+        0.02980527747507544,
+        0.007380090857534553
+      ],
+      "loadings": [
+        [
+          0.8250585111854398,
+          -0.5510007110590216,
+          -0.12273499569602975,
+          -0.024754602893473976
+        ],
+        [
+          0.5317848937426598,
+          0.8295041049092292,
+          -0.12588951907942977,
+          -0.11523712818270294
+        ],
+        [
+          0.1806592823452247,
+          0.04805713267426681,
+          0.9757759926747659,
+          0.11363955218677649
+        ],
+        [
+          0.06201212470220551,
+          0.07753494921852538,
+          -0.13018894706164658,
+          0.9865057861475413
+        ]
+      ],
+      "mean": [
+        0.1682711896563319,
+        0.14842311772116606,
+        0.11483778628074302,
+        0.10663483224304363
+      ],
+      "method": "covariance PCA on participant harmonic means",
+      "observations": 25
+    },
+    "source": "stored_matlab_25_participant_means",
+    "status": "supported"
+  },
+  "pca_provenance_discrepancy": {
+    "evidence": {
+      "paper_reported_observations": 25,
+      "paper_variance": [
+        0.7620270499707695,
+        0.2007875816966206
+      ],
+      "repository_score_observations": 1125,
+      "repository_variance": [
+        0.48479636459902303,
+        0.30577979757961377
+      ]
+    },
+    "status": "confirmed"
+  },
+  "principal_three_group_effect": {
+    "evidence": {
+      "df1": 2.0,
+      "df2": 48.0,
+      "f": 12.060649751685354,
+      "gg_df1": 1.753509075504873,
+      "gg_df2": 42.084217812116954,
+      "gg_epsilon": 0.8767545377524365,
+      "p_gg": 0.00013570830379185366,
+      "p_uncorrected": 5.705118324373925e-05
+    },
+    "source": "archived_r_input",
+    "status": "supported"
+  },
+  "public_set_matches_stored_fft": {
+    "evidence": {
+      "ica_metadata": {
+        "component_counts": {
+          "P10": 0,
+          "P12": 0,
+          "P13": 0,
+          "P15": 0,
+          "P16": 0,
+          "P17": 0,
+          "P18": 0,
+          "P19": 0,
+          "P20": 0,
+          "P21": 0,
+          "P22": 0,
+          "P23": 0,
+          "P24": 0,
+          "P25": 0,
+          "P26": 0,
+          "P27": 0,
+          "P28": 0,
+          "P29": 0,
+          "P30": 0,
+          "P31": 0,
+          "P32": 0,
+          "P33": 0,
+          "P34": 0,
+          "P35": 0,
+          "P9": 0
+        },
+        "interpretation": "ICA fields describe the supplied preprocessed SET files; raw BrainVision/ICA recreation is unavailable and is not inferred from the no_ica analysis filename.",
+        "sets_with_ica_weights": 0,
+        "sets_without_ica_weights": 25
+      },
+      "identity_correlation_range": [
+        -0.031171477508802104,
+        0.22146041350423412
+      ],
+      "identity_mean_correlation": 0.06636806955418603,
+      "interpretation": "Stored MATLAB and public SET/FDT results remain separate provenance branches.",
+      "optimal_correlation_range": [
+        0.030446475508707608,
+        1.0
+      ],
+      "optimal_maximum_absolute_error": 0.8664450508302538,
+      "optimal_mean_correlation": 0.7415725666354669,
+      "original_script_audit": {
+        "event_sorting_script": "cv_syllables-master/EEG_sound analyses/sort_data_from_eeglab.m",
+        "itpc_script": "cv_syllables-master/EEG_sound analyses/pow_itc_e2_no_ica.m",
+        "neighbor_bin_script": "cv_syllables-master/EEG_sound analyses/itc_48_no_ica.m",
+        "participant_order_risk": "The MATLAB script used unsorted dir('*.set') order; the audit therefore tests every public participant against every stored participant.",
+        "reproduced_operations": [
+          "remove samples 1:500",
+          "sort epochs by numeric S1..S45 event code",
+          "reshape each stream into 10 trials",
+          "apply symmetric 4500-sample Hann window",
+          "use FFT bins 5:226 and squared phase-vector magnitude"
+        ]
+      },
+      "passed_exact_equivalence": false,
+      "reference_source": "stored_matlab",
+      "source": "public_set_fdt",
+      "tolerance": 1e-12
+    },
+    "source": "public_set_fdt_vs_stored_matlab",
+    "status": "not_supported"
+  },
+  "repository_score_pca": {
+    "evidence": {
+      "archived_score_maximum_errors": [
+        3.3306690738754696e-16,
+        6.38378239159465e-16
+      ],
+      "branch": "repository_score_pca",
+      "explained_variance_ratio": [
+        0.48479636459902303,
+        0.30577979757961377,
+        0.13029310029476024,
+        0.07913073752660295
+      ],
+      "loadings": [
+        [
+          0.8537043128100854,
+          -0.5133510048531474,
+          -0.08414805188489857,
+          -0.02405821002693117
+        ],
+        [
+          0.5079364127336329,
+          0.8578627646847512,
+          -0.0713370448084569,
+          -0.03135448332725732
+        ],
+        [
+          0.11015374657211459,
+          0.018692717098831524,
+          0.9930683526371813,
+          0.036496320829168476
+        ],
+        [
+          0.032491522353909855,
+          0.013885428015055643,
+          -0.04056326407537797,
+          0.9985520103988154
+        ]
+      ],
+      "mean": [
+        0.1682711896563319,
+        0.14842311772116606,
+        0.11483778628074305,
+        0.10663483224304367
+      ],
+      "method": "MATLAB-order reshape of 45 streams x 25 participants",
+      "observations": 1125
+    },
+    "source": "original_repository_1125_stream_participant_rows",
+    "status": "supported"
+  },
+  "stored_fft_replication": {
+    "evidence": {
+      "condition_maximum_by_harmonic": {
+        "12": 8.326672684688674e-17,
+        "16": 8.326672684688674e-17,
+        "4": 1.6653345369377348e-16,
+        "8": 1.1102230246251565e-16
+      },
+      "data_fft_to_itpc_maximum": 9.992007221626409e-16,
+      "harmonic_frequencies_hz": [
+        4.0,
+        8.0,
+        12.0,
+        16.0
+      ],
+      "itpc_for_stats_maximum_by_harmonic": {
+        "12": 1.1102230246251565e-16,
+        "16": 1.1102230246251565e-16,
+        "4": 2.7755575615628914e-16,
+        "8": 2.220446049250313e-16
+      },
+      "maximum_absolute_error": 9.992007221626409e-16,
+      "passed": true,
+      "source": "stored_matlab",
+      "tolerance": 1e-12
+    },
+    "source": "stored_matlab",
+    "status": "supported"
+  }
+}

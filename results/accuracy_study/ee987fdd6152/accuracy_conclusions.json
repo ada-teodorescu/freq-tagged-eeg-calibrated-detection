@@ -1,0 +1,157 @@
+{
+  "best_primary_algorithm": "C5_RegionalMonotone",
+  "best_primary_auc": 0.9567022222222222,
+  "best_primary_balanced_accuracy": 0.88288,
+  "best_primary_fpr": 0.05023999999999997,
+  "best_primary_sensitivity": 0.816,
+  "comparisons": [
+    {
+      "baseline": "C1_ConditionITPC4",
+      "candidate": "C2_Condition4plus8",
+      "condition_sign_flip_p": 0.00019998000199980003,
+      "conditions_positive": 15,
+      "crossed_bootstrap_ci95": [
+        0.08266666666666667,
+        0.25333333333333335
+      ],
+      "mean_sensitivity_gain": 0.16266666666666665,
+      "participants_positive": 17
+    },
+    {
+      "baseline": "C1_ConditionITPC4",
+      "candidate": "C3_Reliability4plus8",
+      "condition_sign_flip_p": 0.003999600039996,
+      "conditions_positive": 11,
+      "crossed_bootstrap_ci95": [
+        -0.013333333333333334,
+        0.16
+      ],
+      "mean_sensitivity_gain": 0.072,
+      "participants_positive": 12
+    },
+    {
+      "baseline": "C1_ConditionITPC4",
+      "candidate": "C4_MonotoneHarmonic",
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "conditions_positive": 15,
+      "crossed_bootstrap_ci95": [
+        0.09066666666666667,
+        0.26666666666666666
+      ],
+      "mean_sensitivity_gain": 0.176,
+      "participants_positive": 18
+    },
+    {
+      "baseline": "C1_ConditionITPC4",
+      "candidate": "C5_RegionalMonotone",
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "conditions_positive": 15,
+      "crossed_bootstrap_ci95": [
+        0.14666666666666667,
+        0.336
+      ],
+      "mean_sensitivity_gain": 0.232,
+      "participants_positive": 20
+    },
+    {
+      "baseline": "C2_Condition4plus8",
+      "candidate": "C3_Reliability4plus8",
+      "condition_sign_flip_p": 0.00029997000299970003,
+      "conditions_positive": 1,
+      "crossed_bootstrap_ci95": [
+        -0.15466666666666667,
+        -0.029266666666667638
+      ],
+      "mean_sensitivity_gain": -0.09066666666666667,
+      "participants_positive": 2
+    },
+    {
+      "baseline": "C2_Condition4plus8",
+      "candidate": "C4_MonotoneHarmonic",
+      "condition_sign_flip_p": 0.30256974302569745,
+      "conditions_positive": 6,
+      "crossed_bootstrap_ci95": [
+        -0.021333333333333333,
+        0.050666666666666665
+      ],
+      "mean_sensitivity_gain": 0.013333333333333334,
+      "participants_positive": 6
+    },
+    {
+      "baseline": "C2_Condition4plus8",
+      "candidate": "C5_RegionalMonotone",
+      "condition_sign_flip_p": 0.00019998000199980003,
+      "conditions_positive": 15,
+      "crossed_bootstrap_ci95": [
+        0.018666666666666668,
+        0.12533333333333332
+      ],
+      "mean_sensitivity_gain": 0.06933333333333333,
+      "participants_positive": 14
+    }
+  ],
+  "manuscript_updated": false,
+  "ml_training_evaluation_units_match": true,
+  "primary_results": [
+    {
+      "algorithm": "C1_ConditionITPC4",
+      "auc": 0.8906666666666667,
+      "balanced_accuracy": 0.7669377777777777,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.05012444444444441,
+      "sensitivity": 0.584,
+      "specificity": 0.9498755555555556,
+      "target_fpr": 0.05,
+      "target_reached": false
+    },
+    {
+      "algorithm": "C2_Condition4plus8",
+      "auc": 0.9285244444444444,
+      "balanced_accuracy": 0.8483022222222223,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.05006222222222218,
+      "sensitivity": 0.7466666666666667,
+      "specificity": 0.9499377777777778,
+      "target_fpr": 0.05,
+      "target_reached": false
+    },
+    {
+      "algorithm": "C3_Reliability4plus8",
+      "auc": 0.9088799999999999,
+      "balanced_accuracy": 0.8027288888888889,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.0505422222222222,
+      "sensitivity": 0.656,
+      "specificity": 0.9494577777777778,
+      "target_fpr": 0.05,
+      "target_reached": false
+    },
+    {
+      "algorithm": "C4_MonotoneHarmonic",
+      "auc": 0.9322044444444444,
+      "balanced_accuracy": 0.8549333333333333,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.0501333333333333,
+      "sensitivity": 0.76,
+      "specificity": 0.9498666666666667,
+      "target_fpr": 0.05,
+      "target_reached": false
+    },
+    {
+      "algorithm": "C5_RegionalMonotone",
+      "auc": 0.9567022222222222,
+      "balanced_accuracy": 0.88288,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.05023999999999997,
+      "sensitivity": 0.816,
+      "specificity": 0.94976,
+      "target_fpr": 0.05,
+      "target_reached": false
+    }
+  ],
+  "target": {
+    "fpr": 0.05,
+    "sensitivity": 0.9
+  },
+  "target_reached": false
+}

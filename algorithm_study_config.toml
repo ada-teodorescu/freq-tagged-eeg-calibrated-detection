@@ -1,0 +1,41 @@
+[paths]
+data_root = "data"
+baseline_article_run = "outputs/article/dedf974d7d6a"
+output_root = "outputs/algorithm_study"
+export_root = "results/algorithm_study"
+
+[analysis]
+seed = 20260818
+workers = 1
+sampling_rate = 1000
+onset_crop_samples = 500
+fft_pad_samples = 4500
+trials_per_stream = 10
+streams = 45
+conditions = 15
+channels = 32
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+durations_seconds = [0.5, 1.0, 2.0, 3.0, 4.5]
+k_values = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+subset_cap = 200
+surrogates_per_subset = 18
+target_fpr = 0.05
+target_detection = 0.80
+
+[machine_learning]
+c_grid = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+inner_group_folds = 6
+maximum_iterations = 100
+tolerance = 1e-8
+calibration_null_cap_per_participant = 20000
+harmonic_subsets = [[0], [0, 1], [0, 1, 2], [0, 1, 2, 3]]
+
+[statistics]
+bootstrap_iterations = 5000
+sign_flip_iterations = 10000
+fpr_acceptance_low = 0.045
+fpr_acceptance_high = 0.055
+
+[runtime]
+minimum_progress_interval_seconds = 0.25
+minimum_free_disk_gb = 4.0

@@ -1,0 +1,2634 @@
+{
+  "dataset_id": "ds007615",
+  "dataset_version": "1.0.0",
+  "files": [
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "b1e6950419e70fedaa04d8d338b713dae407158b4f745d732346ea2967772492",
+      "mtime_ns": 1787748960155755600,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069556260600,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15204,
+      "first_megabyte_sha256": "8e26f55e6953e9bb814053ad1011f1b981dbf2d94e89ebeaaa434b72baba6e63",
+      "mtime_ns": 1787746069558050400,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "5f2c00b81a5be371b268f3142e9fa61f5a0d2d6aa25656d585ff49911d38ca76",
+      "mtime_ns": 1787748961585955400,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069563772900,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15212,
+      "first_megabyte_sha256": "1ea88026cb40cb44b1494a3c3fb72f363ae39bffaba0ab9aef26f8ee779192bf",
+      "mtime_ns": 1787746069563772900,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "06290f2daf5cf7960a45d3508c939287843665ec2aa7e6b1b80ac0a0d2493b6f",
+      "mtime_ns": 1787748962937163800,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069571007600,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15243,
+      "first_megabyte_sha256": "ad77e553ae6d9939d127ce1fe73b75ab0944482288902231976e3e9c359b0edc",
+      "mtime_ns": 1787746069574666800,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "58da3d4a4b1f8628f6a2e7ad594dc79ffae0d6b47a095b81d93b07cdcdd31fb6",
+      "mtime_ns": 1787748963901877000,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069576671000,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15176,
+      "first_megabyte_sha256": "dd485f51a0821e9b2951579d5ac0381c4911a526ec45543891a605781cbf7e08",
+      "mtime_ns": 1787746069576671000,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "31e15b093f1c936d8adbc478c76e60ac328fbfe73d02210d0f326f75d5fe171b",
+      "mtime_ns": 1787748964803968900,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069583922500,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15172,
+      "first_megabyte_sha256": "d4d1ae8b45328e75f4266d8184f2b10f8f169cb7f523b40f1722753ab1855abf",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "8efe6bf56c0b5cf00d989acf9141cd7973dd820079be8fcd979d5c230256e187",
+      "mtime_ns": 1787748965701840700,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15251,
+      "first_megabyte_sha256": "270e5013c398a614acf567d2bb3b25ad6f7094b57c7a06c37f0257487dcd457e",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "504857b0b643eaeef129c6a7db1398b40c73032188d5172cddf8627f905c7664",
+      "mtime_ns": 1787748967716423100,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15216,
+      "first_megabyte_sha256": "6e517f8c98d66536ef2eccd5865a9927c87f2e7e4956fc5b606fb28ae1cc0fb7",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "444ffd59a4ff09bc1e80a36e1af1cff7a548f2be3330dce0b03ccf5dd34960ac",
+      "mtime_ns": 1787748969602122300,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069610560200,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15201,
+      "first_megabyte_sha256": "ea0e822174d97a08e87d3ba33eb11340c4301f7ff0771e7224da08b09bf96678",
+      "mtime_ns": 1787746069611560500,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "c13a3f41bc27855e6dd9aa4a4118599ed9f1dd4d099a0b8ff4faa6019554147c",
+      "mtime_ns": 1787748970564385300,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069614560700,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15209,
+      "first_megabyte_sha256": "3ec0be7cf715959063c2cc80b66c4bacc95c5fb28d2b6babbc59e7112dc7a934",
+      "mtime_ns": 1787746069615567200,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "a3c4ddc1fc443a7366ad62827486ac4530d6bab6a0955386756807adeaa9de2f",
+      "mtime_ns": 1787748971493120500,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069619564200,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15161,
+      "first_megabyte_sha256": "f1afd22d78c13bbca4beb692bf08f7a887e87137c9a7811d9f72c66949e06e2a",
+      "mtime_ns": 1787746069620564200,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "5feb1e8d323752e9ee492e2b976c14ef8b2ddb6c3e30d131ad56de9d1e62ae4b",
+      "mtime_ns": 1787748972362828100,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069624132500,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15247,
+      "first_megabyte_sha256": "d959f7c855f12f3818dcf5e8b3212c9bef800b272a8a98eb5b5f359a19abf8c5",
+      "mtime_ns": 1787746069624132500,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "d0bd2dc05da6c1e96923b4ee8f327d162728cbcc8f34be5e2bfbfc873996e245",
+      "mtime_ns": 1787748973668798700,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069629961400,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15236,
+      "first_megabyte_sha256": "3c2197ba59093a2470fb65f2fae101d54fcdad209a78f231c1e057facbceb990",
+      "mtime_ns": 1787746069629961400,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "4fc1930c4c4dc003ffe34c63ec390298a38e0ae515d785de87bf812a1b9c61a0",
+      "mtime_ns": 1787748974966186200,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069637256700,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15228,
+      "first_megabyte_sha256": "6b313be77ec01186443d99c8e4edfb64180284e9a931a7a7e1d73a3d2bd2e735",
+      "mtime_ns": 1787746069640788000,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "cc6c36bef69bd7699e79675d30ac4cfbc86ba7f2a95f3440d05b56a3032c0717",
+      "mtime_ns": 1787748975818209900,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069640788000,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15212,
+      "first_megabyte_sha256": "a634159b2df2e98c2e232423fe898e63656d60e6eccbe8a17aa0f4a3754b05dd",
+      "mtime_ns": 1787746069640788000,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "d86581d27bb1eb3ad379d1ac5174bd6f091fb42ea09a67dff5fd80b529aafb40",
+      "mtime_ns": 1787748977572066100,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15261,
+      "first_megabyte_sha256": "ede23519f1f9579ce708864616c60825f6394828588d44d3250860a29439ecb5",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "6dfd50e99c9da605e16c08f03ecb3021442c44a9b78c5c1c22534661fd3c8ad0",
+      "mtime_ns": 1787748978431271600,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15169,
+      "first_megabyte_sha256": "a48412cfddaba23661ec13df17df53ced4957626fc4e9830a7ccad24e7306847",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "af61b49d1f9e7494d775c1f1ef33102c18afc210dfbaef25af18b20268c1f1c2",
+      "mtime_ns": 1787748979323919300,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15232,
+      "first_megabyte_sha256": "42d6390cb08e67c458507ec9960aa7b2273c59ea0528202a425d438c9a362b15",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "a6d5bf096af65f3cb117375aa98fcbf13683b294fd2988c8cc919cdd68c7c592",
+      "mtime_ns": 1787748980239807600,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15184,
+      "first_megabyte_sha256": "77706db3ec2daf2127ef3d4e42bbe1ba10a48a8b8ad093dd30a33efb7793455e",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "57a9c9d896deb9e8da550923c65522c2ffac0f2b902e80856c55ffda871caeb5",
+      "mtime_ns": 1787748981127362700,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069672336500,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15154,
+      "first_megabyte_sha256": "8ce69ac09aa3b6cf82837afeeed897e912241ac0d664eea57054c2b1a99795cc",
+      "mtime_ns": 1787746069676059500,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "77584d98914db95f28b202b85fb540355a24f8ffec3373a2c02fe148dcc6a01c",
+      "mtime_ns": 1787748982030935100,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069677064000,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15256,
+      "first_megabyte_sha256": "221e35f7ab426ad64b40e9a88d264a6d753ed835804ee4e57c072c3c4b118919",
+      "mtime_ns": 1787746069677064000,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "c3e8341049e0a24c7f049cfc392a553518af9f0dc06bf00c12ac76bb23bdc465",
+      "mtime_ns": 1787748982902861700,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069684198300,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15239,
+      "first_megabyte_sha256": "e7c1193f83c8bd488f15a51aa05e616ea1042f9a2fae9c06496a707a110d565f",
+      "mtime_ns": 1787746069684198300,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "0fadf0f2062c97e5ff1a4caf2316b8744cd34eca991a379140090c0224ffcb16",
+      "mtime_ns": 1787748983799647700,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069689542100,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15225,
+      "first_megabyte_sha256": "182a2d56a4156b6b32df4c2d83575f3348e6183fd76bcee525a0db0bc514a442",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "0e515e4c0f9437a2a951e8ebde5870640f3cf91017f2082dec9b98ebff3057f9",
+      "mtime_ns": 1787748984662987700,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15237,
+      "first_megabyte_sha256": "e9fcfc5e91fc6a23b01b5f8531a99efbccb0387a69986f6a72d6aaeb80bda3d8",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "4c999bde5c01121588ddbc4e50033bf676c49b97bb4db9695b08f153be1a32d8",
+      "mtime_ns": 1787748985563622300,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15176,
+      "first_megabyte_sha256": "5d87546d72feebc4feb1e55b4b690c6447433b5782f3f8b137e189814e0384a4",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "e406556d22a760c8d7cd522ee531b5f34a71e2e2251c83ae5cfca4227d9df01d",
+      "mtime_ns": 1787748986510651600,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069703893100,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15206,
+      "first_megabyte_sha256": "ff478164c1f2aaae842f38ffda7dd26482dbf9696d9079ab9eb509192e4be9d6",
+      "mtime_ns": 1787746069703893100,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "d6ec7388ac46b5c97eb5af7184524477914396a87c31cdc053aa6e6220043cbb",
+      "mtime_ns": 1787748987800381000,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069709467500,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15185,
+      "first_megabyte_sha256": "800fcebf9f983d0b6083f21db1e0fd418500f8c2765149d22632f298a5c323f3",
+      "mtime_ns": 1787746069709467500,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "70b5c3953525aa8d576bbe109d0b2815cac8a12c49250e4201d8ba0da3263f6b",
+      "mtime_ns": 1787748988695703900,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069717255000,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15235,
+      "first_megabyte_sha256": "8ad757ce180c1b8e14d82f1bcf8ab5b626467f60492503d9de2986bb52c706f3",
+      "mtime_ns": 1787746069717674000,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "c2256bc984146233002000ec6353337e2fc2ef26a3102b2574697fa465eb69ff",
+      "mtime_ns": 1787748990016702700,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069717674000,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15232,
+      "first_megabyte_sha256": "787d3f7f244f40e19ed2eaab337cb263ae3ab8025a3411fc4caa4265596ab321",
+      "mtime_ns": 1787746069730574800,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "7e49842544c9a80e4d88dc8efe38996aea2b715d00ed654ad4bb541e5b7953df",
+      "mtime_ns": 1787748990921296000,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069735316900,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15216,
+      "first_megabyte_sha256": "e9a2dbf0043c1eb72518dd95cdd7399f49d419fbddcdeb7653233e16896fd177",
+      "mtime_ns": 1787746069737316700,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "d217952ada1aa9710b283dc9a68d06556f88027b86e501b991fa200e45f8e1d3",
+      "mtime_ns": 1787748991791820800,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069742824300,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15233,
+      "first_megabyte_sha256": "04466e1671df40b98165bfdfb53b75f3b3195972b8b1a31b6d928ff27f0497ba",
+      "mtime_ns": 1787746069744823200,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "1f4e8f3b9bfa92df259c3a2d6e8708e780b84478a8575ce555a233fb1d07c401",
+      "mtime_ns": 1787748992683732000,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069748823200,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15246,
+      "first_megabyte_sha256": "b5ec1e91695c70c08861bba22d85fdc29f98d83dc741e328da4f98c08b6ebddd",
+      "mtime_ns": 1787746069749823500,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "787602959e144f580c6f75e1ce1955fa473af4c6c2f89ae2037d5461e9e11e32",
+      "mtime_ns": 1787748993553964800,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069753825600,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15227,
+      "first_megabyte_sha256": "baf605f44bbf7cac19cfbc8b5b9d6e2861e931582e5f059df689536a88ef3f83",
+      "mtime_ns": 1787746069754823300,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "dfb1cad2fa7889ad54564b29590712c1d964003fd0e02d0a83657a0b3bdd11bb",
+      "mtime_ns": 1787748994430945100,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15206,
+      "first_megabyte_sha256": "eb744d6b0301fd874286b856a2df187234fc6ec383fece2e8c3a225956bdaa85",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "b4633f518f9eb959ef2c74e466c0fba94c4bca248f577f647110c743b8884d4a",
+      "mtime_ns": 1787748995271872100,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15210,
+      "first_megabyte_sha256": "1dd76a7c2e1aa8decddcdb178a0c5e18a58fc99b3add2f3ace4b32957f9253fe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "7f9c568086227bacc81c387e898da590acfd6a3f9390511e2893a1940a21ae83",
+      "mtime_ns": 1787748996173392600,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15253,
+      "first_megabyte_sha256": "b17efdcf1a93aa759c88fcf2ef20442a901eba8eb0364b04044c9d9e792a55ab",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "373aaf51756fef021cdf03b96a87a57c5e45053c15ccc5bb3dcf57d5a843d4fc",
+      "mtime_ns": 1787748997119536100,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15198,
+      "first_megabyte_sha256": "6d8134f29592d042d746f76dbb376e13be2b5cd00a22c6fc64d1d4949a8f4006",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "7b04b1ed4432372274d99650197ecd7bc1367218e996c99db45e34e018b79119",
+      "mtime_ns": 1787748997989407600,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15216,
+      "first_megabyte_sha256": "46788be493992a675490fd716cc6a00073e87f53a415779a6a678decdb7cd314",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "ce31da15fbe6b500042c6c7a1decfb0ff0f6a38e70f93025a861fe6b58717333",
+      "mtime_ns": 1787748998891616700,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15257,
+      "first_megabyte_sha256": "c96c84aecddf6d95667e42ab0634aec124f72deb934d833bfea9a536f08c0a84",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "4f1a4940f3cff87d7259609c0f0810ecc010714553a36a61bcf5e79bf91910ba",
+      "mtime_ns": 1787748999797174200,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15232,
+      "first_megabyte_sha256": "ee110fc8cae75aee16f40657f01ef07273ee607adcee3f13464dd5b53346baec",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "f62c090118539da8d60b2af9bef6db455e416e803ff3773680b05011395858a4",
+      "mtime_ns": 1787749000815519100,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15243,
+      "first_megabyte_sha256": "6028b67a81e9638d5fbd270e94009d3aec8662dc82d4fb3be3ab0bf23fd3f67e",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "d31f8a471def1b80aa497d5b2366a391ee0135cf04cd79a99716693535feeac5",
+      "mtime_ns": 1787749001720121600,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15189,
+      "first_megabyte_sha256": "a822ee497f967ce6ada978005b0f25b9608939157bab0159a97f3792b181462b",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "f674fae2d4053745726186f5881ad5f2cb5709fe0e8026f835592e1610923b89",
+      "mtime_ns": 1787749002625831700,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15248,
+      "first_megabyte_sha256": "29805cddd3f13a1f89255ed7e575b65e5549bae0d2303d4bba828ffdcf4e2ad1",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "8e32173ff99e183c3f1cb6dd8e15c206806ba0cc78e1ec359af291109ad020e6",
+      "mtime_ns": 1787749003556834900,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15174,
+      "first_megabyte_sha256": "a000cc77d1a965a0975b9be2c4f3eef864c2ccf8bcb1e689e44d8fdb60bb0759",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "cde2bd078ca8262f55035d38e091d41b08ed97b217ce3931fdb08681eeba2dae",
+      "mtime_ns": 1787749004444650800,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15210,
+      "first_megabyte_sha256": "31ceb2006eb80ade2d50dfcda5a2d3415bf354c1b605084e0fe2206e9ed24e91",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "2e36def018bacba9d57c6b7f039535a72ce58f368a4781c8b3593910b5b5f82a",
+      "mtime_ns": 1787749005761207500,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15215,
+      "first_megabyte_sha256": "9e4d49da6e423dbef1a77d4c1244d994337eb9af2991ea375d58d082fb1adf7a",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "52a568f8acc69b2d4dcbdc4474625b0adff1f2f1a4146611b777601f225f1f81",
+      "mtime_ns": 1787749006709280400,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069831608100,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15201,
+      "first_megabyte_sha256": "c19ed9aa261d2c7a091e7d41acf01062128479aa41f5d462149e05520a187ecd",
+      "mtime_ns": 1787746069831608100,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "6589811410f9a4bdca7d1d5a6854bdd83168d6abe529f3f7ed364fc623f7d381",
+      "mtime_ns": 1787749007596247600,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069835962300,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15222,
+      "first_megabyte_sha256": "de1d3cdc5d834aa10ac56e9a36f6e2c0012be6b12685b31822744a308b8cf510",
+      "mtime_ns": 1787746069837481800,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "6f27e3146948d10ea4478d695fa4d26332fd54ad9ca7f447a3ed43caa01311e2",
+      "mtime_ns": 1787749008458055000,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15195,
+      "first_megabyte_sha256": "0fd2d29de64cc57cd29603938042e00c37b319c8e11ac1bf9e135cffdbb69b6e",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "6c465611ee4142e6475746aeeeac4989a8c48b9c2b96a3bbc684fa3a85d6cad9",
+      "mtime_ns": 1787749009362674600,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15210,
+      "first_megabyte_sha256": "3d8643e4a736fc07453fc380288d8508c9809b82bd690d0866fea5e55e633a24",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "2fcc246437866ed9cd2576044b5c9a2956768179075e0d1d8d8266f2feb7bcd4",
+      "mtime_ns": 1787749010250017000,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15205,
+      "first_megabyte_sha256": "67667a3006dd0a8a68bf6881400b097637465218a73d548c111ee550162111f9",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "393182b80f38c566b0ed5c61606036244713a047c805f3836b615cc5af74ca3d",
+      "mtime_ns": 1787749011136049600,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15212,
+      "first_megabyte_sha256": "5279625ae064f6dc2f8e22764583853f85dce5ac22237d20a6152df6745ce802",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "cc1df3c396284cc49db46a5b6c1a6710c4e1d62f5333482e13b7a0e08188ea1c",
+      "mtime_ns": 1787749012859271200,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15218,
+      "first_megabyte_sha256": "cb3c100bfadf7a51e129d12640250e6b57fef8f8f0c1a201169ebda5c46c1aec",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "9fc791a39b264350bdff90d5740a6d0d55130c31efabd7a394cbb0c12634aafe",
+      "mtime_ns": 1787749013752984900,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15194,
+      "first_megabyte_sha256": "a079cd65dd0a3d07fde531876292f811aa05f45804efefeaec9357c5fb13c102",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1859,
+      "first_megabyte_sha256": "6414fb6a8cca9aab2794656ee5f4dbcca78a9352dfa9e70abc969a82fc173b62",
+      "mtime_ns": 1787749014682105900,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-ldaep_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-ldaep_channels.tsv"
+    },
+    {
+      "bytes": 15245,
+      "first_megabyte_sha256": "8a3608470952c39f3d0d1f3eeebf3809beb3c9cdf8a59f11fb96972aec7080a4",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-ldaep_events.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ac9b0335be04d8f8112258d66ba3ba01488ecd47fa5962cb5c398955545c2c56",
+      "mtime_ns": 1787748960631736100,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069558050400,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "1e103ac84d69391a57c653167408aebdf16c8483e7f1df236e8b1e0a8af2b352",
+      "mtime_ns": 1787748961080971200,
+      "path": "data\\external\\ds007615\\sub-02\\eeg\\sub-02_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069561769500,
+      "path": "data\\external\\ds007615\\sub-02\\eeg\\sub-02_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "44aebc2643d6a5cb8e8a3da63248dcafdedc888ead7bf984a85f484068c730a9",
+      "mtime_ns": 1787748962046621000,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069563772900,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "1fca94e85c4c70878c45a79093fceae547a19b59ed8c24f2f1a109b9e9f77729",
+      "mtime_ns": 1787748962493957300,
+      "path": "data\\external\\ds007615\\sub-04\\eeg\\sub-04_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069571007600,
+      "path": "data\\external\\ds007615\\sub-04\\eeg\\sub-04_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "c78aff4e32e20ef8a4807c7f61a87b4208d2d23878eb46ba80d3b2cfc8d0c0c1",
+      "mtime_ns": 1787748963373975300,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069574666800,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "aa35d93c39850a27be3ed37061789a12f1197f65e7d5b8e3de0a6f7d995598b0",
+      "mtime_ns": 1787748964304812600,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069576671000,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "6826f7eba70f7aa9c8be3a28c61810c2049845b6561639b255be25d640bb6545",
+      "mtime_ns": 1787748965210438500,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8a5addeb66aea10b92012db70ff48420e1621efddf5728b1a948ae6667073479",
+      "mtime_ns": 1787748966290440100,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "73c36290b3b261f3eee5aa194b96c153f3762379257fccd79c0b92ae5009fd23",
+      "mtime_ns": 1787748966725241600,
+      "path": "data\\external\\ds007615\\sub-09\\eeg\\sub-09_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-09\\eeg\\sub-09_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "1cad81e0e225af7f9e39742fca0e014ce63057dfebe52efcc8bfb5257760a9de",
+      "mtime_ns": 1787748967225330700,
+      "path": "data\\external\\ds007615\\sub-10\\eeg\\sub-10_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-10\\eeg\\sub-10_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "7660a0c1a65b56214089ef32d878635a470985f1576c8635fe3806e85fd89ef1",
+      "mtime_ns": 1787748968146953100,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ef00e5fa0c8078874dff4bc21a26fd95ade587ec8e30e20b5d31b3307ee004d1",
+      "mtime_ns": 1787748968625745700,
+      "path": "data\\external\\ds007615\\sub-12\\eeg\\sub-12_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-12\\eeg\\sub-12_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "784272db76b689fbe8e1381fe3aa860d6ae3df4f675d8ed622c4cc204b259368",
+      "mtime_ns": 1787748969077037200,
+      "path": "data\\external\\ds007615\\sub-13\\eeg\\sub-13_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-13\\eeg\\sub-13_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "5bb80d28ef8fada8bb7343dba250a046fc334dae118e9041b27a27191a3af7a7",
+      "mtime_ns": 1787748970058172400,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069612560500,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b3786a01f920b6a66024b16ce62364b1afc72f90a01d1121cd4d9080519c2416",
+      "mtime_ns": 1787748971035423100,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069617567200,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ce0610dba8faf72f4cb518581d78e0ecb9278d8ec84fae2912e5b2e7db97dc9c",
+      "mtime_ns": 1787748971911037800,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069622564500,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "754f330487fb7ef452592da289df513fc08c9826d8d2c44de26a9f6c2f23a916",
+      "mtime_ns": 1787748972798364000,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069624132500,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ed1afe19062bfe5bd14c4d62f72e983709894fed14dfa5efd9f4230726fe053b",
+      "mtime_ns": 1787748973196668000,
+      "path": "data\\external\\ds007615\\sub-18\\eeg\\sub-18_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069629961400,
+      "path": "data\\external\\ds007615\\sub-18\\eeg\\sub-18_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "0d1d298fd1edf4c614f03f5210f41a03f0b2883044b2449ed18af1953d30c151",
+      "mtime_ns": 1787748974094672300,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069629961400,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f88237ddd70c1f946944eb140db6a844a6a637570d391a23238155f62cafccbc",
+      "mtime_ns": 1787748974487798900,
+      "path": "data\\external\\ds007615\\sub-20\\eeg\\sub-20_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069637256700,
+      "path": "data\\external\\ds007615\\sub-20\\eeg\\sub-20_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8df7f9c134a4dc64e2058d860e40b7885a3f1b1fe8ebc6229ec4b448bd56fbdb",
+      "mtime_ns": 1787748975366881700,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069640788000,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "51fc8002315b91edcca464a7671881b3713d278dc78a177c995a363944c75fe5",
+      "mtime_ns": 1787748976280119900,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069646685400,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "92447e4069ae47ac4a4ab7924661182d135e8e044614832ffe5f5e0aca5fbccc",
+      "mtime_ns": 1787748976681502500,
+      "path": "data\\external\\ds007615\\sub-23\\eeg\\sub-23_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-23\\eeg\\sub-23_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "596965e930e0730b1e7d35277009e7e519fd8de2df1f0be3503481f7ec7004c3",
+      "mtime_ns": 1787748977103679700,
+      "path": "data\\external\\ds007615\\sub-24\\eeg\\sub-24_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-24\\eeg\\sub-24_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "aeb12c0ead6834a5f32aee24811b3e8863fdd072b066de120042138d6407379e",
+      "mtime_ns": 1787748977970873700,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "49b3409c3cc4379ed8eed3e06d9eb61f34c690cc6e8d315ae2160ffe74f39523",
+      "mtime_ns": 1787748978845638500,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "bd9dbd672db5a04f17cb54bad47b195d43cd0ecd11f8bbe045faf419dfb36b5d",
+      "mtime_ns": 1787748979744267500,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "978dce4550638c851ebf332e601c8fa1638daa310efdacf8aad27670217bc3bd",
+      "mtime_ns": 1787748980651143000,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069672336500,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "e1d368e2c4a9fd3b2f26f49e535820f883b528cca75193e5a142c154589c0324",
+      "mtime_ns": 1787748981548353100,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069677064000,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "34e64241657deb8e7fb3761caca7b36ed8bb5eb84982cd379af01c64702057b6",
+      "mtime_ns": 1787748982426278500,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069682560200,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b140a4f163f7358200f717010b1be6b1f561629c095286b09b57fcb040c8d27c",
+      "mtime_ns": 1787748983334603600,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069684198300,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "397f2bd69f724da4c5b119f8e2bf32668949b958137153c8a29b6ad2bd5d8aff",
+      "mtime_ns": 1787748984202386100,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "d2097dd981fa466b25390996eea14a55880fcb4bc9a03e9fc5c4aa88b9be726a",
+      "mtime_ns": 1787748985095606000,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "0832b4d1d05ea02ba632ec9c5859e2b509690e3fd09fd7c427524fc22a7ef328",
+      "mtime_ns": 1787748985981542000,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069701721500,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "3ad823e687965f66628247a75643016943a497ea256d91551043afb3f4d75e4d",
+      "mtime_ns": 1787748986930453400,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069703893100,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "32ae067c2c418768286e67d60dd1b4d353ffb5517c8de9150a1c8c90b5d89bab",
+      "mtime_ns": 1787748987343647400,
+      "path": "data\\external\\ds007615\\sub-36\\eeg\\sub-36_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069709467500,
+      "path": "data\\external\\ds007615\\sub-36\\eeg\\sub-36_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "186fc6d50991a649d110fcf9461799e1f583387ff26b0d22476fe5e44416fa66",
+      "mtime_ns": 1787748988205098200,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069709467500,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "75c43597cf0d197312bbb7f05ae6204db038f48d2a15f12b0bc715c7863a3b73",
+      "mtime_ns": 1787748989136422600,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069717674000,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "816d136bb31894f551a39e2eca8b5e0de0501cbc0475516f1f57a0a9e984865f",
+      "mtime_ns": 1787748989545559400,
+      "path": "data\\external\\ds007615\\sub-39\\eeg\\sub-39_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069717674000,
+      "path": "data\\external\\ds007615\\sub-39\\eeg\\sub-39_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "7834725d283efd10c2e2be5791ed94c83e01393e4f65da87e36071ae1236751d",
+      "mtime_ns": 1787748990452899900,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069732575000,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "251a0ce4e266216cb8ec6aa73c2dc2e199ae7b356bc54dad79f3275af44542ff",
+      "mtime_ns": 1787748991320602800,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069739315800,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ea65ecf1eae7557ee12f3913998b307d1f40467c69f41514e04de757ce8cf0ec",
+      "mtime_ns": 1787748992201332700,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069746823700,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b8fa0939dfea261038696c56c4c355e7052b46226cfe95f9a91b34dbd65c4fc3",
+      "mtime_ns": 1787748993091441900,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069751823500,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b3d2adfb582218a151b4c3f90277154cfca1c9f45193dd09e86d1920afc080b9",
+      "mtime_ns": 1787748993955056500,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "eadc2a3b06eeb1e34a7c4cc479b9152824cdf215e31601324f94d7704d01e33d",
+      "mtime_ns": 1787748994831020500,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "6ccedfa7f31a5835b12d601d224c66a1f02f08bc2aa60f5f1e75a1e115ad6691",
+      "mtime_ns": 1787748995706597300,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "69b32b1028beda4215205164d3660fe04d8405f98a0295d75c596021764da618",
+      "mtime_ns": 1787748996656582900,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "d171501cc233a9cdc6535958dad86e55604c8f793864ae082697c2f31ebc04ba",
+      "mtime_ns": 1787748997521007600,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "381eeba2882fa691ed26de40ec6cfb5077de0cb6b2b03943762a0c4e66d1d42c",
+      "mtime_ns": 1787748998403737800,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "df900abdb6b2e6d367e28a5c24e275ae2723c2281e72921d7e7855aa1aedc8f7",
+      "mtime_ns": 1787748999314742400,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "962978c9d5e2b8af5d262caccf499ee8797b56a46f5bae2fc1790a0d8476d78d",
+      "mtime_ns": 1787749000220650100,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8864978720f56866da34fc11c94af346ba2d33f57d4ed92ffce706aeff99ce71",
+      "mtime_ns": 1787749001243730700,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "4db355bdce3674528502abec7ee92ec3d862d880c8b0d0bdb566be13e700449e",
+      "mtime_ns": 1787749002150843800,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8b0a6324d6e278df351f32e0e367ce66fd4f2ddb8a3264201823ab6affb51935",
+      "mtime_ns": 1787749003064794100,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "15b2677578739c2e57af9a733ed194cf3e512deff9c34d8130be26e34c4181b1",
+      "mtime_ns": 1787749003978125500,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "69e3c6576cde8566bc119e36a88ba93dd02b1ec03cb971d4abb989ca56f4d289",
+      "mtime_ns": 1787749004863839100,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "2979e525f72e17b6e283a20209c7b2662a58ea6f88d44cd71ece65bc11e1b853",
+      "mtime_ns": 1787749005279453800,
+      "path": "data\\external\\ds007615\\sub-57\\eeg\\sub-57_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-57\\eeg\\sub-57_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "aedaddfbeb84aa8c43b135c24c36968114375b114b57464e6a24983ecf3ccfaa",
+      "mtime_ns": 1787749006175090600,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "bd2f078a8e1d0372ed6ef27c944112bcfa5816d4528312f1404d6af895b21f4d",
+      "mtime_ns": 1787749007130793800,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069834459100,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8280ed533299aae371d35a252725e30bdbc6956a4a9924ea865fa1528f144a02",
+      "mtime_ns": 1787749008014183500,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069837481800,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "06482e4d60044c6e0249c1cdabb34ef9f164a2fd9cc1a4c15a2aa81a1a6a3ded",
+      "mtime_ns": 1787749008896054100,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8c3fdcdf2bd76398225a1e50c919ee7300766bfe33b0d8d73ab1eef29b839fef",
+      "mtime_ns": 1787749009775414200,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f1a3f24ae4fbe6f98d02907ee71c3f6b3d129dbdef9ea20d65dc947ac054157c",
+      "mtime_ns": 1787749010666794700,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "95f82ce057aa4c2138cc209080cb1ff4a7d99d451ca6942f84bca87ad94ce714",
+      "mtime_ns": 1787749011536253100,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "230ccea6fb5e3f86f8cf20d5db201732ac8c1e1e6fadf4ed1e40839a1af6973d",
+      "mtime_ns": 1787749011957875300,
+      "path": "data\\external\\ds007615\\sub-65\\eeg\\sub-65_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-65\\eeg\\sub-65_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "eee3b4c40d0a0085ecdc8af6fff96bc9782d5fadcade22b343d96e396590eb29",
+      "mtime_ns": 1787749012375463500,
+      "path": "data\\external\\ds007615\\sub-66\\eeg\\sub-66_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-66\\eeg\\sub-66_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "a748a9b683de8f57f78b0b0e8c111c553ea9b451642582a82760af6250b74339",
+      "mtime_ns": 1787749013280931400,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "21757a98b56b96859682740a2f72fcc7d8586e2add134bfde773216afdf535cf",
+      "mtime_ns": 1787749014195461300,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "6d68f0572616fd600f31e05bb7077198fbe189435c8d20784e06351d8cd3b43b",
+      "mtime_ns": 1787749015127475900,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-rest_acq-eo_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-rest_acq-eo_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "abad654a6db79e7197cd66330343dc0911a8c99c1ddbffd28fe6ba1ea23bf34e",
+      "mtime_ns": 1787748960415489900,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069558050400,
+      "path": "data\\external\\ds007615\\sub-01\\eeg\\sub-01_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "89162720ab1d8516ebc4e1915aae2a4852ebb5505a0629482f1d5dc1c19e7573",
+      "mtime_ns": 1787748960865130500,
+      "path": "data\\external\\ds007615\\sub-02\\eeg\\sub-02_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069561769500,
+      "path": "data\\external\\ds007615\\sub-02\\eeg\\sub-02_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "71cd205e1552ee6ab4c7f30e894a3fff74812c8601f4ca20873b2ee5c2d70515",
+      "mtime_ns": 1787748961827107400,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069563772900,
+      "path": "data\\external\\ds007615\\sub-03\\eeg\\sub-03_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "d60fc3240e183948ef1ba3ebfc3a8c88f62746b0682a6acbbeb33b639bc6a799",
+      "mtime_ns": 1787748962283575800,
+      "path": "data\\external\\ds007615\\sub-04\\eeg\\sub-04_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069569584900,
+      "path": "data\\external\\ds007615\\sub-04\\eeg\\sub-04_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "6d2d5235febbfa43d63ea772feee65554a8e5b1473d365536ad70308dbc781cd",
+      "mtime_ns": 1787748963168829400,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069574666800,
+      "path": "data\\external\\ds007615\\sub-05\\eeg\\sub-05_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "59d1ebd737f9e170d6720b0667758e4f50bd3e58481cee225dd3cda11cb41334",
+      "mtime_ns": 1787748964103370800,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069576671000,
+      "path": "data\\external\\ds007615\\sub-06\\eeg\\sub-06_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f4ba621913a73b2891902563188b0993b5643aeb96cf944e2b0cafefb54fe1ff",
+      "mtime_ns": 1787748965003862300,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-07\\eeg\\sub-07_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "5666a3c37b5ccca17b9d7104ff340ec6d66eeaa212e3477aad2a48ba17dd1421",
+      "mtime_ns": 1787748966027967000,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-08\\eeg\\sub-08_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b8859eebceaa19a923ec2dbc559d4b0649a7420d96ff6b86d7fe17ea134677bd",
+      "mtime_ns": 1787748966497980200,
+      "path": "data\\external\\ds007615\\sub-09\\eeg\\sub-09_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069584347400,
+      "path": "data\\external\\ds007615\\sub-09\\eeg\\sub-09_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "53eba44cc9e69f342492f1919ffad28a682448ef7c489f1a08a5d6aeab1ff486",
+      "mtime_ns": 1787748967015697700,
+      "path": "data\\external\\ds007615\\sub-10\\eeg\\sub-10_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069596261600,
+      "path": "data\\external\\ds007615\\sub-10\\eeg\\sub-10_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ddec8696356dd7c44a11f2f38c05ccb57f3e999490c27cd47b2b9b78396d3f93",
+      "mtime_ns": 1787748967934022800,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-11\\eeg\\sub-11_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "e235c9971adace691032fc917ced4919da34883a6176b692ef7353edd9071ba7",
+      "mtime_ns": 1787748968389223600,
+      "path": "data\\external\\ds007615\\sub-12\\eeg\\sub-12_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-12\\eeg\\sub-12_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "304140849058f849b0f89795b110ac3c6ee9de389a10f294c6c7b8c1c5347049",
+      "mtime_ns": 1787748968866953200,
+      "path": "data\\external\\ds007615\\sub-13\\eeg\\sub-13_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069597732200,
+      "path": "data\\external\\ds007615\\sub-13\\eeg\\sub-13_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "0267b9c6e733e656b0171876c161660238f99becbf44316787d59f44b141c866",
+      "mtime_ns": 1787748969836315100,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069611560500,
+      "path": "data\\external\\ds007615\\sub-14\\eeg\\sub-14_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "36e44be6e3458448d4db6cb202b9a3b699c6a3e1bb366aa0afd4c6d7505210f0",
+      "mtime_ns": 1787748970789480500,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069616569600,
+      "path": "data\\external\\ds007615\\sub-15\\eeg\\sub-15_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "59500f309d3088b5485349bc7547b73ee0a60c1147fde6b1f40bc33989a0b2bb",
+      "mtime_ns": 1787748971701537400,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069620564200,
+      "path": "data\\external\\ds007615\\sub-16\\eeg\\sub-16_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "af4448d6f894ceed44eadcb5c750f79691297b482be2c1446ff6a2ef52392f8b",
+      "mtime_ns": 1787748972557933000,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069624132500,
+      "path": "data\\external\\ds007615\\sub-17\\eeg\\sub-17_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "ee29c84cbe90aaf943556daa873fca68ab3f1306ab79780e2755b6eca6c740fa",
+      "mtime_ns": 1787748973000749300,
+      "path": "data\\external\\ds007615\\sub-18\\eeg\\sub-18_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069624132500,
+      "path": "data\\external\\ds007615\\sub-18\\eeg\\sub-18_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "0f24a816d51a641a316a062055c18f614c149622cf82d89b33c9730194ea2b39",
+      "mtime_ns": 1787748973893338500,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069629961400,
+      "path": "data\\external\\ds007615\\sub-19\\eeg\\sub-19_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8cbc239b03e8d68b165404082efa1998b94d76dbc50fa1af3a19cab5e42c06a2",
+      "mtime_ns": 1787748974294522400,
+      "path": "data\\external\\ds007615\\sub-20\\eeg\\sub-20_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069637256700,
+      "path": "data\\external\\ds007615\\sub-20\\eeg\\sub-20_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "8c9bb77fc4b6cd1558d0974ab642b0b39c269e24176c8d99843cbd17cc49be17",
+      "mtime_ns": 1787748975166591000,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069640788000,
+      "path": "data\\external\\ds007615\\sub-21\\eeg\\sub-21_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "864e7be10d14c07e45534b7e5c48e92590a7b278764c0b6659381655a18ccfc2",
+      "mtime_ns": 1787748976032812000,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069646685400,
+      "path": "data\\external\\ds007615\\sub-22\\eeg\\sub-22_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "5b6e603948cd2863fadc6ea8946f11715521127562a93a3384c039270bfadfe8",
+      "mtime_ns": 1787748976481226600,
+      "path": "data\\external\\ds007615\\sub-23\\eeg\\sub-23_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069649538100,
+      "path": "data\\external\\ds007615\\sub-23\\eeg\\sub-23_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b06cfe7d8ff86a2de446d580962dcf9966e56f223a2460f7903ca29dbeaba962",
+      "mtime_ns": 1787748976902756900,
+      "path": "data\\external\\ds007615\\sub-24\\eeg\\sub-24_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-24\\eeg\\sub-24_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "76c110179766dc6e7817d8eeeba3566af405cb659d28f7837435fb6a7777eec9",
+      "mtime_ns": 1787748977773509300,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-25\\eeg\\sub-25_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "7e711dd10838ac558f25c3670877bd9752c996dd923460bb4d22b967d7a4b91c",
+      "mtime_ns": 1787748978632729700,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069650541800,
+      "path": "data\\external\\ds007615\\sub-26\\eeg\\sub-26_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "25ad42341e5f5d243f880f198d7f8d96522ed72c8e154c3b5bbee31dec7bd3a1",
+      "mtime_ns": 1787748979537991300,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-27\\eeg\\sub-27_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "7c9b3ae037dff096fd9f8d8ff3d86518cf22ae9d7acd2bae4d2329ffdd02d207",
+      "mtime_ns": 1787748980443112800,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069663880000,
+      "path": "data\\external\\ds007615\\sub-28\\eeg\\sub-28_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "5814187ab2d7116515a123822e6fa840c01933ecf9857c5f611c39a551988aef",
+      "mtime_ns": 1787748981345172500,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069676059500,
+      "path": "data\\external\\ds007615\\sub-29\\eeg\\sub-29_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "0dd59349a2bff97c82ab05714c1de0ef5b0f956960f1d4f070b396741e9f4ac1",
+      "mtime_ns": 1787748982226481700,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069677064000,
+      "path": "data\\external\\ds007615\\sub-30\\eeg\\sub-30_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "d1072e9208d7829cf0982a2b9a0d1dc72f3a81d589c15847cb43210844030c32",
+      "mtime_ns": 1787748983125306700,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069684198300,
+      "path": "data\\external\\ds007615\\sub-31\\eeg\\sub-31_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "d3624fc556b351c17d9d69cf84c2c9e65cb6f827b4cb3ad78281aba691e8619b",
+      "mtime_ns": 1787748984000968400,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-32\\eeg\\sub-32_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b7ca9809afb1b9862670b8760d48a9fa2ab588050e868f3bf964589a42ae6795",
+      "mtime_ns": 1787748984878112700,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-33\\eeg\\sub-33_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "20ae7ce232d06c802121cbff218dc255cff9feaf1d9000682116fb1acc22c566",
+      "mtime_ns": 1787748985766453900,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069690545500,
+      "path": "data\\external\\ds007615\\sub-34\\eeg\\sub-34_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "e0c856cb716a1bcddc4693ea57c45c6c529efa1874d5e253639e4d9db5ec4a89",
+      "mtime_ns": 1787748986721890900,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069703893100,
+      "path": "data\\external\\ds007615\\sub-35\\eeg\\sub-35_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "e8abb4904751f0684a6f3cffa9371b6a8226e923ce70fcf5088e8ac028733aa1",
+      "mtime_ns": 1787748987141439500,
+      "path": "data\\external\\ds007615\\sub-36\\eeg\\sub-36_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069703893100,
+      "path": "data\\external\\ds007615\\sub-36\\eeg\\sub-36_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "fd38cc69a2cddc5cedb9c0c9c82327d179024ee75c4bfadfa8377142434eaa34",
+      "mtime_ns": 1787748987996494800,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069709467500,
+      "path": "data\\external\\ds007615\\sub-37\\eeg\\sub-37_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "82f2e4ea652dc3d4eff7f24bf2dc8bd963861f3c004aabce0c39458a9cd7efc3",
+      "mtime_ns": 1787748988909627600,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069717674000,
+      "path": "data\\external\\ds007615\\sub-38\\eeg\\sub-38_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "1398f49f3a6c5fc0dc5c7278c3d1a55b5ac23797691ba37c6707aa4d3f51622b",
+      "mtime_ns": 1787748989346082600,
+      "path": "data\\external\\ds007615\\sub-39\\eeg\\sub-39_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069717674000,
+      "path": "data\\external\\ds007615\\sub-39\\eeg\\sub-39_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "070fa889b1ff74dc4e9ad1e17fbd3bd2d83c52cd5f0626cf93158a7f0222d276",
+      "mtime_ns": 1787748990252003300,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069730574800,
+      "path": "data\\external\\ds007615\\sub-40\\eeg\\sub-40_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f4940f16918b7e7a89ad0053e9a0a1733ace0ce6924f053a1a5ab24401f7196d",
+      "mtime_ns": 1787748991122599300,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069738315700,
+      "path": "data\\external\\ds007615\\sub-41\\eeg\\sub-41_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f2838282e952d4da83711687bb499d3c914126153fcb48891e55b232d802e1c3",
+      "mtime_ns": 1787748991991704300,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069744823200,
+      "path": "data\\external\\ds007615\\sub-42\\eeg\\sub-42_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "93107a70df7780d3c8dac36c996e0f267727b5d5d51847744e218a8ebc3f7683",
+      "mtime_ns": 1787748992887675200,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069750823200,
+      "path": "data\\external\\ds007615\\sub-43\\eeg\\sub-43_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "74ba245a3902bce0b563e0dc3913ba4086e28327b686370e1374ecdd90505ea7",
+      "mtime_ns": 1787748993755726300,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069755823500,
+      "path": "data\\external\\ds007615\\sub-44\\eeg\\sub-44_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "13671307df7b7d7e73454b7edd16839aaa0cb69a06d5e7b18e17eab68dcdc162",
+      "mtime_ns": 1787748994629967400,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-45\\eeg\\sub-45_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f27c6e5060bb767ea40fbe32933aa8f29088aaad75e16d9d129200e7e91509f0",
+      "mtime_ns": 1787748995489963900,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069756346400,
+      "path": "data\\external\\ds007615\\sub-46\\eeg\\sub-46_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "bb1b36747151df7eb057821e6941fcf3d9fd1455863bb062757b0fb66de96f4b",
+      "mtime_ns": 1787748996457487700,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-47\\eeg\\sub-47_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f6345df18f5c63a992ebdb2a88e1e2a29eb016ff6b0ef4cf99e89ec12c6b5858",
+      "mtime_ns": 1787748997311759100,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-48\\eeg\\sub-48_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "7a41daa59c7d855d82eb2823576c614e8012f623f638a82f85ffbeb80149f8c8",
+      "mtime_ns": 1787748998191516900,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-49\\eeg\\sub-49_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "c3e76c2869b057134b4f93abda69abda056f8cc9c699bc7c173cfb6dda992304",
+      "mtime_ns": 1787748999108764100,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069771612200,
+      "path": "data\\external\\ds007615\\sub-50\\eeg\\sub-50_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "e6c90241d980bc06d6095332cb6a5ca153b545022f39ff559347c597e98bedd6",
+      "mtime_ns": 1787749000001715600,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-51\\eeg\\sub-51_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "5bdbdb827068910f6339ba7e73d0b943ce9e80bcfe7824883ce8ed38d1ec4fc4",
+      "mtime_ns": 1787749001032958100,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069787262400,
+      "path": "data\\external\\ds007615\\sub-52\\eeg\\sub-52_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "76cd7665351b6e6ee4e232ccbfcc80a736568f66dbf5e40b09e0caffd1ce51f4",
+      "mtime_ns": 1787749001935145800,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-53\\eeg\\sub-53_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "0d2b22c0c11f4efcebf32651ab3d07e7f920dc48186ae315b3b2509b73580e7a",
+      "mtime_ns": 1787749002849204500,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-54\\eeg\\sub-54_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b24d2d100f317c8d16ef930b9524501a6e2dc6102ab418540b10aa3846e6a515",
+      "mtime_ns": 1787749003770466900,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069803003000,
+      "path": "data\\external\\ds007615\\sub-55\\eeg\\sub-55_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "11a34521b73e50a88806697799d960d52dcdfc68b6ae1cb1757718fb76c66a37",
+      "mtime_ns": 1787749004652527400,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-56\\eeg\\sub-56_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "82a712e5a6f24d32eb14fd589844472a8f37fbac3f6e56762b08cd5d4ee99982",
+      "mtime_ns": 1787749005071250300,
+      "path": "data\\external\\ds007615\\sub-57\\eeg\\sub-57_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-57\\eeg\\sub-57_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "aeb107327aae8f9e3b3a37cf85b82ab0aeea7aa22c5204fa7d4692ed5bef6493",
+      "mtime_ns": 1787749005974095500,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069818800100,
+      "path": "data\\external\\ds007615\\sub-58\\eeg\\sub-58_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "67f47b089fffbdd71c946fc8e61fbeb7681e3d3cc585b5a3e6ab043199e229fa",
+      "mtime_ns": 1787749006919698200,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069831608100,
+      "path": "data\\external\\ds007615\\sub-59\\eeg\\sub-59_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "d4357d19879e6519ab48fd61885344e997bc3b2f2caa64f751d0b0b50bf328df",
+      "mtime_ns": 1787749007812925600,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069837481800,
+      "path": "data\\external\\ds007615\\sub-60\\eeg\\sub-60_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "097dca596de5d7604240c3ec7c955852fe893ad32ee595420b0edade4346d727",
+      "mtime_ns": 1787749008677524000,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-61\\eeg\\sub-61_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "32077c819b6bd2c178f48ebb8db33b93d4bd6cbb61fc7309a0f1123486e70a1c",
+      "mtime_ns": 1787749009559799400,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069840931700,
+      "path": "data\\external\\ds007615\\sub-62\\eeg\\sub-62_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "b09848568c8bd97d5199543816e495edd032aa2b3f697599e3c77326066b9fa0",
+      "mtime_ns": 1787749010455500000,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-63\\eeg\\sub-63_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "49d152ee08c2cff016fbfc6057ea944a926381ccf075fae96154198f2a305ae5",
+      "mtime_ns": 1787749011336218000,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-64\\eeg\\sub-64_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "85c738a991bc4ddbd37516f1933ed4c82052f6ec5e779f779853c9cb8d7c2260",
+      "mtime_ns": 1787749011750468000,
+      "path": "data\\external\\ds007615\\sub-65\\eeg\\sub-65_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-65\\eeg\\sub-65_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "f121000c4e27aa88d7e2fe40fc3aa3918fbfbfb892bd6ec7f0b060feb0896dcc",
+      "mtime_ns": 1787749012169525500,
+      "path": "data\\external\\ds007615\\sub-66\\eeg\\sub-66_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069850286300,
+      "path": "data\\external\\ds007615\\sub-66\\eeg\\sub-66_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "5412150a8a4268bbaa7658086dac430aab730b366434b87d12edd72ea1340a30",
+      "mtime_ns": 1787749013066700600,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-67\\eeg\\sub-67_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "37bd9f47e46374069db822a5400d800fbf193031fff0ce0b4f364dfd1d4c1cce",
+      "mtime_ns": 1787749013981448600,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-68\\eeg\\sub-68_task-rest_acq-ec_channels.tsv"
+    },
+    {
+      "bytes": 1871,
+      "first_megabyte_sha256": "c1ad3a787d51831bc3f8940387c6f6b06acfcfc1c5c86ef9402a64fa5acabc85",
+      "mtime_ns": 1787749014911489800,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-rest_acq-ec_eeg.vhdr"
+    },
+    {
+      "bytes": 4747,
+      "first_megabyte_sha256": "440d93d16ff83255cf69a5f435c1afeb05def28eee37281660e13677e057cdfe",
+      "mtime_ns": 1787746069865928600,
+      "path": "data\\external\\ds007615\\sub-69\\eeg\\sub-69_task-rest_acq-ec_channels.tsv"
+    }
+  ]
+}

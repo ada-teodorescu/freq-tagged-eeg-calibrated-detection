@@ -1,0 +1,31 @@
+{
+  "analysis_id": "a94671b9a071",
+  "source": "outputs\\assr_validation\\a94671b9a071",
+  "files": [
+    "assr_validation_conclusions.json",
+    "design_lock.json",
+    "figures/heldout_fpr.png",
+    "figures/sequential_gain.png",
+    "figures/static_detection.png",
+    "figures/stopping_distribution.png",
+    "input_fingerprints.json",
+    "limitations.md",
+    "methods.md",
+    "report.md",
+    "results.md",
+    "tables/artifact_sensitivity_sequential.csv",
+    "tables/artifact_sensitivity_static.csv",
+    "tables/cohort_exclusions.csv",
+    "tables/estimator_summary.csv",
+    "tables/heldout_thresholds.csv",
+    "tables/inferential_comparisons.csv",
+    "tables/recording_inventory.csv",
+    "tables/sequential_gain_curve.csv",
+    "tables/sequential_participant_metrics.csv",
+    "tables/sequential_scores.csv",
+    "tables/static_participant_metrics.csv",
+    "tables/static_scores.csv",
+    "tables/trial_artifacts.csv",
+    "tables/trial_membership.csv"
+  ]
+}

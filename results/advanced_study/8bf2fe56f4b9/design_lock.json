@@ -1,0 +1,386 @@
+{
+  "analysis_id": "8bf2fe56f4b9",
+  "baseline_conclusions": [
+    {
+      "B3_vs_B1": {
+        "baseline": "B1_ITPC",
+        "calibration_mode": "population",
+        "candidate": "B3_EqualHarmonic",
+        "condition_sign_flip_p": 0.0004999500049995,
+        "conditions_positive": 13,
+        "crossed_bootstrap_ci95": [
+          0.04977777777777777,
+          0.21955555555555553
+        ],
+        "mean_detection_gain": 0.13155555555555554,
+        "participants_positive": 20
+      },
+      "B5_vs_B3": {
+        "baseline": "B3_EqualHarmonic",
+        "calibration_mode": "population",
+        "candidate": "B5_MonotoneFusion",
+        "condition_sign_flip_p": 0.19468053194680532,
+        "conditions_positive": 11,
+        "crossed_bootstrap_ci95": [
+          -0.02044444444444445,
+          0.056
+        ],
+        "mean_detection_gain": 0.018666666666666668,
+        "participants_positive": 11
+      },
+      "manuscript_claims_updated": false,
+      "participant_adaptive_calibration_is_sensitivity": true,
+      "primary": [
+        {
+          "algorithm": "B1_ITPC",
+          "auc": 0.7910123456790124,
+          "calibration_mode": "population",
+          "detection_rate": 0.3431111111111111,
+          "duration_seconds": 4.5,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.050172839506172816,
+          "k": 10
+        },
+        {
+          "algorithm": "B2_Hotelling",
+          "auc": 0.7896296296296297,
+          "calibration_mode": "population",
+          "detection_rate": 0.34755555555555556,
+          "duration_seconds": 4.5,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.049777777777777754,
+          "k": 10
+        },
+        {
+          "algorithm": "B3_EqualHarmonic",
+          "auc": 0.8355555555555556,
+          "calibration_mode": "population",
+          "detection_rate": 0.4746666666666667,
+          "duration_seconds": 4.5,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.05007407407407405,
+          "k": 10
+        },
+        {
+          "algorithm": "B4_CVSubsetFusion",
+          "auc": 0.8414814814814815,
+          "calibration_mode": "population",
+          "detection_rate": 0.49333333333333335,
+          "duration_seconds": 4.5,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.04997530864197528,
+          "k": 10
+        },
+        {
+          "algorithm": "B5_MonotoneFusion",
+          "auc": 0.8475061728395061,
+          "calibration_mode": "population",
+          "detection_rate": 0.49333333333333335,
+          "duration_seconds": 4.5,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.0499259259259259,
+          "k": 10
+        }
+      ],
+      "short_window_artifact_removed": true
+    },
+    {
+      "best_primary_algorithm": "C5_RegionalMonotone",
+      "best_primary_auc": 0.9567022222222222,
+      "best_primary_balanced_accuracy": 0.88288,
+      "best_primary_fpr": 0.05023999999999997,
+      "best_primary_sensitivity": 0.816,
+      "comparisons": [
+        {
+          "baseline": "C1_ConditionITPC4",
+          "candidate": "C2_Condition4plus8",
+          "condition_sign_flip_p": 0.00019998000199980003,
+          "conditions_positive": 15,
+          "crossed_bootstrap_ci95": [
+            0.08266666666666667,
+            0.25333333333333335
+          ],
+          "mean_sensitivity_gain": 0.16266666666666665,
+          "participants_positive": 17
+        },
+        {
+          "baseline": "C1_ConditionITPC4",
+          "candidate": "C3_Reliability4plus8",
+          "condition_sign_flip_p": 0.003999600039996,
+          "conditions_positive": 11,
+          "crossed_bootstrap_ci95": [
+            -0.013333333333333334,
+            0.16
+          ],
+          "mean_sensitivity_gain": 0.072,
+          "participants_positive": 12
+        },
+        {
+          "baseline": "C1_ConditionITPC4",
+          "candidate": "C4_MonotoneHarmonic",
+          "condition_sign_flip_p": 9.999000099990002e-05,
+          "conditions_positive": 15,
+          "crossed_bootstrap_ci95": [
+            0.09066666666666667,
+            0.26666666666666666
+          ],
+          "mean_sensitivity_gain": 0.176,
+          "participants_positive": 18
+        },
+        {
+          "baseline": "C1_ConditionITPC4",
+          "candidate": "C5_RegionalMonotone",
+          "condition_sign_flip_p": 9.999000099990002e-05,
+          "conditions_positive": 15,
+          "crossed_bootstrap_ci95": [
+            0.14666666666666667,
+            0.336
+          ],
+          "mean_sensitivity_gain": 0.232,
+          "participants_positive": 20
+        },
+        {
+          "baseline": "C2_Condition4plus8",
+          "candidate": "C3_Reliability4plus8",
+          "condition_sign_flip_p": 0.00029997000299970003,
+          "conditions_positive": 1,
+          "crossed_bootstrap_ci95": [
+            -0.15466666666666667,
+            -0.029266666666667638
+          ],
+          "mean_sensitivity_gain": -0.09066666666666667,
+          "participants_positive": 2
+        },
+        {
+          "baseline": "C2_Condition4plus8",
+          "candidate": "C4_MonotoneHarmonic",
+          "condition_sign_flip_p": 0.30256974302569745,
+          "conditions_positive": 6,
+          "crossed_bootstrap_ci95": [
+            -0.021333333333333333,
+            0.050666666666666665
+          ],
+          "mean_sensitivity_gain": 0.013333333333333334,
+          "participants_positive": 6
+        },
+        {
+          "baseline": "C2_Condition4plus8",
+          "candidate": "C5_RegionalMonotone",
+          "condition_sign_flip_p": 0.00019998000199980003,
+          "conditions_positive": 15,
+          "crossed_bootstrap_ci95": [
+            0.018666666666666668,
+            0.12533333333333332
+          ],
+          "mean_sensitivity_gain": 0.06933333333333333,
+          "participants_positive": 14
+        }
+      ],
+      "manuscript_updated": false,
+      "ml_training_evaluation_units_match": true,
+      "primary_results": [
+        {
+          "algorithm": "C1_ConditionITPC4",
+          "auc": 0.8906666666666667,
+          "balanced_accuracy": 0.7669377777777777,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.05012444444444441,
+          "sensitivity": 0.584,
+          "specificity": 0.9498755555555556,
+          "target_fpr": 0.05,
+          "target_reached": false
+        },
+        {
+          "algorithm": "C2_Condition4plus8",
+          "auc": 0.9285244444444444,
+          "balanced_accuracy": 0.8483022222222223,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.05006222222222218,
+          "sensitivity": 0.7466666666666667,
+          "specificity": 0.9499377777777778,
+          "target_fpr": 0.05,
+          "target_reached": false
+        },
+        {
+          "algorithm": "C3_Reliability4plus8",
+          "auc": 0.9088799999999999,
+          "balanced_accuracy": 0.8027288888888889,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.0505422222222222,
+          "sensitivity": 0.656,
+          "specificity": 0.9494577777777778,
+          "target_fpr": 0.05,
+          "target_reached": false
+        },
+        {
+          "algorithm": "C4_MonotoneHarmonic",
+          "auc": 0.9322044444444444,
+          "balanced_accuracy": 0.8549333333333333,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.0501333333333333,
+          "sensitivity": 0.76,
+          "specificity": 0.9498666666666667,
+          "target_fpr": 0.05,
+          "target_reached": false
+        },
+        {
+          "algorithm": "C5_RegionalMonotone",
+          "auc": 0.9567022222222222,
+          "balanced_accuracy": 0.88288,
+          "fpr_accepted": true,
+          "heldout_fpr": 0.05023999999999997,
+          "sensitivity": 0.816,
+          "specificity": 0.94976,
+          "target_fpr": 0.05,
+          "target_reached": false
+        }
+      ],
+      "target": {
+        "fpr": 0.05,
+        "sensitivity": 0.9
+      },
+      "target_reached": false
+    }
+  ],
+  "channel_labels": [
+    "Fp1",
+    "Fp2",
+    "F7",
+    "F3",
+    "Fz",
+    "F4",
+    "F8",
+    "FC5",
+    "FC1",
+    "FC2",
+    "FC6",
+    "T7",
+    "C3",
+    "Cz",
+    "C4",
+    "T8",
+    "TP9",
+    "CP5",
+    "CP1",
+    "CP2",
+    "CP6",
+    "TP10",
+    "P7",
+    "P3",
+    "Pz",
+    "P4",
+    "P8",
+    "PO9",
+    "O1",
+    "Oz",
+    "O2",
+    "PO10"
+  ],
+  "condition_methods": [
+    "C1_ConditionITPC4",
+    "C2_ConditionEqual4plus8",
+    "C3_RegionalMonotone4plus8",
+    "C4_PreviousRegionalMonotone4H"
+  ],
+  "external_negative_files": [],
+  "external_negative_status": "external negatives unavailable",
+  "manuscript_outputs_mutated": false,
+  "null": {
+    "primary": "one random temporal shift per trial; exp(i*h*phi), shared across channels and looks",
+    "seeds": [
+      20260818,
+      20260819,
+      20260820
+    ],
+    "sensitivity": "independent same-frequency harmonic phase rotations, shared across channels",
+    "surrogates": 300
+  },
+  "off_target_families_hz": [
+    [
+      2.5,
+      5.0
+    ],
+    [
+      3.0,
+      6.0
+    ],
+    [
+      5.0,
+      10.0
+    ],
+    [
+      7.0,
+      14.0
+    ],
+    [
+      9.0,
+      18.0
+    ],
+    [
+      11.0,
+      22.0
+    ]
+  ],
+  "off_target_label": "off-target controls (not genuine sham recordings)",
+  "outcome_dependent_retuning_allowed": false,
+  "participants": [
+    "P9",
+    "P10",
+    "P12",
+    "P13",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+  ],
+  "primary_endpoint": {
+    "comparator": "S1_ITPC4",
+    "duration_seconds": 4.5,
+    "familywise_fpr": 0.05,
+    "looks": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "method": "S2_Equal4plus8",
+    "natural_trial_order": true,
+    "unit": "stream"
+  },
+  "schema_version": 1,
+  "secondary_endpoints": [
+    "S3 versus S2",
+    "S4 versus S2",
+    "condition-level regional fusion"
+  ],
+  "shrinkage": "held participant's other 14 conditions; null-only pseudo-LOPO; evaluated condition excluded",
+  "stream_methods": [
+    "S1_ITPC4",
+    "S2_Equal4plus8",
+    "S3_RidgeComplex4plus8",
+    "S4_RegionalMonotone4plus8"
+  ],
+  "validation": "outer participant LOPO; participant-grouped inner CV; training-only calibration"
+}

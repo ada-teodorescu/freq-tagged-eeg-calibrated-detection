@@ -1,0 +1,128 @@
+from __future__ import annotations
+
+import argparse
+from importlib import metadata
+import json
+import shutil
+import sys
+import time
+
+from .config import load_config
+from .runtime import RunContext
+from .stages import Stage, stage_registry
+
+
+def _resolve(value: str, stages: dict[str, Stage]) -> str:
+    if value in stages: return value
+    matches = [name for name in stages if name.startswith(value)]
+    if len(matches) == 1: return matches[0]
+    raise ValueError(f"Unknown or ambiguous stage {value!r}; choices: {', '.join(stages)}")
+
+
+def _execute(context: RunContext, name: str, stages: dict[str, Stage], forced: set[str], visiting=None) -> None:
+    visiting = set() if visiting is None else visiting
+    if name in visiting: raise RuntimeError(f"Circular dependency at {name}")
+    visiting.add(name)
+    for dependency in stages[name].dependencies: _execute(context, dependency, stages, forced, visiting)
+    visiting.remove(name)
+    if context.stage_completed(name) and name not in forced:
+        print(f"[{name}] already completed; using checkpoints", flush=True); return
+    try: stages[name].function(context, name in forced)
+    except BaseException as error: context.fail_stage(name, error); raise
+
+
+def doctor(config) -> int:
+    checks = []
+    for package in ("numpy", "scipy", "pandas", "matplotlib", "rich", "mne"):
+        try: checks.append((f"dependency:{package}", True, metadata.version(package)))
+        except metadata.PackageNotFoundError: checks.append((f"dependency:{package}", False, "missing"))
+    checks.append(("dataset_root", config.external_data_root.exists(), str(config.external_data_root)))
+    eeg_files = list(config.external_data_root.glob("sub-*/eeg/*.eeg")) if config.external_data_root.exists() else []
+    payload_bytes = sum(path.stat().st_size for path in eeg_files)
+    payload_present = bool(eeg_files) and all(path.stat().st_size > 1024 for path in eeg_files)
+    checks.append(("dataset_payload", payload_present,
+                   f"{len(eeg_files)} EEG files, {payload_bytes / 1024**3:.2f} GiB; "
+                   "git-annex pointer files do not count as downloaded data"))
+    baseline_files = (
+        config.baseline_confirmatory_run / "confirmatory_conclusions.json",
+        config.baseline_confirmatory_run / "design_lock.json",
+        config.baseline_confirmatory_run / "checkpoints" / "02_hilbert_condition" / "condition_features.npz",
+        config.baseline_confirmatory_run / "checkpoints" / "03_hilbert_sequential" / "trajectories.npz",
+    )
+    checks.append(("corrected_confirmatory_baseline", all(path.exists() for path in baseline_files),
+                   str(config.baseline_confirmatory_run)))
+    free = shutil.disk_usage(config.project_root).free / 1024**3
+    checks.append(("free_disk", free >= config.minimum_free_disk_gb, f"{free:.1f} GiB free"))
+    for name, passed, detail in checks: print(f"{'PASS' if passed else 'FAIL'} {name}: {detail}")
+    return 0 if all(passed for _, passed, _ in checks) else 1
+
+
+def _status(context: RunContext, stages: dict[str, Stage]) -> None:
+    state = context.read_state()
+    for name in stages:
+        record = state.get("stages", {}).get(name, {})
+        print(f"{name}: {record.get('status', 'pending')} "
+              f"{record.get('completed_units', 0)}/{record.get('total_units', 0)} "
+              f"{record.get('current_unit', '') or ''}")
+
+
+def export(context: RunContext, force: bool) -> None:
+    if not context.stage_completed("08_report"): raise RuntimeError("Run 08_report before export")
+    destination = context.config.export_root / context.analysis_id
+    if destination.exists() and any(destination.iterdir()) and not force:
+        raise FileExistsError(f"Export exists: {destination}; pass --force")
+    destination.mkdir(parents=True, exist_ok=True)
+    selected = [context.run_dir / name for name in (
+        "report.md", "design_lock.json", "input_fingerprints.json", "external_validation_conclusions.json",
+    )]
+    selected.extend(sorted(context.table_dir.glob("*.csv")))
+    selected.extend(sorted(context.figure_dir.glob("*.png")))
+    selected.append(context.checkpoint_dir / "05_deployment_model" / "deployment_models.npz")
+    for source in selected:
+        if not source.exists(): continue
+        folder = destination / ("figures" if source.suffix == ".png" else
+                                "tables" if source.suffix == ".csv" else
+                                "models" if source.suffix == ".npz" else "")
+        folder.mkdir(parents=True, exist_ok=True); shutil.copy2(source, folder / source.name)
+    manifest = {"analysis_id": context.analysis_id, "source": str(context.run_dir),
+                "files": sorted(str(path.relative_to(destination)).replace("\\", "/")
+                                for path in destination.rglob("*") if path.is_file())}
+    (destination / "export_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    print(destination)
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="Run independent external validation of the Cucu Hilbert detector")
+    parser.add_argument("--config", default="external_validation_config.toml")
+    commands = parser.add_subparsers(dest="command", required=True)
+    commands.add_parser("doctor"); commands.add_parser("list")
+    run = commands.add_parser("run"); run.add_argument("stage"); run.add_argument("--workers", type=int); run.add_argument("--force", action="store_true")
+    run_all = commands.add_parser("run-all"); run_all.add_argument("--workers", type=int); run_all.add_argument("--force-stage", action="append", default=[])
+    status = commands.add_parser("status"); status.add_argument("--watch", action="store_true"); status.add_argument("--interval", type=float, default=2)
+    export_parser = commands.add_parser("export"); export_parser.add_argument("--force", action="store_true")
+    return parser
+
+
+def main(argv: list[str] | None = None) -> None:
+    args = build_parser().parse_args(argv); config = load_config(args.config); stages = stage_registry()
+    if args.command == "doctor": raise SystemExit(doctor(config))
+    if args.command == "list":
+        for stage in stages.values(): print(f"{stage.name}: {stage.description} [depends: {', '.join(stage.dependencies) or 'none'}]")
+        return
+    context = RunContext.create(config, getattr(args, "workers", None))
+    if args.command == "run":
+        name = _resolve(args.stage, stages); _execute(context, name, stages, {name} if args.force else set())
+    elif args.command == "run-all":
+        forced = {_resolve(value, stages) for value in args.force_stage}
+        for name in stages: _execute(context, name, stages, forced)
+    elif args.command == "export": export(context, args.force)
+    else:
+        try:
+            while True:
+                _status(context, stages)
+                if not args.watch: break
+                time.sleep(max(0.25, args.interval))
+        except KeyboardInterrupt: pass
+
+
+if __name__ == "__main__": main()

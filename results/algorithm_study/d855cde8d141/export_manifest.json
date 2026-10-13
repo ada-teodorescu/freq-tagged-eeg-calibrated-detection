@@ -1,0 +1,20 @@
+{
+  "analysis_id": "d855cde8d141",
+  "source": "outputs\\algorithm_study\\d855cde8d141",
+  "files": [
+    "algorithm_conclusions.json",
+    "diagnosis_lock.json",
+    "figures/participant_calibration.png",
+    "figures/repaired_detection_by_trials.png",
+    "figures/repaired_duration_heatmaps.png",
+    "repair_diagnostics.json",
+    "report.md",
+    "tables/algorithm_summary.csv",
+    "tables/calibration.csv",
+    "tables/monotone_models.csv",
+    "tables/participant_fpr_spread.csv",
+    "tables/primary_comparisons.csv",
+    "tables/scores.csv",
+    "tables/subset_selections.csv"
+  ]
+}

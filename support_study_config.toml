@@ -1,0 +1,17 @@
+[paths]
+source_run = "outputs/confirmatory_study/4d6a54f6f902"
+data_root = "data"
+output_root = "outputs/support_study"
+
+[boundary]
+# Synthetic margins made exclusively from the retained four-second segment.
+padding_samples = 500
+sos_padlen = 27
+
+[statistics]
+seed = 20260916
+bootstrap_iterations = 5000
+
+[machine_learning]
+maximum_iterations = 150
+tolerance = 1e-8

@@ -1,0 +1,27 @@
+{
+  "analysis_id": "8bf2fe56f4b9",
+  "source": "outputs\\advanced_study\\8bf2fe56f4b9",
+  "files": [
+    "advanced_conclusions.json",
+    "design_lock.json",
+    "figures/calibration_comparison.png",
+    "figures/condition_benchmark.png",
+    "figures/off_target_controls.png",
+    "figures/sequential_detection.png",
+    "negative_control_status.json",
+    "report.md",
+    "tables/calibration_comparisons.csv",
+    "tables/calibration_success.csv",
+    "tables/condition_metrics.csv",
+    "tables/condition_model_records.csv",
+    "tables/condition_scores.csv",
+    "tables/negative_control_results.csv",
+    "tables/negative_control_summary.csv",
+    "tables/order_robustness.csv",
+    "tables/primary_comparisons.csv",
+    "tables/sequential_boundaries.csv",
+    "tables/sequential_scores.csv",
+    "tables/stream_model_records.csv",
+    "tables/surrogate_sensitivity.csv"
+  ]
+}

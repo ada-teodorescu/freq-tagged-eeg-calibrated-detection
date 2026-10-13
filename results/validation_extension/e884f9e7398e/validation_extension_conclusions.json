@@ -1,0 +1,317 @@
+{
+  "analysis_id": "e884f9e7398e",
+  "chronological": {
+    "presentations_saved": {
+      "ci95_high": 45.920133333333325,
+      "ci95_low": 12.5332,
+      "estimate": 27.64,
+      "p_value": 1.999980000199998e-05
+    },
+    "seconds_saved": {
+      "ci95_high": 392.0384527999999,
+      "ci95_low": 108.4106358,
+      "estimate": 237.908584,
+      "p_value": 9.99990000099999e-06
+    }
+  },
+  "double_holdout": {
+    "generalization_supported": true,
+    "hilbert_fpr": 0.05028,
+    "hilbert_minus_hann": {
+      "ci95_high": 0.17066666666666666,
+      "ci95_low": 0.04533333333333334,
+      "estimate": 0.10133333333333333,
+      "p_value": 2.999970000299997e-05
+    },
+    "learned_minus_simple_upper": 0.08,
+    "simple_noninferior": false
+  },
+  "external_locked_gate_unchanged": true,
+  "external_robustness": [
+    {
+      "analysis": "locked_primary",
+      "ci95_high": 0.1049382716049382,
+      "ci95_low": 0.037037037037037,
+      "endpoint": "static",
+      "false_positives": 11,
+      "one_sided_upper": 0.0987654320987654,
+      "participants": 54,
+      "point_estimate": 0.0679012345679012,
+      "task": "ldaep_jittered_auditory",
+      "units": 162
+    },
+    {
+      "analysis": "locked_primary",
+      "ci95_high": 0.0555555555555555,
+      "ci95_low": 0.0061728395061728,
+      "endpoint": "sequential",
+      "false_positives": 5,
+      "one_sided_upper": 0.0555555555555555,
+      "participants": 54,
+      "point_estimate": 0.0308641975308641,
+      "task": "ldaep_jittered_auditory",
+      "units": 162
+    },
+    {
+      "analysis": "locked_primary",
+      "ci95_high": 0.1159420289855072,
+      "ci95_low": 0.0144927536231884,
+      "endpoint": "static",
+      "false_positives": 4,
+      "one_sided_upper": 0.1014492753623188,
+      "participants": 69,
+      "point_estimate": 0.0579710144927536,
+      "task": "rest_eyes_closed",
+      "units": 69
+    },
+    {
+      "analysis": "locked_primary",
+      "ci95_high": 0.1159420289855072,
+      "ci95_low": 0.0144927536231884,
+      "endpoint": "sequential",
+      "false_positives": 4,
+      "one_sided_upper": 0.1014492753623188,
+      "participants": 69,
+      "point_estimate": 0.0579710144927536,
+      "task": "rest_eyes_closed",
+      "units": 69
+    },
+    {
+      "analysis": "locked_primary",
+      "ci95_high": 0.072463768115942,
+      "ci95_low": 0.0,
+      "endpoint": "static",
+      "false_positives": 2,
+      "one_sided_upper": 0.072463768115942,
+      "participants": 69,
+      "point_estimate": 0.0289855072463768,
+      "task": "rest_eyes_open",
+      "units": 69
+    },
+    {
+      "analysis": "locked_primary",
+      "ci95_high": 0.0434782608695652,
+      "ci95_low": 0.0,
+      "endpoint": "sequential",
+      "false_positives": 1,
+      "one_sided_upper": 0.0434782608695652,
+      "participants": 69,
+      "point_estimate": 0.0144927536231884,
+      "task": "rest_eyes_open",
+      "units": 69
+    },
+    {
+      "analysis": "artifact_complete_case",
+      "ci95_high": 0.1259259259259259,
+      "ci95_low": 0.0296296296296296,
+      "endpoint": "static",
+      "false_positives": 8,
+      "one_sided_upper": 0.1148148148148148,
+      "participants": 45,
+      "point_estimate": 0.074074074074074,
+      "task": "ldaep_jittered_auditory",
+      "units": 95
+    },
+    {
+      "analysis": "artifact_complete_case",
+      "ci95_high": 0.0666666666666666,
+      "ci95_low": 0.0074074074074074,
+      "endpoint": "sequential",
+      "false_positives": 4,
+      "one_sided_upper": 0.0629629629629629,
+      "participants": 45,
+      "point_estimate": 0.0333333333333333,
+      "task": "ldaep_jittered_auditory",
+      "units": 95
+    },
+    {
+      "analysis": "artifact_complete_case",
+      "ci95_high": 0.2258064516129032,
+      "ci95_low": 0.0,
+      "endpoint": "static",
+      "false_positives": 3,
+      "one_sided_upper": 0.1935483870967742,
+      "participants": 31,
+      "point_estimate": 0.0967741935483871,
+      "task": "rest_eyes_closed",
+      "units": 31
+    },
+    {
+      "analysis": "artifact_complete_case",
+      "ci95_high": 0.2258064516129032,
+      "ci95_low": 0.0,
+      "endpoint": "sequential",
+      "false_positives": 3,
+      "one_sided_upper": 0.1935483870967742,
+      "participants": 31,
+      "point_estimate": 0.0967741935483871,
+      "task": "rest_eyes_closed",
+      "units": 31
+    },
+    {
+      "analysis": "artifact_complete_case",
+      "ci95_high": 0.0857142857142857,
+      "ci95_low": 0.0,
+      "endpoint": "static",
+      "false_positives": 1,
+      "one_sided_upper": 0.0857142857142857,
+      "participants": 35,
+      "point_estimate": 0.0285714285714285,
+      "task": "rest_eyes_open",
+      "units": 35
+    },
+    {
+      "analysis": "artifact_complete_case",
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "endpoint": "sequential",
+      "false_positives": 0,
+      "one_sided_upper": 0.0,
+      "participants": 35,
+      "point_estimate": 0.0,
+      "task": "rest_eyes_open",
+      "units": 35
+    },
+    {
+      "analysis": "shared_28_channel",
+      "ci95_high": 0.111111111111111,
+      "ci95_low": 0.037037037037037,
+      "endpoint": "static",
+      "false_positives": 12,
+      "one_sided_upper": 0.1049382716049382,
+      "participants": 54,
+      "point_estimate": 0.074074074074074,
+      "task": "ldaep_jittered_auditory",
+      "units": 162
+    },
+    {
+      "analysis": "shared_28_channel",
+      "ci95_high": 0.0679012345679012,
+      "ci95_low": 0.0123456790123456,
+      "endpoint": "sequential",
+      "false_positives": 6,
+      "one_sided_upper": 0.0617283950617284,
+      "participants": 54,
+      "point_estimate": 0.037037037037037,
+      "task": "ldaep_jittered_auditory",
+      "units": 162
+    },
+    {
+      "analysis": "shared_28_channel",
+      "ci95_high": 0.1159420289855072,
+      "ci95_low": 0.0144927536231884,
+      "endpoint": "static",
+      "false_positives": 4,
+      "one_sided_upper": 0.1014492753623188,
+      "participants": 69,
+      "point_estimate": 0.0579710144927536,
+      "task": "rest_eyes_closed",
+      "units": 69
+    },
+    {
+      "analysis": "shared_28_channel",
+      "ci95_high": 0.1159420289855072,
+      "ci95_low": 0.0144927536231884,
+      "endpoint": "sequential",
+      "false_positives": 4,
+      "one_sided_upper": 0.1014492753623188,
+      "participants": 69,
+      "point_estimate": 0.0579710144927536,
+      "task": "rest_eyes_closed",
+      "units": 69
+    },
+    {
+      "analysis": "shared_28_channel",
+      "ci95_high": 0.072463768115942,
+      "ci95_low": 0.0,
+      "endpoint": "static",
+      "false_positives": 2,
+      "one_sided_upper": 0.072463768115942,
+      "participants": 69,
+      "point_estimate": 0.0289855072463768,
+      "task": "rest_eyes_open",
+      "units": 69
+    },
+    {
+      "analysis": "shared_28_channel",
+      "ci95_high": 0.0434782608695652,
+      "ci95_low": 0.0,
+      "endpoint": "sequential",
+      "false_positives": 1,
+      "one_sided_upper": 0.0434782608695652,
+      "participants": 69,
+      "point_estimate": 0.0144927536231884,
+      "task": "rest_eyes_open",
+      "units": 69
+    }
+  ],
+  "interpretation": "Sensitivity and extension results do not replace the immutable confirmatory family.",
+  "mcnemar_k10": {
+    "discordant": 59,
+    "first_only": 48,
+    "p_value": 1.2416282261784595e-06,
+    "second_only": 11
+  },
+  "mechanism": [
+    {
+      "ci95_high": 0.17333333333333334,
+      "ci95_low": 0.042666666666666665,
+      "contrast": "H2_Hilbert4s - H1_Hann4s",
+      "estimate": 0.10133333333333333,
+      "family": "mechanism",
+      "holm_p_value": 9.99990000099999e-05,
+      "p_value": 4.999950000499995e-05
+    },
+    {
+      "ci95_high": 0.034666666666666665,
+      "ci95_low": -0.06933333333333333,
+      "contrast": "H2_Hilbert4s - M1_RectLS4s",
+      "estimate": -0.013333333333333334,
+      "family": "mechanism",
+      "holm_p_value": 0.4360556394436056,
+      "p_value": 0.4360556394436056
+    }
+  ],
+  "mechanism_exploratory_filter_matched": {
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "contrast": "H2_Hilbert4s - M2_FilteredLS4s",
+    "estimate": 0.0,
+    "family": "mechanism_exploratory",
+    "mcnemar": {
+      "discordant": 0,
+      "first_only": 0,
+      "p_value": 1.0,
+      "second_only": 0
+    },
+    "p_value": 1.0
+  },
+  "sequential": [
+    {
+      "ci95_high": 0.16266666666666665,
+      "ci95_low": 0.042666666666666665,
+      "contrast": "H2-H1 detection by K10",
+      "estimate": 0.09866666666666667,
+      "family": "sequential",
+      "holm_p_value": 6.999930000699993e-05,
+      "p_value": 6.999930000699993e-05
+    },
+    {
+      "ci95_high": 1.3546666666666667,
+      "ci95_low": 0.648,
+      "contrast": "H1-H2 restricted mean stopping K",
+      "estimate": 0.9946666666666667,
+      "family": "sequential",
+      "holm_p_value": 1.999980000199998e-05,
+      "p_value": 9.99990000099999e-06
+    }
+  ],
+  "simple_detector": {
+    "estimate_learned_minus_simple": 0.037333333333333336,
+    "heldout_fpr": 0.04998666666666664,
+    "margin": 0.03,
+    "noninferior": false,
+    "one_sided_95_upper": 0.08
+  },
+  "status": "post_hoc_robustness_extension"
+}

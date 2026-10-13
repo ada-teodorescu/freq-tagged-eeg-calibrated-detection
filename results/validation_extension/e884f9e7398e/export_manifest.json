@@ -1,0 +1,32 @@
+{
+  "analysis_id": "e884f9e7398e",
+  "source": "outputs\\validation_extension\\e884f9e7398e",
+  "files": [
+    "assr_positive_protocol.md",
+    "design_lock.json",
+    "figures/external_window_robustness.png",
+    "figures/hilbert_kernel_response.png",
+    "figures/sequential_gain.png",
+    "input_fingerprints.json",
+    "limitations.md",
+    "methods.md",
+    "report.md",
+    "results.md",
+    "tables/chronological_stopping.csv",
+    "tables/double_holdout_sequential.csv",
+    "tables/double_holdout_static.csv",
+    "tables/external_robustness_summary.csv",
+    "tables/external_shared28_scores.csv",
+    "tables/external_window_selection_robustness.csv",
+    "tables/hilbert_effective_kernel.csv",
+    "tables/hilbert_kernel_response.csv",
+    "tables/inferential_comparisons.csv",
+    "tables/sequential_gain_curve.csv",
+    "tables/sequential_participant_metrics.csv",
+    "tables/sequential_scores.csv",
+    "tables/static_model_records.csv",
+    "tables/static_scores.csv",
+    "tables/static_summary.csv",
+    "validation_extension_conclusions.json"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "baseline_analysis_id": "dedf974d7d6a",
+  "failures": [
+    {
+      "evidence": "A4 high detection with negative harmonic coefficients at T<=2 s",
+      "id": "short_window_neighbor_null",
+      "repair": "same-frequency phase-randomized nulls"
+    },
+    {
+      "evidence": {
+        "coefficient_12hz": 25,
+        "coefficient_16hz": 35,
+        "coefficient_4hz": 75,
+        "coefficient_8hz": 25
+      },
+      "id": "unconstrained_direction",
+      "repair": "non-negative logistic coefficients"
+    },
+    {
+      "evidence": {
+        "primary_participant_fpr_range": [
+          0.0234567901234567,
+          0.0987654320987654
+        ]
+      },
+      "id": "participant_threshold_shift",
+      "repair": "leave-one-condition-out participant-null calibration sensitivity"
+    },
+    {
+      "evidence": "A2 approximately agrees with A1 at the locked endpoint",
+      "id": "hotelling_no_gain",
+      "repair": "retain as analytic diagnostic; do not optimize after outcomes"
+    }
+  ],
+  "harmonic_subset_candidates": [
+    [
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "locked_methods": [
+    "B1_ITPC",
+    "B2_Hotelling",
+    "B3_EqualHarmonic",
+    "B4_CVSubsetFusion",
+    "B5_MonotoneFusion"
+  ],
+  "manuscript_outputs": false,
+  "participants": [
+    "P9",
+    "P10",
+    "P12",
+    "P13",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+  ],
+  "primary_endpoint": {
+    "duration_seconds": 4.5,
+    "k": 10
+  }
+}

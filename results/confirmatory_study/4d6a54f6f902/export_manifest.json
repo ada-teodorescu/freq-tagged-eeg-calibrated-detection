@@ -1,0 +1,23 @@
+{
+  "analysis_id": "4d6a54f6f902",
+  "source": "outputs\\confirmatory_study\\4d6a54f6f902",
+  "files": [
+    "confirmatory_conclusions.json",
+    "design_lock.json",
+    "figures/confirmatory_family.png",
+    "figures/trca_sequential.png",
+    "input_fingerprints.json",
+    "report.md",
+    "tables/confirmatory_comparisons.csv",
+    "tables/hilbert_condition_metrics.csv",
+    "tables/hilbert_condition_model_records.csv",
+    "tables/hilbert_condition_scores.csv",
+    "tables/hilbert_sequential_boundaries.csv",
+    "tables/hilbert_sequential_metrics.csv",
+    "tables/hilbert_sequential_scores.csv",
+    "tables/trca_model_records.csv",
+    "tables/trca_sequential_boundaries.csv",
+    "tables/trca_sequential_metrics.csv",
+    "tables/trca_sequential_scores.csv"
+  ]
+}

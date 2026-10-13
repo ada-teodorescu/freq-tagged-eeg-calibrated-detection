@@ -1,0 +1,6 @@
+candidate,comparator,mean_detection_gain,crossed_bootstrap_ci95,condition_sign_flip_p,holm_adjusted_p,gain_ci_above_zero,heldout_candidate_fpr,fpr_in_locked_interval,confirmatory_pass,note
+H2_Hilbert4s_Regional4H,H1_Hann4s_Regional4H,0.10133333333333333,"[0.042666666666666665, 0.17333333333333334]",0.0006999300069993001,0.0006999300069993001,True,0.05042666666666664,True,True,
+TRCA_S2_Grouped,S2_Equal4plus8,-0.1822222222222222,"[-0.2808888888888889, -0.09155555555555554]",9.999000099990002e-05,0.00029997000299970003,False,0.05007555555555551,True,False,
+TRCA_S2_Grouped,S4_RegionalMonotone4plus8,-0.2675555555555556,"[-0.3617777777777778, -0.17955555555555555]",9.999000099990002e-05,0.00029997000299970003,False,0.05007555555555551,True,False,
+H2_Hilbert4s_Regional4H,H3_Hann4p5s_Regional4H,0.05333333333333334,"[0.010666666666666666, 0.10666666666666667]",0.0021997800219978004,,,,,,secondary; excluded from the confirmatory Holm family
+TRCA_S2_Grouped,S4_RegionalMonotone4plus8_shrinkage,-0.2702222222222222,"[-0.35733333333333334, -0.18488888888888888]",9.999000099990002e-05,,,,,,secondary; excluded from the confirmatory Holm family

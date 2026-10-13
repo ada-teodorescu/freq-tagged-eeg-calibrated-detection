@@ -1,0 +1,311 @@
+{
+  "analysis_id": "4d6a54f6f902",
+  "baseline": {
+    "bytes": 6099,
+    "first_megabyte_sha256": "e3ec63b44c0b0366457a243e5aef90b4af90074ae91b2049b1f25e123cb85c33",
+    "mtime_ns": 1787690757640743600,
+    "path": "outputs\\advanced_study\\8bf2fe56f4b9\\advanced_conclusions.json"
+  },
+  "inputs": [
+    {
+      "bytes": 616056,
+      "first_megabyte_sha256": "7eef221337aa83e6072382ea550565a582994c2b36818ad82d8b306ff08416b2",
+      "mtime_ns": 1787062252479883400,
+      "path": "data\\Pre-processed EEGLAB datasets\\P9 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "d7dcce37b9e603b6107c23d8f5d3bfba49a9ddbf570ab0cc4fcf30df7451468d",
+      "mtime_ns": 1787062255486139000,
+      "path": "data\\Pre-processed EEGLAB datasets\\P9 E2 epochs.fdt"
+    },
+    {
+      "bytes": 616320,
+      "first_megabyte_sha256": "d805db576bffa31da7845c62e4ac73de3109104224a8149a1f3d8686a93c2caa",
+      "mtime_ns": 1787062252479883400,
+      "path": "data\\Pre-processed EEGLAB datasets\\P10 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "12e78df540df04d3219f7a528657966b04a02bf017c5e49c153b064c26e17f35",
+      "mtime_ns": 1787062260061893200,
+      "path": "data\\Pre-processed EEGLAB datasets\\P10 E2 epochs.fdt"
+    },
+    {
+      "bytes": 619904,
+      "first_megabyte_sha256": "914db6b57c1824dbb7ba922ad12bbe4c79d34dddcfe2f6d4f02dff59244ed894",
+      "mtime_ns": 1787062252493459100,
+      "path": "data\\Pre-processed EEGLAB datasets\\P12 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "ae03f69cb6408cc87bc7eacf8cced49ac41f75d657221f20e90a51567082edb8",
+      "mtime_ns": 1787062263505941100,
+      "path": "data\\Pre-processed EEGLAB datasets\\P12 E2 epochs.fdt"
+    },
+    {
+      "bytes": 509920,
+      "first_megabyte_sha256": "75eaa61ffc9cb616629b844db91d68333291663e69afa62775ff7c3f5c78637f",
+      "mtime_ns": 1787062252495600600,
+      "path": "data\\Pre-processed EEGLAB datasets\\P13 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "4a7b20ca8cac05a0fe5c26f9f21021b543f11ee7bf5a930898718de4fc09ffea",
+      "mtime_ns": 1787062267425462400,
+      "path": "data\\Pre-processed EEGLAB datasets\\P13 E2 epochs.fdt"
+    },
+    {
+      "bytes": 508728,
+      "first_megabyte_sha256": "f34ce68ccf254dad7909e7a6b3a6690428d23d406f9ee7a2ef77ff116fdbab89",
+      "mtime_ns": 1787062263508913700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P15 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "b776dee27b8bc3720efe8280ba0f09bc7894a3583670fafe73a42b162c14e7ee",
+      "mtime_ns": 1787062270819562700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P15 E2 epochs.fdt"
+    },
+    {
+      "bytes": 508728,
+      "first_megabyte_sha256": "0977370cb2524bbaa1422626c05bbc4e4dcf7e6dd6249210caa1c43a966eebc9",
+      "mtime_ns": 1787062263508913700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P16 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "0d6e1f73e241708ebe22d8f8082befd10cad84e01ca7223c59380787b39ca4ba",
+      "mtime_ns": 1787062274229742800,
+      "path": "data\\Pre-processed EEGLAB datasets\\P16 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507368,
+      "first_megabyte_sha256": "c3cf2514b7e1f99267db8ef5b857cae721c13936dd49751d3882d698bc4425c7",
+      "mtime_ns": 1787062267430250700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P17 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "6c01676a648976fb02bf8a464b7239626832e86d0de3dc3f3292db42ba7c6d43",
+      "mtime_ns": 1787062277676281700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P17 E2 epochs.fdt"
+    },
+    {
+      "bytes": 616352,
+      "first_megabyte_sha256": "225941f739a9802d46bbf87cbcf6a5cdeb89400ec97fed4c51226832dfe5a130",
+      "mtime_ns": 1787062267430250700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P18 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "a73f56e1fe7ab8ff6d792658d17e85e1d6291a3c5b8818cef0ec6c0b78d4720e",
+      "mtime_ns": 1787062281535212500,
+      "path": "data\\Pre-processed EEGLAB datasets\\P18 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507368,
+      "first_megabyte_sha256": "4620a373392277b5a8bc9f25f23244940678dd3fd55dea30b14588db85ebbc31",
+      "mtime_ns": 1787062270826762300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P19 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "663abcb54521193b91865cf1dcf1f172d3c765b72023202ad92092fdd5126ba8",
+      "mtime_ns": 1787062284332884300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P19 E2 epochs.fdt"
+    },
+    {
+      "bytes": 509544,
+      "first_megabyte_sha256": "a8d7c57016e18a32929a7b44f8769fba9470f78b1e8f3a2a481627f40c621c7a",
+      "mtime_ns": 1787062281541982600,
+      "path": "data\\Pre-processed EEGLAB datasets\\P20 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "240ee4e62e608799951b56ce14ae22dcd86c135afeebd0ffa266ce5ce3f2b780",
+      "mtime_ns": 1787062288117266900,
+      "path": "data\\Pre-processed EEGLAB datasets\\P20 E2 epochs.fdt"
+    },
+    {
+      "bytes": 508136,
+      "first_megabyte_sha256": "24427ff572b29295df9f7eb48de2cf51d57b3d473d8b88e6f364e3c4f1a146ea",
+      "mtime_ns": 1787062281541982600,
+      "path": "data\\Pre-processed EEGLAB datasets\\P21 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "8045bef08e5e96809fb16710957fa32b9cbf4f32257ef97b06a79eb3aef3286d",
+      "mtime_ns": 1787062291731525400,
+      "path": "data\\Pre-processed EEGLAB datasets\\P21 E2 epochs.fdt"
+    },
+    {
+      "bytes": 506552,
+      "first_megabyte_sha256": "db8bbb4c04ea7ae63d416300932b0bea61d9c5ca1c88158ffa1e3a8dbaa5ce73",
+      "mtime_ns": 1787062281551284800,
+      "path": "data\\Pre-processed EEGLAB datasets\\P22 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "98599ec1ac313a596b9dd8c106a714abbbf39c8acb0b82e1794c56da7fe2e2bf",
+      "mtime_ns": 1787062294911499700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P22 E2 epochs.fdt"
+    },
+    {
+      "bytes": 616352,
+      "first_megabyte_sha256": "fc4ce450bd7b797bc58352320a0653734fd039ed8aa9b90ed88dc3e19bb2eee5",
+      "mtime_ns": 1787062284332884300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P23 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "a2a4f647497587e21b087526b773f8e9a597647f03ddff911277d40696efbe3d",
+      "mtime_ns": 1787062298136161600,
+      "path": "data\\Pre-processed EEGLAB datasets\\P23 E2 epochs.fdt"
+    },
+    {
+      "bytes": 618424,
+      "first_megabyte_sha256": "555bedaddd4efac040a5ce336145132938ab367618fa7565578ecf35d256c20c",
+      "mtime_ns": 1787062288117266900,
+      "path": "data\\Pre-processed EEGLAB datasets\\P24 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "aeaa7b7b0b075aee89099125653b5a4b7247038f87fc4fec743e0cd40d9b2180",
+      "mtime_ns": 1787062302200639800,
+      "path": "data\\Pre-processed EEGLAB datasets\\P24 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507368,
+      "first_megabyte_sha256": "ea6b3e7287f6bbd5e124cce2e7f11bde40473552316e0c42d452bdf68084ef5a",
+      "mtime_ns": 1787062291737579500,
+      "path": "data\\Pre-processed EEGLAB datasets\\P25 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "77857af07ef11ff4a01cd1b2e9c54305a985b2782893826ea3e0364426308b4a",
+      "mtime_ns": 1787062306698204500,
+      "path": "data\\Pre-processed EEGLAB datasets\\P25 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507640,
+      "first_megabyte_sha256": "ebb04398cfc3743089a1439e6d1f36999112086baaf8078ed6789c2d0810ab4b",
+      "mtime_ns": 1787062294917388000,
+      "path": "data\\Pre-processed EEGLAB datasets\\P26 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "0ebcf690f090c463e53dd1853a5474854ad010fe61ecc8489dc0cd724dfca762",
+      "mtime_ns": 1787062309721716000,
+      "path": "data\\Pre-processed EEGLAB datasets\\P26 E2 epochs.fdt"
+    },
+    {
+      "bytes": 518728,
+      "first_megabyte_sha256": "2004982cecac6bff2f0fb06c933d5a9ed925557f8290d78390532f1301c13041",
+      "mtime_ns": 1787062298141307500,
+      "path": "data\\Pre-processed EEGLAB datasets\\P27 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "1b5ea13b2fb4fc06dcde9faa329ddad4efbb9352532b8200c933a43260a1e99b",
+      "mtime_ns": 1787062314021574500,
+      "path": "data\\Pre-processed EEGLAB datasets\\P27 E2 epochs.fdt"
+    },
+    {
+      "bytes": 616896,
+      "first_megabyte_sha256": "1aefd368bcbf91460a6c086c3d09a5d553b311e2535e33271f470307f51e17de",
+      "mtime_ns": 1787062302200639800,
+      "path": "data\\Pre-processed EEGLAB datasets\\P28 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "4e37cb0a374a1e45e5fceae23ffb3cfcdc40ef98b924720a8dc96ae5ae90bf78",
+      "mtime_ns": 1787062318005341000,
+      "path": "data\\Pre-processed EEGLAB datasets\\P28 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507096,
+      "first_megabyte_sha256": "8e71f6160ed1e43fbb773174b92193ccb9dbf79830f06e250118103e38922924",
+      "mtime_ns": 1787062306712808900,
+      "path": "data\\Pre-processed EEGLAB datasets\\P29 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "d1eb080516da8f60dab935c4bd75f8bfa8d088169e814bfb7e0c47c82c22de47",
+      "mtime_ns": 1787062321809396200,
+      "path": "data\\Pre-processed EEGLAB datasets\\P29 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507640,
+      "first_megabyte_sha256": "e59db44aa8c8d8aecb0bb134e624064d80a74c44f3440caf320af50e6cb83be9",
+      "mtime_ns": 1787062309737347300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P30 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "17fe1f7bb0d0707a2c12c607ae31e54401ff332414789eccc711e5c6f02e649d",
+      "mtime_ns": 1787062325102160700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P30 E2 epochs.fdt"
+    },
+    {
+      "bytes": 506824,
+      "first_megabyte_sha256": "a72513270cee2ac87700bb401d531564e0dc3c17447218af3c1333ffcb4c044e",
+      "mtime_ns": 1787062314035368800,
+      "path": "data\\Pre-processed EEGLAB datasets\\P31 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "c94e6e8b765cda13b770a4a9b466c84feaca19072def43429cd36834b393cafa",
+      "mtime_ns": 1787062328333398100,
+      "path": "data\\Pre-processed EEGLAB datasets\\P31 E2 epochs.fdt"
+    },
+    {
+      "bytes": 616624,
+      "first_megabyte_sha256": "6996b3adc6640334678f402ea74119313fafd1fd88f7d526611502d6be01a20a",
+      "mtime_ns": 1787062318009479300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P32 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "e40640bb74ffac8f2c40d5edd843dbb8f8a052285ca6a7f182da53e661de248b",
+      "mtime_ns": 1787062334789700300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P32 E2 epochs.fdt"
+    },
+    {
+      "bytes": 507640,
+      "first_megabyte_sha256": "df50f7ba831cfcc3e553f1fb8dcb6846c2929787bf942b7c27ad9f0f49d00832",
+      "mtime_ns": 1787062325107781400,
+      "path": "data\\Pre-processed EEGLAB datasets\\P33 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "fcbb7dbdea2d83b3b4138167aeec2c8169dc43779b6ce9f9fb097719b84cafac",
+      "mtime_ns": 1787062331689983900,
+      "path": "data\\Pre-processed EEGLAB datasets\\P33 E2 epochs.fdt"
+    },
+    {
+      "bytes": 616328,
+      "first_megabyte_sha256": "95c2e6900eb4ba5277d97ab567e0d2b576e70bdc2089d8d3e35e5eab637945c7",
+      "mtime_ns": 1787062325107781400,
+      "path": "data\\Pre-processed EEGLAB datasets\\P34 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "def18510bcb5ed43bebe393d174009bcc1b0697f82e74904595a3183ce31c0a6",
+      "mtime_ns": 1787062337870201900,
+      "path": "data\\Pre-processed EEGLAB datasets\\P34 E2 epochs.fdt"
+    },
+    {
+      "bytes": 515576,
+      "first_megabyte_sha256": "d60f8efbb214b5223ca4314880abb07168b46772e0aef15a6cefd9a02eb2a774",
+      "mtime_ns": 1787062328342323300,
+      "path": "data\\Pre-processed EEGLAB datasets\\P35 E2 epochs.set"
+    },
+    {
+      "bytes": 288000000,
+      "first_megabyte_sha256": "90feee741dce06b05251d1c4dfccbc3678b3723327c259a34220e6482cbaf051",
+      "mtime_ns": 1787062342181493700,
+      "path": "data\\Pre-processed EEGLAB datasets\\P35 E2 epochs.fdt"
+    }
+  ]
+}

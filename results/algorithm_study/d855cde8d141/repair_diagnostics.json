@@ -1,0 +1,126 @@
+{
+  "all_monotone_models_converged": true,
+  "negative_monotone_coefficients": 0,
+  "old_short_window_detection": [
+    {
+      "auc": 0.961283950617284,
+      "detection_rate": 0.6657777777777778,
+      "duration_seconds": 0.5
+    },
+    {
+      "auc": 0.8825185185185186,
+      "detection_rate": 0.2817777777777778,
+      "duration_seconds": 1.0
+    },
+    {
+      "auc": 0.6375308641975308,
+      "detection_rate": 0.128,
+      "duration_seconds": 2.0
+    }
+  ],
+  "primary_fpr_spread": [
+    {
+      "algorithm": "B1_ITPC",
+      "calibration_mode": "participant_adaptive",
+      "max": 0.0506172839506172,
+      "mean": 0.049037037037037,
+      "min": 0.0469135802469135,
+      "std": 0.0010402654040958486
+    },
+    {
+      "algorithm": "B1_ITPC",
+      "calibration_mode": "population",
+      "max": 0.0814814814814814,
+      "mean": 0.05017283950617279,
+      "min": 0.0246913580246913,
+      "std": 0.01645915628567686
+    },
+    {
+      "algorithm": "B2_Hotelling",
+      "calibration_mode": "participant_adaptive",
+      "max": 0.0518518518518518,
+      "mean": 0.049037037037037,
+      "min": 0.045679012345679,
+      "std": 0.00161440701612617
+    },
+    {
+      "algorithm": "B2_Hotelling",
+      "calibration_mode": "population",
+      "max": 0.0777777777777777,
+      "mean": 0.049777777777777726,
+      "min": 0.028395061728395,
+      "std": 0.01268925219915556
+    },
+    {
+      "algorithm": "B3_EqualHarmonic",
+      "calibration_mode": "participant_adaptive",
+      "max": 0.0518518518518518,
+      "mean": 0.04893827160493824,
+      "min": 0.045679012345679,
+      "std": 0.0012283795519834819
+    },
+    {
+      "algorithm": "B3_EqualHarmonic",
+      "calibration_mode": "population",
+      "max": 0.0716049382716049,
+      "mean": 0.05007407407407403,
+      "min": 0.0333333333333333,
+      "std": 0.011354669391680257
+    },
+    {
+      "algorithm": "B4_CVSubsetFusion",
+      "calibration_mode": "participant_adaptive",
+      "max": 0.0506172839506172,
+      "mean": 0.04839506172839502,
+      "min": 0.045679012345679,
+      "std": 0.0011270011471299815
+    },
+    {
+      "algorithm": "B4_CVSubsetFusion",
+      "calibration_mode": "population",
+      "max": 0.0802469135802469,
+      "mean": 0.04997530864197526,
+      "min": 0.0308641975308641,
+      "std": 0.01289970849658453
+    },
+    {
+      "algorithm": "B5_MonotoneFusion",
+      "calibration_mode": "participant_adaptive",
+      "max": 0.0518518518518518,
+      "mean": 0.04933333333333329,
+      "min": 0.0469135802469135,
+      "std": 0.0012075226955655337
+    },
+    {
+      "algorithm": "B5_MonotoneFusion",
+      "calibration_mode": "population",
+      "max": 0.0802469135802469,
+      "mean": 0.04992592592592589,
+      "min": 0.0320987654320987,
+      "std": 0.01396790509009143
+    }
+  ],
+  "primary_subset_selection_counts": {
+    "4+8": 25
+  },
+  "repaired_short_window_detection": [
+    {
+      "auc": 0.7403456790123457,
+      "detection_rate": 0.24533333333333332,
+      "duration_seconds": 0.5,
+      "heldout_fpr": 0.050172839506172816
+    },
+    {
+      "auc": 0.6853333333333333,
+      "detection_rate": 0.19555555555555557,
+      "duration_seconds": 1.0,
+      "heldout_fpr": 0.05002469135802467
+    },
+    {
+      "auc": 0.7473086419753086,
+      "detection_rate": 0.2995555555555556,
+      "duration_seconds": 2.0,
+      "heldout_fpr": 0.05091358024691356
+    }
+  ]
+}

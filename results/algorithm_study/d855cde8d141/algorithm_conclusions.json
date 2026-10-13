@@ -1,0 +1,83 @@
+{
+  "B3_vs_B1": {
+    "baseline": "B1_ITPC",
+    "calibration_mode": "population",
+    "candidate": "B3_EqualHarmonic",
+    "condition_sign_flip_p": 0.0004999500049995,
+    "conditions_positive": 13,
+    "crossed_bootstrap_ci95": [
+      0.04977777777777777,
+      0.21955555555555553
+    ],
+    "mean_detection_gain": 0.13155555555555554,
+    "participants_positive": 20
+  },
+  "B5_vs_B3": {
+    "baseline": "B3_EqualHarmonic",
+    "calibration_mode": "population",
+    "candidate": "B5_MonotoneFusion",
+    "condition_sign_flip_p": 0.19468053194680532,
+    "conditions_positive": 11,
+    "crossed_bootstrap_ci95": [
+      -0.02044444444444445,
+      0.056
+    ],
+    "mean_detection_gain": 0.018666666666666668,
+    "participants_positive": 11
+  },
+  "manuscript_claims_updated": false,
+  "participant_adaptive_calibration_is_sensitivity": true,
+  "primary": [
+    {
+      "algorithm": "B1_ITPC",
+      "auc": 0.7910123456790124,
+      "calibration_mode": "population",
+      "detection_rate": 0.3431111111111111,
+      "duration_seconds": 4.5,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.050172839506172816,
+      "k": 10
+    },
+    {
+      "algorithm": "B2_Hotelling",
+      "auc": 0.7896296296296297,
+      "calibration_mode": "population",
+      "detection_rate": 0.34755555555555556,
+      "duration_seconds": 4.5,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.049777777777777754,
+      "k": 10
+    },
+    {
+      "algorithm": "B3_EqualHarmonic",
+      "auc": 0.8355555555555556,
+      "calibration_mode": "population",
+      "detection_rate": 0.4746666666666667,
+      "duration_seconds": 4.5,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.05007407407407405,
+      "k": 10
+    },
+    {
+      "algorithm": "B4_CVSubsetFusion",
+      "auc": 0.8414814814814815,
+      "calibration_mode": "population",
+      "detection_rate": 0.49333333333333335,
+      "duration_seconds": 4.5,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.04997530864197528,
+      "k": 10
+    },
+    {
+      "algorithm": "B5_MonotoneFusion",
+      "auc": 0.8475061728395061,
+      "calibration_mode": "population",
+      "detection_rate": 0.49333333333333335,
+      "duration_seconds": 4.5,
+      "fpr_accepted": true,
+      "heldout_fpr": 0.0499259259259259,
+      "k": 10
+    }
+  ],
+  "short_window_artifact_removed": true
+}

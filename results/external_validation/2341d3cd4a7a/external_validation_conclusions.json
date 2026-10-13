@@ -1,0 +1,19 @@
+{
+  "analysis_id": "2341d3cd4a7a",
+  "dataset_id": "ds007615",
+  "endpoint_passes": {
+    "sequential": true,
+    "static": true
+  },
+  "failure_rule": "Preserve and report failure; do not retune preprocessing, models, thresholds, boundaries, or margin.",
+  "interpretation_guardrail": "Passing supports transfer to this independent jittered-auditory cohort, not universal or clinical operational FPR.",
+  "manuscript_replacement_allowed": true,
+  "primary_cohort_ok": true,
+  "primary_task": "ldaep_jittered_auditory",
+  "secondary_cohorts_ok": true,
+  "secondary_participants": {
+    "rest_eyes_closed": 69,
+    "rest_eyes_open": 69
+  },
+  "submission_gate_passed": true
+}

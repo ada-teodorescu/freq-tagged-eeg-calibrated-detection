@@ -1,0 +1,57 @@
+{
+  "baseline_run_immutable": true,
+  "best_public_row": {
+    "auc": 0.8747160494,
+    "branch": "public_set_fdt",
+    "detection_rate": 0.5626666667,
+    "heldout_fpr": 0.0504691358,
+    "k": 10,
+    "method": "F2_D8_4_8",
+    "spatial": "S0",
+    "trials_to_80_percent": null
+  },
+  "best_stored_row": {
+    "auc": 0.7880834019,
+    "branch": "stored_matlab",
+    "detection_rate": 0.3804444444,
+    "heldout_fpr": 0.0502716049,
+    "k": 10,
+    "method": "D8_train_weighted",
+    "trials_to_80_percent": null
+  },
+  "branches_numerically_merged": false,
+  "hilbert_coefficient_corrected_by_demodulation": true,
+  "multitaper_calibrated_with_neighboring_frequencies": true,
+  "ress_dss_cca_retested": false,
+  "s1_is_cross_fitted": true,
+  "stored_comparisons": [
+    {
+      "candidate": "D8_all_equal",
+      "comparison_k": 10,
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "crossed_bootstrap_ci_high": 0.16977777777777778,
+      "crossed_bootstrap_ci_low": 0.03553333333333333,
+      "heldout_fpr": 0.0501234567901234,
+      "mean_detection_gain": 0.10133333333333333
+    },
+    {
+      "candidate": "D8_4_8_equal",
+      "comparison_k": 10,
+      "condition_sign_flip_p": 0.00019998000199980003,
+      "crossed_bootstrap_ci_high": 0.168,
+      "crossed_bootstrap_ci_low": 0.034666666666666665,
+      "heldout_fpr": 0.05002469135802464,
+      "mean_detection_gain": 0.09866666666666667
+    },
+    {
+      "candidate": "D8_train_weighted",
+      "comparison_k": 10,
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "crossed_bootstrap_ci_high": 0.17335555555555524,
+      "crossed_bootstrap_ci_low": 0.051555555555555556,
+      "heldout_fpr": 0.05027160493827156,
+      "mean_detection_gain": 0.10933333333333334
+    }
+  ],
+  "thomson_line_and_f_implemented": true
+}

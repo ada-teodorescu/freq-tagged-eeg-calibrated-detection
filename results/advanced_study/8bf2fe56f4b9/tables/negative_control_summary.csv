@@ -1,0 +1,13 @@
+control_kind,family,method,false_positive_rate,units
+off-target control,11+22 Hz,S1_ITPC4,0.005333333333333333,1125
+off-target control,11+22 Hz,S2_Equal4plus8,0.0071111111111111115,1125
+off-target control,2.5+5 Hz,S1_ITPC4,0.07022222222222223,1125
+off-target control,2.5+5 Hz,S2_Equal4plus8,0.08355555555555555,1125
+off-target control,3+6 Hz,S1_ITPC4,0.07644444444444444,1125
+off-target control,3+6 Hz,S2_Equal4plus8,0.07288888888888889,1125
+off-target control,5+10 Hz,S1_ITPC4,0.04622222222222222,1125
+off-target control,5+10 Hz,S2_Equal4plus8,0.04,1125
+off-target control,7+14 Hz,S1_ITPC4,0.037333333333333336,1125
+off-target control,7+14 Hz,S2_Equal4plus8,0.03288888888888889,1125
+off-target control,9+18 Hz,S1_ITPC4,0.017777777777777778,1125
+off-target control,9+18 Hz,S2_Equal4plus8,0.013333333333333334,1125

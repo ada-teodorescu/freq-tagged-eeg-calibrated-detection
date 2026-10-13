@@ -1,0 +1,59 @@
+[paths]
+data_root = "data"
+baseline_algorithm_run = "outputs/algorithm_study/d855cde8d141"
+output_root = "outputs/accuracy_study"
+export_root = "results/accuracy_study"
+
+[analysis]
+seed = 20260818
+workers = 1
+sampling_rate = 1000
+onset_crop_samples = 500
+trials_per_stream = 10
+streams_per_condition = 3
+conditions = 15
+channels = 32
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+primary_duration_seconds = 4.5
+target_fpr = 0.05
+target_sensitivity = 0.90
+operating_fprs = [0.01, 0.025, 0.05, 0.10]
+surrogate_seeds = [20260818, 20260819, 20260820]
+surrogates_per_seed = 100
+
+[reliability]
+harmonic_indices = [0, 1]
+lower_quantile = 0.10
+upper_quantile = 0.90
+
+[spatial]
+regions = [
+  ["Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8"],
+  ["FC5", "FC1", "FC2", "FC6"],
+  ["T7", "C3", "Cz", "C4", "T8"],
+  ["TP9", "CP5", "CP1", "CP2", "CP6", "TP10"],
+  ["P7", "P3", "Pz", "P4", "P8", "PO9", "O1", "Oz", "O2", "PO10"],
+]
+region_names = ["frontal", "frontocentral", "central_temporal", "centroparietal", "posterior"]
+
+[machine_learning]
+c_grid = [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+inner_group_folds = 6
+maximum_iterations = 150
+tolerance = 1e-8
+training_nulls_per_condition = 12
+
+[onset_control]
+window_seconds = 0.5
+starts_seconds = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+surrogates = 100
+
+[statistics]
+bootstrap_iterations = 5000
+sign_flip_iterations = 10000
+fpr_acceptance_low = 0.045
+fpr_acceptance_high = 0.055
+
+[runtime]
+minimum_progress_interval_seconds = 0.25
+minimum_free_disk_gb = 4.0

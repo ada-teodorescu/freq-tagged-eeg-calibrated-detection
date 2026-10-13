@@ -1,0 +1,27 @@
+{
+  "equal_length_windows": 9,
+  "seed_sensitivity_ranges": {
+    "C1_ConditionITPC4": [
+      0.576,
+      0.5893333333333334
+    ],
+    "C2_Condition4plus8": [
+      0.744,
+      0.752
+    ],
+    "C3_Reliability4plus8": [
+      0.6506666666666666,
+      0.6613333333333333
+    ],
+    "C4_MonotoneHarmonic": [
+      0.752,
+      0.7653333333333333
+    ],
+    "C5_RegionalMonotone": [
+      0.816,
+      0.816
+    ]
+  },
+  "surrogate_seed_blocks": 3,
+  "window_seconds": 0.5
+}

@@ -1,0 +1,140 @@
+{
+  "analysis_id": "2341d3cd4a7a",
+  "baseline_confirmatory_run": "outputs\\confirmatory_study\\4d6a54f6f902",
+  "dataset": {
+    "id": "ds007615",
+    "primary_task": "ldaep_jittered_auditory",
+    "secondary_tasks": [
+      "rest_eyes_open",
+      "rest_eyes_closed"
+    ],
+    "version": "1.0.0"
+  },
+  "external_data_used_for_training_or_calibration": false,
+  "model": {
+    "harmonics_hz": [
+      4.0,
+      8.0,
+      12.0,
+      16.0
+    ],
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "locked_c": 100.0,
+    "method": "H2_Hilbert4s_Regional4H"
+  },
+  "outcome_dependent_retuning_allowed": false,
+  "preprocessing": {
+    "average_reference": true,
+    "h_freq": 50.0,
+    "l_freq": 1.0,
+    "maximum_additional_bad_target_channels": 4,
+    "sampling_rate": 1000
+  },
+  "primary_unit": "participant_condition_from_three_pseudostreams",
+  "regions": [
+    [
+      "Fp1",
+      "Fp2",
+      "F7",
+      "F3",
+      "Fz",
+      "F4",
+      "F8"
+    ],
+    [
+      "FC5",
+      "FC1",
+      "FC2",
+      "FC6"
+    ],
+    [
+      "T7",
+      "C3",
+      "Cz",
+      "C4",
+      "T8"
+    ],
+    [
+      "TP9",
+      "CP5",
+      "CP1",
+      "CP2",
+      "CP6",
+      "TP10"
+    ],
+    [
+      "P7",
+      "P3",
+      "Pz",
+      "P4",
+      "P8",
+      "PO9",
+      "O1",
+      "Oz",
+      "O2",
+      "PO10"
+    ]
+  ],
+  "schema_version": 1,
+  "structural_interpolation_reason": "ds007615 BioSemi-64 lacks TP9, TP10, PO9, and PO10",
+  "structural_interpolation_targets": [
+    "TP9",
+    "TP10",
+    "PO9",
+    "PO10"
+  ],
+  "submission_gate": {
+    "both_must_pass": true,
+    "endpoints": [
+      "static",
+      "sequential"
+    ],
+    "one_sided_confidence": 0.95,
+    "task": "ldaep_jittered_auditory",
+    "upper_fpr_limit": 0.1
+  },
+  "target_channels": [
+    "Fp1",
+    "Fp2",
+    "F7",
+    "F3",
+    "Fz",
+    "F4",
+    "F8",
+    "FC5",
+    "FC1",
+    "FC2",
+    "FC6",
+    "T7",
+    "C3",
+    "Cz",
+    "C4",
+    "T8",
+    "TP9",
+    "CP5",
+    "CP1",
+    "CP2",
+    "CP6",
+    "TP10",
+    "P7",
+    "P3",
+    "Pz",
+    "P4",
+    "P8",
+    "PO9",
+    "O1",
+    "Oz",
+    "O2",
+    "PO10"
+  ]
+}

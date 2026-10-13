@@ -1,0 +1,20 @@
+{
+  "analysis_id": "ee987fdd6152",
+  "source": "outputs\\accuracy_study\\ee987fdd6152",
+  "files": [
+    "accuracy_conclusions.json",
+    "design_lock.json",
+    "figures/condition_detection_tradeoff.png",
+    "figures/equal_window_onset_control.png",
+    "report.md",
+    "robustness.json",
+    "tables/accuracy_summary.csv",
+    "tables/condition_scores.csv",
+    "tables/model_weight_summary.csv",
+    "tables/models.csv",
+    "tables/primary_comparisons.csv",
+    "tables/sliding_window_scores.csv",
+    "tables/sliding_window_summary.csv",
+    "tables/surrogate_seed_stability.csv"
+  ]
+}

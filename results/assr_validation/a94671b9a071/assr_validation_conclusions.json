@@ -1,0 +1,96 @@
+{
+  "analysis_id": "a94671b9a071",
+  "artifact_sensitivity": {
+    "eligible_participants": 34,
+    "hann_minus_hilbert_rmst": {
+      "ci95_high": 0.6780107979534884,
+      "ci95_low": 0.4140903380068605,
+      "estimate": 0.545191998025043
+    },
+    "hilbert_heldout_fpr": 0.04978113915352238,
+    "hilbert_minus_hann": {
+      "ci95_high": 0.09461324178992865,
+      "ci95_low": 0.03506320146837016,
+      "estimate": 0.06330722334182542
+    }
+  },
+  "generalization_supported": true,
+  "interpretation_guardrail": "This validates estimator behavior on ASSR data, not syllable classification or a clinical detector.",
+  "primary": {
+    "ci95_high": 0.1176470588235294,
+    "ci95_low": 0.04610492845786965,
+    "contrast": "hilbert - hann",
+    "eligible_participants": 37,
+    "estimate": 0.0794912559618442,
+    "frequency_hz": 40.0,
+    "hilbert_heldout_fpr": 0.050144674085850514,
+    "k": 10,
+    "p_value": 9.99990000099999e-06,
+    "passed": true
+  },
+  "secondary_static": [
+    {
+      "ci95_high": 0.07790143084260731,
+      "ci95_low": 0.0063593004769475206,
+      "contrast": "rectangular_ls - hann",
+      "estimate": 0.0397456279809221,
+      "family": "secondary_40hz",
+      "frequency_hz": 40.0,
+      "holm_p_value": 0.043489565104348954,
+      "k": 10,
+      "p_value": 0.043489565104348954
+    },
+    {
+      "ci95_high": 0.058823529411764726,
+      "ci95_low": 0.022257551669316377,
+      "contrast": "hilbert - rectangular_ls",
+      "estimate": 0.039745627980922106,
+      "family": "secondary_40hz",
+      "frequency_hz": 40.0,
+      "holm_p_value": 0.0001799982000179998,
+      "k": 10,
+      "p_value": 8.99991000089999e-05
+    },
+    {
+      "ci95_high": 0.16554054054054054,
+      "ci95_low": 0.07939189189189189,
+      "contrast": "hilbert - hann",
+      "estimate": 0.12162162162162163,
+      "family": "secondary_27hz",
+      "frequency_hz": 27.0,
+      "holm_p_value": 2.999970000299997e-05,
+      "k": 10,
+      "p_value": 9.99990000099999e-06
+    },
+    {
+      "ci95_high": -0.016891891891891893,
+      "ci95_low": -0.11317567567567567,
+      "contrast": "rectangular_ls - hann",
+      "estimate": -0.06418918918918919,
+      "family": "secondary_27hz",
+      "frequency_hz": 27.0,
+      "holm_p_value": 0.017649823501764982,
+      "k": 10,
+      "p_value": 0.017649823501764982
+    },
+    {
+      "ci95_high": 0.23479729729729729,
+      "ci95_low": 0.13851351351351351,
+      "contrast": "hilbert - rectangular_ls",
+      "estimate": 0.1858108108108108,
+      "family": "secondary_27hz",
+      "frequency_hz": 27.0,
+      "holm_p_value": 2.999970000299997e-05,
+      "k": 10,
+      "p_value": 9.99990000099999e-06
+    }
+  ],
+  "sequential": {
+    "ci95_high": 0.5993640699523054,
+    "ci95_low": 0.28139904610492844,
+    "contrast": "hann - hilbert restricted mean stopping K",
+    "estimate": 0.4356120826709063,
+    "frequency_hz": 40.0
+  },
+  "status": "independent_positive_estimator_validation"
+}

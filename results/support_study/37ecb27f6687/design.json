@@ -1,0 +1,71 @@
+{
+  "analysis_id": "37ecb27f6687",
+  "analytic_boundary": "FFT Hilbert over 5000 padded samples; periodic extension; no extra zero padding",
+  "created_at": "2026-09-15T09:02:52.513098+00:00",
+  "endpoint": "static K=10 per stream; three streams per participant-condition",
+  "filter": "order-4 Butterworth SOS, harmonic +/-0.5 Hz, forward/backward",
+  "filter_boundary": "odd internal padding, padlen=27; endpoint-scaled steady-state initialization",
+  "inference": "paired crossed-bootstrap pointwise 95% intervals; no refitting in bootstrap; no pass/fail gate",
+  "locked_c": 100.0,
+  "model": "separate participant-held-out nonnegative logistic fit/threshold per method",
+  "participants": [
+    "P9",
+    "P10",
+    "P12",
+    "P13",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+  ],
+  "primary_contrasts": [
+    "restricted_odd - hann",
+    "restricted_odd - rectangular",
+    "existing_hilbert - restricted_odd"
+  ],
+  "primary_reflection": "odd",
+  "restricted_input": "crop BEFORE padding/filtering/Hilbert; score all 4000 retained samples",
+  "sampling_rate": 1000,
+  "scoring_interval_samples": [
+    500,
+    4500
+  ],
+  "sensitivity_contrasts": [
+    "restricted_even - hann",
+    "restricted_even - rectangular",
+    "existing_hilbert - restricted_even",
+    "restricted_even - restricted_odd"
+  ],
+  "sensitivity_reflection": "even",
+  "source_run": "outputs\\confirmatory_study\\4d6a54f6f902",
+  "status": "exploratory",
+  "surrogates": "source seeds, ten trials; rotations shared across methods/channels, harmonic-coupled",
+  "synthetic_padding_samples_per_side": 500,
+  "target_fpr": 0.05,
+  "versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "rich": "15.0.0",
+    "scipy": "1.18.0"
+  }
+}

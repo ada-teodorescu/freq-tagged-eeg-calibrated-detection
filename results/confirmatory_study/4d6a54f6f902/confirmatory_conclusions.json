@@ -1,0 +1,84 @@
+{
+  "analysis_id": "4d6a54f6f902",
+  "confirmatory_family": [
+    {
+      "candidate": "H2_Hilbert4s_Regional4H",
+      "comparator": "H1_Hann4s_Regional4H",
+      "condition_sign_flip_p": 0.0006999300069993001,
+      "confirmatory_pass": true,
+      "crossed_bootstrap_ci95": [
+        0.042666666666666665,
+        0.17333333333333334
+      ],
+      "fpr_in_locked_interval": true,
+      "gain_ci_above_zero": true,
+      "heldout_candidate_fpr": 0.05042666666666664,
+      "holm_adjusted_p": 0.0006999300069993001,
+      "mean_detection_gain": 0.10133333333333333
+    },
+    {
+      "candidate": "TRCA_S2_Grouped",
+      "comparator": "S2_Equal4plus8",
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "confirmatory_pass": false,
+      "crossed_bootstrap_ci95": [
+        -0.2808888888888889,
+        -0.09155555555555554
+      ],
+      "fpr_in_locked_interval": true,
+      "gain_ci_above_zero": false,
+      "heldout_candidate_fpr": 0.05007555555555551,
+      "holm_adjusted_p": 0.00029997000299970003,
+      "mean_detection_gain": -0.1822222222222222
+    },
+    {
+      "candidate": "TRCA_S2_Grouped",
+      "comparator": "S4_RegionalMonotone4plus8",
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "confirmatory_pass": false,
+      "crossed_bootstrap_ci95": [
+        -0.3617777777777778,
+        -0.17955555555555555
+      ],
+      "fpr_in_locked_interval": true,
+      "gain_ci_above_zero": false,
+      "heldout_candidate_fpr": 0.05007555555555551,
+      "holm_adjusted_p": 0.00029997000299970003,
+      "mean_detection_gain": -0.2675555555555556
+    }
+  ],
+  "hilbert_verdict": {
+    "h2_beats_matched_window_h1": true
+  },
+  "interpretation_guardrail": "Surrogate temporal-shift nulls calibrate familywise FPR; they are not genuine sham recordings, and operational FPR is not claimed beyond this study's own surrogate-based calibration.",
+  "secondary_comparisons": [
+    {
+      "candidate": "H2_Hilbert4s_Regional4H",
+      "comparator": "H3_Hann4p5s_Regional4H",
+      "condition_sign_flip_p": 0.0021997800219978004,
+      "crossed_bootstrap_ci95": [
+        0.010666666666666666,
+        0.10666666666666667
+      ],
+      "mean_detection_gain": 0.05333333333333334,
+      "note": "secondary; excluded from the confirmatory Holm family"
+    },
+    {
+      "candidate": "TRCA_S2_Grouped",
+      "comparator": "S4_RegionalMonotone4plus8_shrinkage",
+      "condition_sign_flip_p": 9.999000099990002e-05,
+      "crossed_bootstrap_ci95": [
+        -0.35733333333333334,
+        -0.18488888888888888
+      ],
+      "mean_detection_gain": -0.2702222222222222,
+      "note": "secondary; excluded from the confirmatory Holm family"
+    }
+  ],
+  "stop_and_report_gate_triggered": false,
+  "trca_verdict": {
+    "beats_s2": false,
+    "beats_s4": false,
+    "classification": "no_confirmed_benefit"
+  }
+}

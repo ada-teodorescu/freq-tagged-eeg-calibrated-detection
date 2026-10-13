@@ -1,0 +1,46 @@
+[paths]
+data_root = "data"
+# Windows-safe vendored snapshot of upstream commit 0d1030d1e8ea1dce0931a2ec20d56f5ca972f170.
+original_repo_root = "cv_syllables-master"
+output_root = "outputs/replication"
+
+[expected]
+participants = 25
+channels = 32
+streams = 45
+target_wavs = 45
+all_wavs = 95
+trials_per_stream = 10
+samples_per_epoch = 5000
+sampling_rate = 1000
+
+[analysis]
+seed = 20260818
+workers = 1
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+crop_start_seconds = 0.5
+crop_end_seconds = 0.5
+exact_tolerance = 1.0e-12
+bootstrap_iterations = 5000
+permutation_iterations = 10000
+
+[hilbert]
+filter_order = 4
+half_bandwidth_hz = 0.5
+
+[filter_null]
+orders = [2, 4, 8]
+half_bandwidths_hz = [0.25, 0.5, 1.0]
+edge_crops_seconds = [0.0, 0.5]
+randomization_batches = 3
+sampling_rate = 100
+
+[acoustics]
+expected_landmarks = 20
+candidate_min_distance_ms = 80
+ioi_target_ms = 250
+ioi_soft_scale_ms = 50
+envelope_lowpass_hz = 20.0
+
+[runtime]
+minimum_progress_interval_seconds = 0.25

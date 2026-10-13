@@ -1,0 +1,38 @@
+{
+  "external_errors": [],
+  "external_files": [],
+  "external_negative_status": "external negatives unavailable",
+  "external_valid_participants": [],
+  "methods": [
+    "S1_ITPC4",
+    "S2_Equal4plus8"
+  ],
+  "off_target_families_hz": [
+    [
+      2.5,
+      5.0
+    ],
+    [
+      3.0,
+      6.0
+    ],
+    [
+      5.0,
+      10.0
+    ],
+    [
+      7.0,
+      14.0
+    ],
+    [
+      9.0,
+      18.0
+    ],
+    [
+      11.0,
+      22.0
+    ]
+  ],
+  "off_target_label": "off-target controls, not genuine sham recordings",
+  "operational_fpr_claim_allowed": false
+}

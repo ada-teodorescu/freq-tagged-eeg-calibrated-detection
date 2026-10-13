@@ -1,0 +1,61 @@
+[paths]
+data_root = "data"
+raw_folder = "Raw participant data"
+preprocessed_folder = "Pre-processed EEGLAB datasets"
+matlab_folder = "Matlab variables"
+original_repo_root = "cv_syllables-master"
+papers = ["Data Sheet 1.PDF", "originalStudy/Cucu-Syllable-Paper.pdf"]
+output_root = "outputs/raw_replication"
+export_root = "results/raw_replication"
+
+[cohort]
+# Archive-defined comparison cohort. This is not a recreated behavioral exclusion decision.
+participants = [
+  "P9", "P10", "P12", "P13", "P15", "P16", "P17", "P18", "P19",
+  "P20", "P21", "P22", "P23", "P24", "P25", "P26", "P27", "P28",
+  "P29", "P30", "P31", "P32", "P33", "P34", "P35",
+]
+
+[expected]
+channels = 32
+streams = 45
+trials_per_stream = 10
+samples_per_epoch = 5000
+sampling_rate = 1000
+
+[preprocessing]
+l_freq = 1.0
+h_freq = 50.0
+montage = "standard_1020"
+filter_method = "fir"
+filter_phase = "zero"
+fir_window = "hamming"
+fir_design = "firwin"
+average_reference = true
+
+[ica]
+components = 31
+decimation = 4
+frontal_channels = ["Fp1", "Fp2"]
+frontal_power_threshold = 0.12
+iclabel_eye_threshold = 0.80
+
+[analysis]
+seed = 20260818
+harmonics_hz = [4.0, 8.0, 12.0, 16.0]
+crop_start_seconds = 0.5
+
+[branches]
+enabled = ["paper12", "no_ica", "iclabel", "lowpass_no_ica"]
+
+[agreement]
+# Declared before running the raw comparison. These classify evidence; they do not gate execution.
+match_min_r = 0.999
+match_max_nrmse = 0.05
+approximate_min_r = 0.90
+approximate_max_nrmse = 0.50
+
+[runtime]
+workers = 1
+maximum_checkpoint_gb = 20.0
+minimum_progress_interval_seconds = 0.25

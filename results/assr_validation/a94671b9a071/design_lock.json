@@ -1,0 +1,68 @@
+{
+  "analysis_id": "a94671b9a071",
+  "cohort": {
+    "group": "TD",
+    "known_incomplete": [
+      "sub-10593"
+    ],
+    "known_missing_assr": [
+      "sub-10003",
+      "sub-10124",
+      "sub-10508"
+    ],
+    "minimum_participants": 35
+  },
+  "dataset": {
+    "git_commit": "799d1502296ba5f74033734e149160c3d333e470",
+    "id": "ds006780",
+    "version": "1.0.0"
+  },
+  "estimators": {
+    "channel_weighting": "equal_64_eeg",
+    "hilbert_half_bandwidth_hz": 4.0,
+    "hilbert_order": 4,
+    "methods": [
+      "hann",
+      "rectangular_ls",
+      "hilbert"
+    ]
+  },
+  "interpretation_guardrail": "Estimator-level ASSR validation; not validation of syllable classification or a clinical detector.",
+  "null": {
+    "seed": 20260827,
+    "surrogates_per_block": 1000,
+    "type": "trial-wise phase rotations shared across channels and estimators"
+  },
+  "preprocessing": {
+    "average_reference": true,
+    "continuous_filter_hz": [
+      1.0,
+      100.0
+    ],
+    "notch_hz": 60.0,
+    "primary_artifact_rejection": false,
+    "retained_interval_seconds": [
+      0.05,
+      0.45
+    ]
+  },
+  "primary_endpoint": "40-Hz Hilbert minus Hann K=10 detection rate",
+  "primary_gate": {
+    "ci95_low_strictly_positive": true,
+    "hilbert_heldout_fpr_max": 0.055,
+    "minimum_participants": 35
+  },
+  "status": "prospectively_locked_external_positive_estimator_validation",
+  "trial_rules": {
+    "27_hz_standards": 160,
+    "40_hz_standards": 170,
+    "chronological": true,
+    "excluded_event_types": [
+      "oddballs",
+      "responses",
+      "block markers",
+      "surplus standards"
+    ],
+    "trials_per_block": 10
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "analysis_status": "post_hoc_robustness_extension",
+  "conditions": 15,
+  "guardrails": [
+    "existing confirmatory and external results are immutable inputs",
+    "sensitivity analyses are explanatory and cannot replace locked endpoints",
+    "external robustness never retunes a model or threshold using external outcomes"
+  ],
+  "methods": {
+    "hilbert_sensitivity": {
+      "bandwidth_hz": [
+        0.25,
+        1.0
+      ],
+      "causal": "complex demodulation plus order-4 causal low-pass after measured 99% burn-in",
+      "edge_crop_seconds": [
+        0.25,
+        0.75
+      ]
+    },
+    "primary": [
+      "H1_Hann4s",
+      "H2_Hilbert4s",
+      "M1_RectLS4s",
+      "M2_FilteredLS4s"
+    ],
+    "simple_primary": "equal mean of 20 regional-by-harmonic 2K*R2 features",
+    "simple_secondary": [
+      "equal regional 4+8 Hz",
+      "equal regional 4 Hz"
+    ]
+  },
+  "participants": [
+    "P9",
+    "P10",
+    "P12",
+    "P13",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+  ],
+  "primary_inference": {
+    "correction": "Holm",
+    "fpr_acceptance_high": 0.055,
+    "mechanism_contrasts": [
+      "H2-H1",
+      "H2-M1"
+    ],
+    "sequential_endpoints": [
+      "detection_by_K10",
+      "restricted_mean_stopping_K"
+    ],
+    "simple_noninferiority_margin": 0.03
+  }
+}

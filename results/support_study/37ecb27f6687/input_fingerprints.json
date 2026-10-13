@@ -1,0 +1,451 @@
+{
+  "eeg_size_mtime": {
+    "data\\Pre-processed EEGLAB datasets\\P10 E2 epochs.fdt": {
+      "mtime_ns": 1787062260061893200,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P10 E2 epochs.set": {
+      "mtime_ns": 1787062252479883400,
+      "size": 616320
+    },
+    "data\\Pre-processed EEGLAB datasets\\P12 E2 epochs.fdt": {
+      "mtime_ns": 1787062263505941100,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P12 E2 epochs.set": {
+      "mtime_ns": 1787062252493459100,
+      "size": 619904
+    },
+    "data\\Pre-processed EEGLAB datasets\\P13 E2 epochs.fdt": {
+      "mtime_ns": 1787062267425462400,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P13 E2 epochs.set": {
+      "mtime_ns": 1787062252495600600,
+      "size": 509920
+    },
+    "data\\Pre-processed EEGLAB datasets\\P15 E2 epochs.fdt": {
+      "mtime_ns": 1787062270819562700,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P15 E2 epochs.set": {
+      "mtime_ns": 1787062263508913700,
+      "size": 508728
+    },
+    "data\\Pre-processed EEGLAB datasets\\P16 E2 epochs.fdt": {
+      "mtime_ns": 1787062274229742800,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P16 E2 epochs.set": {
+      "mtime_ns": 1787062263508913700,
+      "size": 508728
+    },
+    "data\\Pre-processed EEGLAB datasets\\P17 E2 epochs.fdt": {
+      "mtime_ns": 1787062277676281700,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P17 E2 epochs.set": {
+      "mtime_ns": 1787062267430250700,
+      "size": 507368
+    },
+    "data\\Pre-processed EEGLAB datasets\\P18 E2 epochs.fdt": {
+      "mtime_ns": 1787062281535212500,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P18 E2 epochs.set": {
+      "mtime_ns": 1787062267430250700,
+      "size": 616352
+    },
+    "data\\Pre-processed EEGLAB datasets\\P19 E2 epochs.fdt": {
+      "mtime_ns": 1787062284332884300,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P19 E2 epochs.set": {
+      "mtime_ns": 1787062270826762300,
+      "size": 507368
+    },
+    "data\\Pre-processed EEGLAB datasets\\P20 E2 epochs.fdt": {
+      "mtime_ns": 1787062288117266900,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P20 E2 epochs.set": {
+      "mtime_ns": 1787062281541982600,
+      "size": 509544
+    },
+    "data\\Pre-processed EEGLAB datasets\\P21 E2 epochs.fdt": {
+      "mtime_ns": 1787062291731525400,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P21 E2 epochs.set": {
+      "mtime_ns": 1787062281541982600,
+      "size": 508136
+    },
+    "data\\Pre-processed EEGLAB datasets\\P22 E2 epochs.fdt": {
+      "mtime_ns": 1787062294911499700,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P22 E2 epochs.set": {
+      "mtime_ns": 1787062281551284800,
+      "size": 506552
+    },
+    "data\\Pre-processed EEGLAB datasets\\P23 E2 epochs.fdt": {
+      "mtime_ns": 1787062298136161600,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P23 E2 epochs.set": {
+      "mtime_ns": 1787062284332884300,
+      "size": 616352
+    },
+    "data\\Pre-processed EEGLAB datasets\\P24 E2 epochs.fdt": {
+      "mtime_ns": 1787062302200639800,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P24 E2 epochs.set": {
+      "mtime_ns": 1787062288117266900,
+      "size": 618424
+    },
+    "data\\Pre-processed EEGLAB datasets\\P25 E2 epochs.fdt": {
+      "mtime_ns": 1787062306698204500,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P25 E2 epochs.set": {
+      "mtime_ns": 1787062291737579500,
+      "size": 507368
+    },
+    "data\\Pre-processed EEGLAB datasets\\P26 E2 epochs.fdt": {
+      "mtime_ns": 1787062309721716000,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P26 E2 epochs.set": {
+      "mtime_ns": 1787062294917388000,
+      "size": 507640
+    },
+    "data\\Pre-processed EEGLAB datasets\\P27 E2 epochs.fdt": {
+      "mtime_ns": 1787062314021574500,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P27 E2 epochs.set": {
+      "mtime_ns": 1787062298141307500,
+      "size": 518728
+    },
+    "data\\Pre-processed EEGLAB datasets\\P28 E2 epochs.fdt": {
+      "mtime_ns": 1787062318005341000,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P28 E2 epochs.set": {
+      "mtime_ns": 1787062302200639800,
+      "size": 616896
+    },
+    "data\\Pre-processed EEGLAB datasets\\P29 E2 epochs.fdt": {
+      "mtime_ns": 1787062321809396200,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P29 E2 epochs.set": {
+      "mtime_ns": 1787062306712808900,
+      "size": 507096
+    },
+    "data\\Pre-processed EEGLAB datasets\\P30 E2 epochs.fdt": {
+      "mtime_ns": 1787062325102160700,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P30 E2 epochs.set": {
+      "mtime_ns": 1787062309737347300,
+      "size": 507640
+    },
+    "data\\Pre-processed EEGLAB datasets\\P31 E2 epochs.fdt": {
+      "mtime_ns": 1787062328333398100,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P31 E2 epochs.set": {
+      "mtime_ns": 1787062314035368800,
+      "size": 506824
+    },
+    "data\\Pre-processed EEGLAB datasets\\P32 E2 epochs.fdt": {
+      "mtime_ns": 1787062334789700300,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P32 E2 epochs.set": {
+      "mtime_ns": 1787062318009479300,
+      "size": 616624
+    },
+    "data\\Pre-processed EEGLAB datasets\\P33 E2 epochs.fdt": {
+      "mtime_ns": 1787062331689983900,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P33 E2 epochs.set": {
+      "mtime_ns": 1787062325107781400,
+      "size": 507640
+    },
+    "data\\Pre-processed EEGLAB datasets\\P34 E2 epochs.fdt": {
+      "mtime_ns": 1787062337870201900,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P34 E2 epochs.set": {
+      "mtime_ns": 1787062325107781400,
+      "size": 616328
+    },
+    "data\\Pre-processed EEGLAB datasets\\P35 E2 epochs.fdt": {
+      "mtime_ns": 1787062342181493700,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P35 E2 epochs.set": {
+      "mtime_ns": 1787062328342323300,
+      "size": 515576
+    },
+    "data\\Pre-processed EEGLAB datasets\\P9 E2 epochs.fdt": {
+      "mtime_ns": 1787062255486139000,
+      "size": 288000000
+    },
+    "data\\Pre-processed EEGLAB datasets\\P9 E2 epochs.set": {
+      "mtime_ns": 1787062252479883400,
+      "size": 616056
+    }
+  },
+  "files_sha256": {
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P10.npz": "e1898f859b1687ad347aa435d617c7d79923050a92300675d3995f1ceaad5a33",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P10.npz.meta.json": "a99d0d5235ddad2b3937f0429edafb34047c9b1527b8e529d14fde6de0db25a8",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P12.npz": "846e4662c5a87439923efd950096632450a8da87642b918cf6ea414366e9d94c",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P12.npz.meta.json": "a9825c5492f7609fb82fbd8b22625cf1addb186963208681054667728fdd49de",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P13.npz": "a82401a2659c709d013f51a74a04cca01d59efee5da601aa95d752a394d985a6",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P13.npz.meta.json": "cf1074cdc1709878ed8f609b0c26b7b45f69f2458a9e155168c2e55689b6586f",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P15.npz": "a2f33e5e968e6c69c064d053a038069f46be942e84e889e90ef71a15c7cdd2a4",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P15.npz.meta.json": "9f144585c93f0921bd1b3eb14499c6f01d191f9fa8bf82198aee7c4bf98cc768",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P16.npz": "bbb1d6c177380597478ef97384ce7fac485a92b71bbe0da74db451558374700d",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P16.npz.meta.json": "c9fd1b3a3cf750608e6eec9c022a5839fdb11ae142ce04b4775a5fe27728f86f",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P17.npz": "8eae34d19efabe75af167a320635ea519b1bc56c53ff9fafd06f245bcafb9adf",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P17.npz.meta.json": "c0c50950deb2bd3205681deca9dad44757d5054dd2e6b16a37c3166bc643d5f1",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P18.npz": "68fb57de03f679af51487466dcdec9df4d31f333a0f3b3c312f3144b1eeb2f68",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P18.npz.meta.json": "e98611d427a918816a2720532f607b31a87d4014dd4e43ea823b6ac69b07757c",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P19.npz": "c3b48e5e6eefd5832e245778f3774deb4bcfdd536daaf04ace9a0a9d196db4de",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P19.npz.meta.json": "1d2202890c6ae0931fc030af28db3e798034f316387af7d0e43cc50bc8f13d38",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P20.npz": "cce60f47f2e7e7b2cdf2d605d9abe2a809e7e153ac449f92f9bf77c6b11a1d81",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P20.npz.meta.json": "4997c40d4142deb6b1fa5c52c18f236d44ea930e876a0f17a9d987742fe49edc",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P21.npz": "a95a5b3dd17da71e6ab58c4ef8d255cdccd38fdd8ec4aa4cc3c6d71eb0c13a49",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P21.npz.meta.json": "c54889519c7a2d13a61495012eb855d3e635424bf59359b2387a52eacf2fa9d8",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P22.npz": "2d06595ef4c1c4cf767f7312e833e89b0524147a55677b906a5c517743198ebc",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P22.npz.meta.json": "7594f70f575a2c5b09ee8d783c74ce76faebfc87487295b20cbbb7ab719f6d79",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P23.npz": "c002ad29fbc7a440bbb5d84767546d9ee3e35da43fd72a4519d265f5666addc7",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P23.npz.meta.json": "2876f2fba01dd62989ca66c6e733a445f1d1925fd4dabf993e4ad25d57804174",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P24.npz": "3db125f7a5d9b71bc79a61df6c9766a98399cbf605770d3ee7fa93bf96f72f1f",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P24.npz.meta.json": "24f533e0ab7a8f5e256960d73c836593a1dcbf771dbebc99d27f2d17364cfe7e",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P25.npz": "defeb5951ae82b204b19d5caa8dce40019d071088bb4aa5beabe20bf2420e143",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P25.npz.meta.json": "a08047228f4ce9dcab7e3cafea0357b1f03b87b4a8d5c39b31364e36678a8d60",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P26.npz": "1fb6c7a4bf8126be3f4c9c43bf5e7174309d41bd5dff9c594029d1d28e67210a",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P26.npz.meta.json": "743e8848bb3fc318d5e5fa1bc86fe81e711976def668a428d7645e8abd3dc7e0",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P27.npz": "fba77ba5426c5220566720638a01f019dec3d014541d89f9b69fb3ab674660f1",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P27.npz.meta.json": "d43b643463e664bbf385b69fda3463526c9de63b303e005212b8b64e21703faa",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P28.npz": "02858304bf677dd8c2a4f9b77423892a7553b988fab8fd7b7fde736a7dff1721",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P28.npz.meta.json": "de9b0b2b1825aac77e1b2d64675b4f513b4b4cbf39a60267ab0a61f04d900bfa",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P29.npz": "daa8765b65a33442d11e3cd4265b49a40e329ecb9a6c83d5c40bbea83f631e15",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P29.npz.meta.json": "6d66f51d020781fc794aa23899591f4a9c59516fa77cf3a69b2fa5df3607f180",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P30.npz": "7fc4f32d6d5fdab02a3ebe2135ecdafb295eebea06373b5dba29bb7c9d331c84",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P30.npz.meta.json": "1e72fd6506942231a40ab070d7b0f678be35db34b345cb929e8c7a7dc89832ea",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P31.npz": "bae5bb265d2ce0845688dff916f6bfbffbe8f3ed1501f783deea240747bcc22e",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P31.npz.meta.json": "92cd2a77a0af6474abcd77cef8abb908a797f4d7b905d307772d72eab4ece3d6",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P32.npz": "a258daeeb5fb259e5726b7b42ecdb5cb44448af675048dfb3f6c38581a971cec",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P32.npz.meta.json": "bcbf156a40be5b313511b972bb9a66467d74b7db82ea24ba2d9e2388167ac22d",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P33.npz": "a363bd7b0d56d418ab1b1ba0209fecb9f893bba51ed2deda860664fd4d134757",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P33.npz.meta.json": "419d081ba3dbfa51ac84fc3797c828de0f79725a92a8a01cdbf6a27b95092436",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P34.npz": "bf4362ab30ebf9f3d314161c10cc4a07f4a73d8fb17fa5acdb85eb42c8962f29",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P34.npz.meta.json": "d66a3a9e5ff40cd0ce61b6f6f2ef35d69ae208bacc5468f88e05b97a3a7d60cb",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P35.npz": "960674d057f1aedb0764ef217a0f7a48bc9dae863fdfa237b270b226b19e6b64",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P35.npz.meta.json": "e70ed7084a0efbcbe688ba46174a978238099db18d889d9fd601f61f56b41b2c",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P9.npz": "7ac483a705f839051fef267dd7c4d84fbba980c5b1d00963e2d4dbccb95ce16f",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\checkpoints\\01_coefficients\\P9.npz.meta.json": "f6447f65b026a7659de7e85490f07879bc666388b9e0dc4a08685bd9130c8abd",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\config_snapshot.toml": "c853a81e0512590904d506b63661d680e9e17cde83db1e334b502963712d8489",
+    "outputs\\confirmatory_study\\4d6a54f6f902\\design_lock.json": "2fa32e92c56da2ea8030a84b1cfd1a186cd81533a3e39d8acf6b33afd7208e4b",
+    "src\\cucu_accuracy_study\\__init__.py": "3af6024ca436a670272f34f0a3b6e0a0076e9c239aabd688ba3e4ee7ecd76115",
+    "src\\cucu_accuracy_study\\cli.py": "49f00032a83655197a668036368ca6a5cd5123ea1570761e7f4e710b76ca13b2",
+    "src\\cucu_accuracy_study\\config.py": "b02e4dbd530e941dd86f5e0c06759dd91fff1a48ada5737ad87690b5928dfe07",
+    "src\\cucu_accuracy_study\\features.py": "09de85b201a5a750184f4af1393a86fbab399ce385c1702396a4a3982a0e9d8c",
+    "src\\cucu_accuracy_study\\runtime.py": "f700252724d508cb00c4bcec3e13de60b38546af8a5c3fb4e284f230eecf2061",
+    "src\\cucu_accuracy_study\\stages\\__init__.py": "49520c945718b59616cfc43295f8b8fe4d4ebb5c6948cd7268cdb0c3524db7aa",
+    "src\\cucu_accuracy_study\\stages\\benchmark.py": "7c92a3be99d866dbb09a555b66fc7e6826491af929f59d5b26b58ab9d1c9eece",
+    "src\\cucu_accuracy_study\\stages\\features.py": "24fd557e816380c779da693b23964f8037c310512df450696b06d2e36350a1db",
+    "src\\cucu_accuracy_study\\stages\\freeze.py": "75b9a844b501efb9bf89eaabb9c37aca7df858bdbdd442d135901a522eb1f65d",
+    "src\\cucu_accuracy_study\\stages\\report.py": "21603a022cdc1314353a79036672748c4854e41f7b2d484301b7719d98e0f9c7",
+    "src\\cucu_accuracy_study\\stages\\robustness.py": "425fdbd23d0251024eebd1b0f5cbe0642d49b0dbc14107ad790653510e6c2c90",
+    "src\\cucu_advanced_study\\__init__.py": "667e4cc7b0d24fd450cb79288c6c2ca80ca5be2608773995acce336057ecbf0a",
+    "src\\cucu_advanced_study\\algorithms.py": "9963c3814098cb6f9549ccfa49cb312b42ee50e0e62317001dbf48ce81833929",
+    "src\\cucu_advanced_study\\cli.py": "45877b489e2f4bb7a5f16266146f12be0fb663bf51a433b938c08864021763d8",
+    "src\\cucu_advanced_study\\config.py": "e171ccc9b221327aa3624bc0b6f1750d96fe09c60d7101f1dacc1470e1e9d285",
+    "src\\cucu_advanced_study\\runtime.py": "30fc5b723359c379d593cfc410897f0df59920187b06eea81d4e6678422e324f",
+    "src\\cucu_advanced_study\\stages\\__init__.py": "18dc086ebb4a47717442a9592f9596672fd9a4b4bb3784d0291bbcd1fdadc85e",
+    "src\\cucu_advanced_study\\stages\\calibration.py": "d88455dd542478ed16ebe5aa3093a1529bf9da9739ea724b5a811020f390c4f5",
+    "src\\cucu_advanced_study\\stages\\condition.py": "966dcce95abc39f5c5589d4cbf1e29664817ed5a2f9de9d0e6cf63e057eb851b",
+    "src\\cucu_advanced_study\\stages\\features.py": "4b3230efc145d045508b6e201ee52f74433919b19be993f378536d6c4ea2aa58",
+    "src\\cucu_advanced_study\\stages\\freeze.py": "d56f5d307e4d65caf0063e6ea97074f681278f9906f04b6316ae2a03a2bf668c",
+    "src\\cucu_advanced_study\\stages\\negatives.py": "4fb29e717ef5d238a8d417cffe0f5bea5db7cf91544f1ba7ccfe690e0414b5c5",
+    "src\\cucu_advanced_study\\stages\\report.py": "66f703231befa162e08e611e1117dbc998044709a7f92599e6a24b1a8a49243b",
+    "src\\cucu_advanced_study\\stages\\statistics.py": "f12c33615ccc9e25262fbc68dc1ee642caf2777faac42a5d7168b86684e615f7",
+    "src\\cucu_advanced_study\\stages\\stream.py": "15f296381e5394af696cd17926e0fff62eb5c57159b81e707b6828e153afd7e5",
+    "src\\cucu_algorithm_study\\__init__.py": "22cfbb3b2714f8f2d12d410693f0c890ea1e35b774e6c099bb4aa1d0f40284bd",
+    "src\\cucu_algorithm_study\\algorithms.py": "f892502092c3939922888736d055a70996d7b0867614733d5061827e7c3a5ffc",
+    "src\\cucu_algorithm_study\\cli.py": "01625d1af55b8a9bac93946289f6155d58eaeadf896fb897ee33326bdf5cbe8a",
+    "src\\cucu_algorithm_study\\config.py": "dd0a8599251f283a48f1f8b98e3102371b5c5ceea8c1647b8262f6102066351c",
+    "src\\cucu_algorithm_study\\runtime.py": "99fdaa5574d1f2903aba53ba9a4325ae46fc5c4a0091422b7cdf645a6b6e22e7",
+    "src\\cucu_algorithm_study\\stages\\__init__.py": "b0c86d66acaabacadb4141ce0cea6e6d1b2d03cb768752f356e9e9c1e8e482d0",
+    "src\\cucu_algorithm_study\\stages\\benchmark.py": "cf2b68b823c895b364ca420dd9d3dbbb22d066b61dbdabf5908290ba736c85e8",
+    "src\\cucu_algorithm_study\\stages\\diagnosis.py": "f75ff5571bb73964abad165cf385e7ff3a439e805a4b58ccd05cfbdedf6bd1b8",
+    "src\\cucu_algorithm_study\\stages\\features.py": "c2abda22f49fc35429e0732dca25a5433848adbd1ffab4c348bb3506bb6652ab",
+    "src\\cucu_algorithm_study\\stages\\report.py": "45d4587d646a6446ab6f9efbb4ef353fa2db69341d8c650c833d352d43b38ec0",
+    "src\\cucu_algorithm_study\\surrogates.py": "3a22b68176255cb48cc5a2d175a00f226c2934db89724a8f66e2aa57d278d03a",
+    "src\\cucu_article\\__init__.py": "6d42ff9f786b244c773935d45e8dd19ebd7c654eb121d6024f10447123b27364",
+    "src\\cucu_article\\algorithms.py": "b235ef84c77ebf1779ecb2fec36f565dad4033b3e91b90a9181c83a0d3b08d24",
+    "src\\cucu_article\\cli.py": "d27fdf060ca4a5cf65892f81279af93dcf36587c9c0778ffdb7a2389604b51a2",
+    "src\\cucu_article\\config.py": "dc0fd85c90ba34a793ba0c81c50314989a13c9ab237772f57136a65962dbf54f",
+    "src\\cucu_article\\runtime.py": "ce1a1c1011957e6de97b0e10b668a4aa10de56afab9f7e6c3fb56df9d86e7bcc",
+    "src\\cucu_article\\spectral.py": "23d463eeaac5674f7ff1ebef7d71238ff2d48d56d760a87c65ca54c2c7d85cea",
+    "src\\cucu_article\\stages\\__init__.py": "7d01c325fc630263fc4404ee1d14b434800957f19b93dbc2c80846becdc08105",
+    "src\\cucu_article\\stages\\benchmark.py": "d89ec6b6a2d363ec1d046e58a02b54e0aa1f92121fccef6cd9e20cc580cf970c",
+    "src\\cucu_article\\stages\\features.py": "331a3dddaaf3c239ce3308c5bd61c17dac0bee1598f43f9404d67d9a7f76af05",
+    "src\\cucu_article\\stages\\freeze.py": "d80532947e0b3df071517f83b37b3151788d176d127b236ebbf9465809080ead",
+    "src\\cucu_article\\stages\\provenance.py": "21ac7669b7ab17a4c99d7537aa9da416928e5900fd4f30c918d4637f3127611f",
+    "src\\cucu_article\\stages\\report.py": "37e2c57df36c29a97c5c18a65238b140bb67b70ae4cf7edfc3eedea9f65e649a",
+    "src\\cucu_article\\stages\\statistics.py": "a338f0911cbe5507192410ca5b0245b211c873538299a5b07f02a103b2eb0d1a",
+    "src\\cucu_article\\stages\\supporting.py": "62a76415c644fbaf957535e0a7e4dd1bde25784b668223ed8637328a82135c40",
+    "src\\cucu_assr_validation\\__init__.py": "f73f764eff564a697e21e73ae7d47c46d8f071344a572af1ed9e94a55b8184a5",
+    "src\\cucu_assr_validation\\algorithms.py": "bf26af7067459deb6cb471038c50b97c2ca78f4ce71ee3874c06b7c6c11d845e",
+    "src\\cucu_assr_validation\\cli.py": "d39dd8ea60f916f56b736f38f3ba23135abbf8f0c49dfacfbbd80b2188471bc7",
+    "src\\cucu_assr_validation\\config.py": "d37f5665fbbbbac8e9ad6f3f310e3d19d5cea1b51c83f79144228712430f82b4",
+    "src\\cucu_assr_validation\\runtime.py": "bff65d9aa61deb4506ddbb60b849bbc9f2f957d3a5fd1533ee23b23e655f61dc",
+    "src\\cucu_assr_validation\\stages\\__init__.py": "1cc7c123cc6dba9589c8b43f2f6c48e74b85379673238edabf9babe4e18f5fff",
+    "src\\cucu_assr_validation\\stages\\coefficients.py": "7c62427fea5ff5fe7a8e85f6a2b168665d095c13a175336482303e94e9b6d982",
+    "src\\cucu_assr_validation\\stages\\freeze.py": "6961aca0f4c43aa1aae35c842272dbd2563a235acc9cc28a5661f316b8706032",
+    "src\\cucu_assr_validation\\stages\\inventory.py": "102dccc1a9299e5710fb407749d45978c427901a8e6cbd6898e4b60999137b16",
+    "src\\cucu_assr_validation\\stages\\report.py": "276edc5342847a7719ac10e95ba0aa1312f1093ecd11cbf72c1ab250227fb43f",
+    "src\\cucu_assr_validation\\stages\\sequential_validation.py": "602f9790c1defafd34f1c6fbb0f8dd0bcd0ea435d467fd8b5c42f52839ae1c3e",
+    "src\\cucu_assr_validation\\stages\\static_validation.py": "f18b1a70ff73a7285b86f373f33dd69fa15e2ae32df9fb8ab3a5a472e1ee611d",
+    "src\\cucu_assr_validation\\stages\\statistics.py": "b354ff5e151a9a392d3477b5560c7c822217aeb802fc13b89260c085669b208c",
+    "src\\cucu_assr_validation\\stages\\trajectories.py": "9144723b9ce2503b6805d90d50c0ff42e2f1fb99951a58f3b8cfedf4363af9f1",
+    "src\\cucu_confirmatory_study\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\cucu_confirmatory_study\\cli.py": "ce484bec36b32f205bb641d50cd0c97bfb7318cb80c55cc29b35daacc6da0dfe",
+    "src\\cucu_confirmatory_study\\config.py": "3779ee470424dd1e85ff789aeb0951c6898145a5a3d1c7a5fae472d583a17182",
+    "src\\cucu_confirmatory_study\\runtime.py": "34a94d2a992449d39124a72c2a0d8757437c8bb1c54928ba0ade699f1651f609",
+    "src\\cucu_confirmatory_study\\stages\\__init__.py": "9c6f44bb734b9e7ee11bba4577a56c09a06b05826336740ae38be0f0ec7c10e1",
+    "src\\cucu_confirmatory_study\\stages\\coefficients.py": "2ba3e659089fd6439ef1c1579581144daded2b38bb70c8e782780f14b8f2a5c6",
+    "src\\cucu_confirmatory_study\\stages\\freeze.py": "851b9155fec1868e871f789575a55ed4c894d019420e4138b88a8e28b49eea1a",
+    "src\\cucu_confirmatory_study\\stages\\hilbert_condition.py": "bf89555b77580e4de42bd30da33cd1625e1e1cf21d7ac3eb32a7c4aea96ac147",
+    "src\\cucu_confirmatory_study\\stages\\hilbert_sequential.py": "b566af49109057c47ef75d127c307d4763c91d47d49847f26ec5b7a166f7726d",
+    "src\\cucu_confirmatory_study\\stages\\report.py": "9f185397abe5ce83a61264af8f61e77cb838fab23ed8b7c0f544ec166a221400",
+    "src\\cucu_confirmatory_study\\stages\\statistics.py": "b908141ce9abd4c226b8d6d71ec2c68dc5fd6f7edc1c01405c2b750ab5d26989",
+    "src\\cucu_confirmatory_study\\stages\\trca_features.py": "41d9a55d629d6e9044dc9b6fcac0e9b33dd0a75d5b44dc55d5be000071d993d0",
+    "src\\cucu_confirmatory_study\\stages\\trca_sequential.py": "dcd931247d089aabe6e4b4b480a7792cf98f27de35d76f8f799f5ca54f74dd12",
+    "src\\cucu_confirmatory_study\\trca.py": "bbc7bb1879b8984b5bf01bf8b1c09003c033d2690a355e5a8c1544fda2e94382",
+    "src\\cucu_detection\\__init__.py": "e0ca9c3cfbc4ef4fe407844581b9191e6c9e7e94f041daa59e60ae34d72ef061",
+    "src\\cucu_detection\\cli.py": "6e03de3602d88adeba2fc352034cd2f74e684283f7a3c0824f260dd65261c68e",
+    "src\\cucu_detection\\config.py": "812185820c3e9a2030e0bf5032fbfba2126258f6048b2605a8dd9c04dbb906dd",
+    "src\\cucu_detection\\detectors.py": "1638e678ae8ed4a3f89fda54a646affd40494ae0b2f1876135ac4ededd948a9e",
+    "src\\cucu_detection\\estimators.py": "da16aca585e4f1a6bfc7af3c378b8995ffe7fadd0b4f4f5adfab5af7e78bac34",
+    "src\\cucu_detection\\evaluation.py": "88a5e62f27135c3b92d51bdfce45eede3d40a3fdfc148315979b00676b2d7878",
+    "src\\cucu_detection\\runtime.py": "d751ad2c0afdfb00346d8153d2f0d6f69d9a8615569ba5a93c499c6aa3902461",
+    "src\\cucu_detection\\smoke.py": "459e74ac86feb4fe6b4ee1206cf197ed07edc669255ba4f26370cf021f215e48",
+    "src\\cucu_detection\\spatial.py": "fae7005339c59fec67f91cfdbc7bef3e163bf2a397526960c8063a59f5e57840",
+    "src\\cucu_detection\\stages\\__init__.py": "66a20af6dad34596b58573af2c9c3a84d964635be293a628adc9236d7df13a22",
+    "src\\cucu_detection\\stages\\detector_screen.py": "23ee45a72a839738f13c7c4fb5c903d93516519964cd0a8d657040f375db8da6",
+    "src\\cucu_detection\\stages\\inventory.py": "dbf9876c3c1e49e837d14289a84a0adf20da402147baa21045bc66150746af97",
+    "src\\cucu_detection\\stages\\null_validation.py": "6061cb573466a6f4b1f7759ac3568d9f2b06a76f5999c169e2dbe94a659c686e",
+    "src\\cucu_detection\\stages\\outcomes.py": "441b71774c3ff0076ebf1606b72b8d6036e2bbfcd5d1d1af8fc54f074d72a01c",
+    "src\\cucu_detection\\stages\\public_estimators.py": "d8361e90c5694d31b8154a5bd820dcdb54dfc1a66c03939e0b1a47cea159c1a5",
+    "src\\cucu_detection\\stages\\report.py": "c150b18eb2a7255ae98c829210a7280dbb63876dd53d1ef3ca9b597f07efaecf",
+    "src\\cucu_detection\\stages\\spatial_screen.py": "bd6fbc1dae21fc05048152cb3e60db472760ae1d9e03792c6df506617221c784",
+    "src\\cucu_detection\\stages\\stored_coefficients.py": "ee9873a8c755be6c5a9aab422aa1a0e84d49d942fe6ba11086cf4c72f094607c",
+    "src\\cucu_exposure_study\\__init__.py": "aae8acdc95c77aa4c1b9865f3862a938f5d572c3b4a693ab0faec060a9d603d3",
+    "src\\cucu_exposure_study\\analysis.py": "3f2b3440981fa676b6739ede7958129f908c28c8440bf41bed4eef2142af2be2",
+    "src\\cucu_exposure_study\\cli.py": "eda18361001496fd10dcc1d1d98f6ab7f5686da22a50fb82ea7adcc88c0431e4",
+    "src\\cucu_exposure_study\\runtime.py": "795bf4ed3e940e93fb45069e03e4962b99f4e3e3713a3c693d851465b4e698c3",
+    "src\\cucu_external_validation\\__init__.py": "8a85ef7ec4838e95021a0ef706c000d204e78b483dfdf985389a875849a7f12e",
+    "src\\cucu_external_validation\\cli.py": "725bc055d88aa7c1b45abc37938ddbff764d5d575a1c8d293319bd1402fd1345",
+    "src\\cucu_external_validation\\config.py": "40ab97340ad7b53f045d195a0253b310c378d0819b64d36a9332d12f826fd673",
+    "src\\cucu_external_validation\\dataset.py": "be4e3aac0f6f9035b2202af37999d13497b9b923709598363874c81b4c360c3b",
+    "src\\cucu_external_validation\\paper.py": "237f87de8e3bfb834a5baa5c34b7a48856637c92f88b789eb366ba3daa6eb6be",
+    "src\\cucu_external_validation\\runtime.py": "3f5c81487b80f52d16fa5dc8bc0a1f167be9fcf3e56435f97a12cd1204642b10",
+    "src\\cucu_external_validation\\stages\\__init__.py": "c896c5c06095d29f1ead832d4a088eaee0cfd1837be9849ff4d09416e983f257",
+    "src\\cucu_external_validation\\stages\\deployment.py": "51d5004e2897bc68d1360f99ba5c2ff09b94e2873bf433b356d163cc3660fa24",
+    "src\\cucu_external_validation\\stages\\features.py": "8de3189e2822d5ec33b4afc2ee7058d98efea625fb644f88def4ffabc2e91e89",
+    "src\\cucu_external_validation\\stages\\freeze.py": "3166611f0be7f3861ed56212b74b9952159dea71734d804f3c70b29c686ec66c",
+    "src\\cucu_external_validation\\stages\\inventory.py": "450b8c19ce88830097b9ddca38dad33c2771723a117cefaedfa20da11099b1c8",
+    "src\\cucu_external_validation\\stages\\preprocess.py": "bf91b8b98ec09ba6c25df7e3c7dbc347a87cc4549a02d4d30519aeb1523649e9",
+    "src\\cucu_external_validation\\stages\\report.py": "0a6abba4af9c75c26eb61df67f2400b2311715963c79c44e11bea82e33bd2b2f",
+    "src\\cucu_external_validation\\stages\\scores.py": "b7cfb675d1d7016b4137efb03e973444f75baa6068c1714267fbf4aa60c9b08d",
+    "src\\cucu_external_validation\\stages\\statistics.py": "a9b8fd18e5d247b74e4ffc03c21cc6578f934869abe39fb80972a1a4f94ed012",
+    "src\\cucu_external_validation\\stages\\units.py": "fefaf0c3708ebd160cee7266784586b2b88a3e3e5cd11eca261e664e86b5fe35",
+    "src\\cucu_external_validation\\statistics.py": "6d46ab83bfcd0ea3207c582da70d0bb34463ae1ceabb97940a71f85302a5fa2b",
+    "src\\cucu_improvement\\__init__.py": "3802c7c057258e81ae48dd274306dd22d49190aca0ed2360056753aa33e6169a",
+    "src\\cucu_improvement\\cli.py": "b231fcea5aa1d3f5153c7c134d78b9b6379ba7b0b719ccc4e54738d9dd417c06",
+    "src\\cucu_improvement\\config.py": "005601d988f11cdd91b87f979e8f9ab4b3e18ede5fe0ce612c9278bc2db54b46",
+    "src\\cucu_improvement\\runtime.py": "de241eca33507db49eb10e743cb84c7ba6c663fe37ec422d7eb4d9af68411dbe",
+    "src\\cucu_improvement\\stages\\__init__.py": "b03cbf3b52987336ab1a2a833a4eab857e784edf7bae04b0db1659ff087e9af2",
+    "src\\cucu_improvement\\stages\\inventory.py": "71e51af9d33ace6623bd23fd55fea3fc08af3a56adf007ac4b31c6e9326af1f4",
+    "src\\cucu_improvement\\stages\\public_coefficients.py": "96775c82f1da5ef622f7bffc65453cfba9845bb0d84e5dab1c0f0e8bdeeaa961",
+    "src\\cucu_improvement\\stages\\public_focused.py": "befea6b5840f4535fe99892412a655704a85ca8e762c008c61a7817f7847e83c",
+    "src\\cucu_improvement\\stages\\report.py": "2394c8f8bddc475f994ff9952d856a93edb765acfd2deae978ac263047ecab27",
+    "src\\cucu_improvement\\stages\\stored_d8.py": "7bfc809218ebfb556e4922b28d9357488e267e38ad89d61bd0d5939a202c20c9",
+    "src\\cucu_raw_replication\\__init__.py": "fb9b8e98b818b2244861b0383dfb0c7f55a80809905758eec83c39cfddc6043b",
+    "src\\cucu_raw_replication\\cli.py": "2c6555111d938e549f729307d7a869a7bab933beff5c185e9185bc24a938de34",
+    "src\\cucu_raw_replication\\config.py": "2ed64a407da2cd54440aeb1ae14b9eeadcd8ec28908e96a5eb84d10b7261244e",
+    "src\\cucu_raw_replication\\events.py": "c3cfebc8e3b80872d776d50b29a111744cdfbdd3a74693a24c7cbd3e173451bd",
+    "src\\cucu_raw_replication\\mne_pipeline.py": "e7fe1b16c0a2ea80454f03e21854b6ca5984ad28373ec91e44b4badd40ecf8ee",
+    "src\\cucu_raw_replication\\reference.py": "5fa253b1b386a3367332560a1790243757f1cc139d3a0e81e7b371a9c6f6cccc",
+    "src\\cucu_raw_replication\\runtime.py": "1e63544742eb4736d0f1a64369bdd606b93c9f3efacfeca4948438316dfd7397",
+    "src\\cucu_raw_replication\\spectral.py": "ac1191784a464392c63b42d67ca0a063e1d544f675ed67a353f3a2e14ad4f70d",
+    "src\\cucu_raw_replication\\stages\\__init__.py": "5a175e4374eca7d8323ae07da293e06d055f9076946fd2375cbdf6943040ae55",
+    "src\\cucu_raw_replication\\stages\\common.py": "7338ad868b9dba331e7da94edc6ac3a65b9f9572601c03b2a89c6cad913aefc9",
+    "src\\cucu_raw_replication\\stages\\epoch_comparison.py": "f9db1f65911b563d09f35de4056c381d7d0d0119e1fb24142ac7659f3be31a6f",
+    "src\\cucu_raw_replication\\stages\\event_audit.py": "d05e1a2f497d41238c89cef893ea9212fa21247b286b63aae22457646fac9332",
+    "src\\cucu_raw_replication\\stages\\inventory.py": "4860963a067241435d82140a14c20e43e42134a717c2a586f7a91f103ad8a5e1",
+    "src\\cucu_raw_replication\\stages\\paper_results.py": "e9831e1e0453f6f3e8fce88d565465f94a4dccf1d227b0d68930311b23ece18b",
+    "src\\cucu_raw_replication\\stages\\preprocess.py": "901f2e491189b1d4566b13f58ca206a9a658764b6b0241b4131e90505b3c9d50",
+    "src\\cucu_raw_replication\\stages\\product_comparison.py": "17a4dfc828f74153a63a0d09dc0976c752d5d3b697ff9f89fbc2148c91a7e56f",
+    "src\\cucu_raw_replication\\stages\\report.py": "b1dd5f2653778bbddf54f2a01d0acc1f7b85714ce32fd64870875f04870962b0",
+    "src\\cucu_raw_replication\\stages\\spectral.py": "7cb1dd324be8bc260517f276083bd2fea9654cda9c8e0d33bdcc9fa9f6d7268d",
+    "src\\cucu_raw_replication\\statistics.py": "d46c1c66a521e17dc088d301db1bf91bc8fef1f6e18b1ce6bc59a54d49ccfff4",
+    "src\\cucu_replication\\__init__.py": "7373bab4d298dc290a13ccffb88a37ff2d03f020089080baff3a5fbb97cb42e8",
+    "src\\cucu_replication\\acoustics.py": "cb827cbaf7152daec495ab231b1f2d3738ce12f1bede962fff185801428ce308",
+    "src\\cucu_replication\\cli.py": "1856171652a2432ec64a3422b87c89cc8fa2cad06c7f19d686128b0c196c213e",
+    "src\\cucu_replication\\config.py": "056fadc5d775a5333a11397f926eec4c8c25d467913d33896fcf09b490706361",
+    "src\\cucu_replication\\io.py": "f6f1a3b1c076058e1a4bd38a416f4f6b07a941df020edfeba99a8eca9dca5c09",
+    "src\\cucu_replication\\runtime.py": "c93f1ecdaaf06fa6dfd2943419eef7d41d48305a9408e8bd09cfde9b730dfc4e",
+    "src\\cucu_replication\\scripts\\__init__.py": "9a2983e59e983911bac982ce2d2e30b725f874d0d73a16f553eed8206b0e7975",
+    "src\\cucu_replication\\scripts\\step_00_inventory.py": "a06f835e963bf2060b1b9de831efdf255fc853a2b17a8528cd3ff2db33b2dc72",
+    "src\\cucu_replication\\scripts\\step_01_stored_fft.py": "9e07b173482301b94e9b45c08f4f9b9234ae8a4f42f4779e64b3035d63ee63c7",
+    "src\\cucu_replication\\scripts\\step_02_source_audit.py": "a895cd669b023008e68380013091934827754382d76e48259050d4a596263064",
+    "src\\cucu_replication\\scripts\\step_03_published_results.py": "4a5a98dfb61e9cb1a0f07181d19ab0d0ce4fa9237b9db31145cf622f164f02e6",
+    "src\\cucu_replication\\scripts\\step_04_hilbert.py": "686720e52e80042a9b709ae85056c82ccc25228c57773e6d6522c2f92727bb6a",
+    "src\\cucu_replication\\scripts\\step_05_filter_null.py": "28f396c0c9138353ad4297e2d72147f49c0eb9a05c9d4455b04265d562592810",
+    "src\\cucu_replication\\scripts\\step_06_frequency_correction.py": "f31859344149bbe2597c490e66b9138cdb6fcb2a4f8e8c3ff5477e73c5af2926",
+    "src\\cucu_replication\\scripts\\step_07_report.py": "e54e2d4435c16d0a7c231bf06b943547f15c3a6484575772f726b3cfacc63c17",
+    "src\\cucu_replication\\signal.py": "69ab69720b90a0bbd685285a5a1acefa6d7bfd66964cf723d75b654fc6244571",
+    "src\\cucu_replication\\stages\\__init__.py": "1aa95e64ee4a0a16c27f0b395c4fffd5d8b3bc95b6008b0ee439e8659dbf839a",
+    "src\\cucu_replication\\stages\\filter_null.py": "72988a6614d98bcc15022ec70acadd7378ac228a07ddf775d06b8aca11453b91",
+    "src\\cucu_replication\\stages\\frequency_correction.py": "1a005a45c764967e5df4ec7867aeecdd340ae8178c118516432b81e9662535cc",
+    "src\\cucu_replication\\stages\\hilbert.py": "651c8213fef4f36dea83c44bd59f1d3ede1fba7315acd20d998c6fedeb7615bd",
+    "src\\cucu_replication\\stages\\inventory.py": "946840ec6397577a7a643b34e68e68edff5ddf3a4ad863a6fe35bc4945668a9f",
+    "src\\cucu_replication\\stages\\published_results.py": "a60846a62770e8afe63c9ab45326cb5112a178169bf00c12bdb2fb566d8ac22a",
+    "src\\cucu_replication\\stages\\report.py": "afecf56c9ec8fca36af59150996f833178c5ce9056b19b43fcff076cf713efcd",
+    "src\\cucu_replication\\stages\\source_audit.py": "413618902dfefe6761e64c001dc83b809ba2e4e9458eaca6a5744d68302444f5",
+    "src\\cucu_replication\\stages\\stored_fft.py": "53eef683e1cb1f5c63c60d8110e40fa7fc6650302b3e1bb9ea958df5be90d768",
+    "src\\cucu_replication\\statistics.py": "ede53b64018e0a81cc891e601bf71cd47542ca6243b4a867e177085b8a674d97",
+    "src\\cucu_support_study\\__init__.py": "b98efd5eeb39ccaea87cd81a4cd4f5e1b4a9bd7f6ff8f40d8cf1f2daf15c79a4",
+    "src\\cucu_support_study\\analysis.py": "9f139e032a6bf15a410a014b75ba7a21021115cca4af08ee83dab8caadeb122f",
+    "src\\cucu_support_study\\cli.py": "047055504d51c0cccedb3b0377b2d7c306e781b14cc936a128ac769bb3c33152",
+    "src\\cucu_support_study\\estimators.py": "ed3946f5a82a9ae9ee295b8dea8a65c49811797fb02f69bfb15e1da43c9eda51",
+    "src\\cucu_support_study\\runtime.py": "afa6ff11e35b427ff8f2fba9001c5e5d8f33c779b1e3266679f8d60374555c11",
+    "src\\cucu_validation_extension\\__init__.py": "845daf6d7cb211ea26144bcaacd775de371680faa549b51eb550960a6a9c84de",
+    "src\\cucu_validation_extension\\algorithms.py": "f2672abfb8ef3e70dbe3b713c29bd2ec2a4b02a633633f9c0a823e26e08ab7e3",
+    "src\\cucu_validation_extension\\cli.py": "f7246e4118c961828d86b1d4bd8cee94a158972e171199cf4d59fc4918a3e5a4",
+    "src\\cucu_validation_extension\\config.py": "18453631fe09c1aafba8c85b3f72df2786c37f46130f072d065414c5974d1c69",
+    "src\\cucu_validation_extension\\features.py": "31951375c81f14ea61f3d809c4f5fdc8fd94e331750ac6ffe0bfc703459e5c55",
+    "src\\cucu_validation_extension\\runtime.py": "a246700f09db51ae6bab4527385a82c5922c78949d167622165c1a05b2bf2f54",
+    "src\\cucu_validation_extension\\stages\\__init__.py": "0613b3ed62e3ea93977b1fc68303b91aeddc26a504bd2c513a2c4be724b74102",
+    "src\\cucu_validation_extension\\stages\\benchmarks.py": "73b12ce2aa7923b04359ddfd0904f3c91aa195d8d7552f110653d3a9128176b9",
+    "src\\cucu_validation_extension\\stages\\chronological.py": "e66e116156b218f4b523b43180dc95c18fde82114170b316b5a8942e428da826",
+    "src\\cucu_validation_extension\\stages\\double_holdout.py": "332e08c01c41a14a59bf9f9b35cc7f56cfbc85ded41e1859424d3374f0f9a213",
+    "src\\cucu_validation_extension\\stages\\estimators.py": "4a849f4e01d88c63f323994a9eb47bcba57ba897626a3244e492629ee9e4c913",
+    "src\\cucu_validation_extension\\stages\\external_robustness.py": "91060066c21b73bee6c96e1993f928b6a10a9f975384e9ebc69a4c8ae3759c8d",
+    "src\\cucu_validation_extension\\stages\\freeze.py": "81644bbc5f745582bcdd900b4836dda0a395ce8480f8879bc1b76883ad3b7e26",
+    "src\\cucu_validation_extension\\stages\\report.py": "bc6af9b69616c5c630b4633e5cdc191faeb878ab481ce705862b86609e1f9696",
+    "src\\cucu_validation_extension\\stages\\statistics.py": "6cccbcbcbd306ed18fafb3552852420b1bed6fecd26e19db87019387d04cd2d7",
+    "support_study_config.toml": "fdccee2ff1a66c21faad2c6200bc8c75189a5ad91b56da9f4be0e7acafa58b1a"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_trials_to_80": null,
+  "branches_numerically_merged": false,
+  "candidate_heldout_fpr": 0.0501234567901234,
+  "candidate_trials_to_80": null,
+  "comparison_k": 10,
+  "condition_sign_flip_p": 9.999000099990002e-05,
+  "crossed_bootstrap_gain_ci95": [
+    0.03553333333333333,
+    0.16977777777777778
+  ],
+  "d1_d2_d3_interpretation": "At fixed K, D2 and D3 are monotonic transformations of D1; only calibration and bias differ.",
+  "primary_baseline": "stored_matlab+F1+D1+S0",
+  "primary_candidate": "stored_matlab+F1+D8+S0",
+  "primary_candidate_succeeds": false
+}

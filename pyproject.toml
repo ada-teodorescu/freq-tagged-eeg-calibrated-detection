@@ -1,0 +1,54 @@
+[project]
+name = "freq-tagged-eeg-calibrated-detection"
+version = "0.1.0"
+description = "Analysis code for calibrated detection of frequency-tagged auditory EEG"
+requires-python = ">=3.11"
+dependencies = [
+  "h5py>=3.11",
+  "matplotlib>=3.9",
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "rich>=13.9",
+  "scipy>=1.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3"]
+raw = [
+  "mne>=1.8,<2",
+  "mne-icalabel>=0.7,<1",
+  "onnxruntime>=1.18,<2",
+]
+
+[project.scripts]
+cucu-replication = "cucu_replication.cli:main"
+cucu-detection = "cucu_detection.cli:main"
+cucu-improvement = "cucu_improvement.cli:main"
+cucu-raw-replication = "cucu_raw_replication.cli:main"
+cucu-algorithm-study = "cucu_algorithm_study.cli:main"
+cucu-accuracy-study = "cucu_accuracy_study.cli:main"
+cucu-advanced-study = "cucu_advanced_study.cli:main"
+cucu-confirmatory-study = "cucu_confirmatory_study.cli:main"
+cucu-external-validation = "cucu_external_validation.cli:main"
+cucu-validation-extension = "cucu_validation_extension.cli:main"
+cucu-assr-validation = "cucu_assr_validation.cli:main"
+cucu-support-study = "cucu_support_study.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "src/cucu_replication", "src/cucu_detection", "src/cucu_improvement",
+  "src/cucu_raw_replication", "src/cucu_article", "src/cucu_algorithm_study",
+  "src/cucu_accuracy_study", "src/cucu_advanced_study",
+  "src/cucu_confirmatory_study", "src/cucu_external_validation",
+  "src/cucu_validation_extension", "src/cucu_assr_validation",
+  "src/cucu_support_study",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --import-mode=importlib"
+cache_dir = ".pytest_cache"
