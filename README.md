@@ -21,7 +21,22 @@ uv sync --extra raw --extra dev
 uv run pytest
 ```
 
-Place the public Cucu SET/FDT release under `data/Pre-processed EEGLAB datasets/` and the original study repository, when needed for replication, under `cv_syllables-master/`. The independent datasets are [OpenNeuro ds007615](https://openneuro.org/datasets/ds007615) and [OpenNeuro ds006780](https://openneuro.org/datasets/ds006780). The download scripts place these under `data/external/`; those recordings are large and are not redistributed here.
+Obtain the Cucu raw and processed EEG from the [original study's OSF project](https://osf.io/3c6tv/) and place the SET/FDT files under `data/Pre-processed EEGLAB datasets/`. For source-product replication, place the [original study's code repository](https://github.com/phonemes-and-speech-entrainment/cv_syllables) under `cv_syllables-master/`. Neither is fetched by the scripts below. The independent datasets are [OpenNeuro ds007615](https://openneuro.org/datasets/ds007615) and [OpenNeuro ds006780](https://openneuro.org/datasets/ds006780). Place their dataset trees under `data/external/`; the recordings are large and are not redistributed here.
+
+## Helper scripts
+
+Run these from the repository root when needed. They do not run during installation or when the repository is cloned.
+
+| Script | Purpose and prerequisite |
+| --- | --- |
+| `download_ds007615.ps1` | Download the external negative-control EEG into `data/external/ds007615/`. An existing dataset inventory is used when present. |
+| `download_ds006780_assr.ps1` | Fill in the ASSR BDF recordings for the selected cohort in an existing ds006780 dataset clone. It checks file sizes and SHA-256 hashes. |
+| `repair_ds007615_annex_prefixes.ps1` | Optional repair for ds007615 files whose first bytes contain a Git annex pointer. It verifies each repaired file against the annex hash. |
+| `region_vs_global_ablation.py` | Compare five-region features with whole-scalp averaging at the matched static look. Requires the confirmatory coefficient checkpoints under `outputs/` and writes details to `.tmp/`. |
+| `run_assr_validation.ps1` | PowerShell shortcut for ASSR CLI commands such as `doctor`, `list`, `run-all`, and `export`. |
+| `run_validation_extension.ps1` | PowerShell shortcut for the validation-extension CLI. Requires the project environment and its installed command. |
+
+By default, the download and repair scripts modify local files under the ignored `data/` tree only when explicitly run; their path arguments can change that location. The `run_*.ps1` scripts are optional; the same analysis CLIs are listed in `pyproject.toml`.
 
 The configuration files specify the full analysis path. For example:
 
@@ -32,7 +47,7 @@ uv run cucu-assr-validation doctor
 uv run cucu-external-validation doctor
 ```
 
-Earlier stages produce checkpoints required by later stages. The exported `results/` snapshots support inspection of the published numbers but do not replace the `outputs/` checkpoints for a full rerun. See each CLI's `--help`, `list`, and `doctor` commands before a rerun. The download scripts are `scripts/download_ds007615.ps1` and `scripts/download_ds006780_assr.ps1`.
+Earlier stages produce checkpoints required by later stages. The exported `results/` snapshots support inspection of the published numbers but do not replace the `outputs/` checkpoints for a full rerun. See each CLI's `--help`, `list`, and `doctor` commands before a rerun.
 
 ## Analysis sequence
 
