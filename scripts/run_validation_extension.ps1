@@ -6,7 +6,7 @@ param(
 )
 
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
-$Command = Join-Path $ProjectRoot ".venv\Scripts\cucu-validation-extension.exe"
+$Command = Join-Path $ProjectRoot ".venv\Scripts\eeg-validation-extension.exe"
 if (-not (Test-Path -LiteralPath $Command)) {
     throw "Missing $Command. Install the project environment before running the extension."
 }

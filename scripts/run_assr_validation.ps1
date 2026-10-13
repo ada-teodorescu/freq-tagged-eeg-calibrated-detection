@@ -6,14 +6,14 @@ param(
 )
 
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
-$Command = Join-Path $ProjectRoot ".venv\Scripts\cucu-assr-validation.exe"
+$Command = Join-Path $ProjectRoot ".venv\Scripts\eeg-assr-validation.exe"
 if (-not (Test-Path -LiteralPath $Command)) {
     $Python = Join-Path $ProjectRoot ".venv\Scripts\python.exe"
     if (-not (Test-Path -LiteralPath $Python)) {
         throw "Missing project environment. Run 'uv sync --extra raw --extra dev' first."
     }
     $Command = $Python
-    $ModuleArguments = @("-m", "cucu_assr_validation.cli")
+    $ModuleArguments = @("-m", "eeg_assr_validation.cli")
 } else {
     $ModuleArguments = @()
 }

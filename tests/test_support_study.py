@@ -4,9 +4,9 @@ from types import SimpleNamespace
 import numpy as np
 import pytest
 
-from cucu_exposure_study import analysis as fitting
-from cucu_support_study.analysis import _verify_coefficients
-from cucu_support_study.estimators import restricted_hilbert
+from eeg_exposure_study import analysis as fitting
+from eeg_support_study.analysis import _verify_coefficients
+from eeg_support_study.estimators import restricted_hilbert
 
 
 @pytest.mark.parametrize("reflection", ["odd", "even"])

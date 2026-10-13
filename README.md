@@ -4,7 +4,7 @@ Analysis source and curated results for **“Calibrated Detection of Frequency-T
 
 ## Contents
 
-- `src/`: analysis pipelines, estimators, calibration, statistics, and export code. `cucu_article` contains shared numerical helpers used by these pipelines.
+- `src/`: analysis pipelines, estimators, calibration, statistics, and export code. `eeg_core` contains shared numerical helpers; `eeg_exposure_study` supplies fitting functions used by the restricted-input support study.
 - `*_config.toml`: analysis settings and input/output paths. Run identifiers are content hashes; a fresh run may have a different identifier from a published snapshot.
 - `scripts/`: dataset download and analysis helper scripts.
 - `tests/`: unit and integration tests for analysis code.
@@ -41,21 +41,21 @@ By default, the download and repair scripts modify local files under the ignored
 The configuration files specify the full analysis path. For example:
 
 ```powershell
-uv run cucu-confirmatory-study doctor
-uv run cucu-confirmatory-study list
-uv run cucu-assr-validation doctor
-uv run cucu-external-validation doctor
+uv run eeg-confirmatory-study doctor
+uv run eeg-confirmatory-study list
+uv run eeg-assr-validation doctor
+uv run eeg-external-validation doctor
 ```
 
 Earlier stages produce checkpoints required by later stages. The exported `results/` snapshots support inspection of the published numbers but do not replace the `outputs/` checkpoints for a full rerun. See each CLI's `--help`, `list`, and `doctor` commands before a rerun.
 
 ## Analysis sequence
 
-1. `cucu-replication` and `cucu-raw-replication` audit the source products and raw reconstruction.
-2. `cucu-detection`, `cucu-improvement`, `cucu-algorithm-study`, `cucu-accuracy-study`, and `cucu-advanced-study` document exploratory method development.
-3. `cucu-confirmatory-study` performs the frozen-after-exploration syllable comparison.
-4. `cucu-external-validation` evaluates the frozen detector on presumed response-negative EEG.
-5. `cucu-assr-validation` performs the independent ASSR comparison.
-6. `cucu-validation-extension` and `cucu-support-study` provide exploratory estimator and temporal-context controls.
+1. `eeg-replication` and `eeg-raw-replication` audit the source products and raw reconstruction.
+2. `eeg-detection`, `eeg-improvement`, `eeg-algorithm-study`, `eeg-accuracy-study`, and `eeg-advanced-study` document exploratory method development.
+3. `eeg-confirmatory-study` performs the frozen-after-exploration syllable comparison.
+4. `eeg-external-validation` evaluates the frozen detector on presumed response-negative EEG.
+5. `eeg-assr-validation` performs the independent ASSR comparison.
+6. `eeg-validation-extension` and `eeg-support-study` provide exploratory estimator and temporal-context controls.
 
 The word *detection rate* here means calibrated threshold exceedance in presumed response-positive recordings. It is not diagnostic sensitivity against independently verified labels.

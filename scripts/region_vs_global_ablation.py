@@ -2,7 +2,7 @@
 detector, holding everything else fixed (Hilbert estimator, K=10 static look,
 participant-held-out nonnegative logistic fusion, 5% empirical-threshold FPR
 calibration). Reuses the exact same functions as the frozen confirmatory pipeline
-(cucu_confirmatory_study.stages.hilbert_condition) so the regional numbers should
+(eeg_confirmatory_study.stages.hilbert_condition) so the regional numbers should
 reproduce \\HilbertStaticSensitivity / \\HilbertStaticFPRPrecise as a sanity check.
 """
 from __future__ import annotations
@@ -15,11 +15,11 @@ import numpy as np
 
 sys.path.insert(0, "src")
 
-from cucu_confirmatory_study.config import load_config
-from cucu_accuracy_study.features import region_indices
-from cucu_advanced_study.algorithms import phase_trajectories, temporal_shift_multipliers
-from cucu_algorithm_study.algorithms import fit_monotone_logistic
-from cucu_detection.evaluation import empirical_threshold, auc_from_scores
+from eeg_confirmatory_study.config import load_config
+from eeg_accuracy_study.features import region_indices
+from eeg_advanced_study.algorithms import phase_trajectories, temporal_shift_multipliers
+from eeg_algorithm_study.algorithms import fit_monotone_logistic
+from eeg_detection.evaluation import empirical_threshold, auc_from_scores
 
 CONFIG_PATH = "confirmatory_study_config.toml"
 RUN_DIR = Path("outputs/confirmatory_study/4d6a54f6f902")

@@ -21,18 +21,18 @@ raw = [
 ]
 
 [project.scripts]
-cucu-replication = "cucu_replication.cli:main"
-cucu-detection = "cucu_detection.cli:main"
-cucu-improvement = "cucu_improvement.cli:main"
-cucu-raw-replication = "cucu_raw_replication.cli:main"
-cucu-algorithm-study = "cucu_algorithm_study.cli:main"
-cucu-accuracy-study = "cucu_accuracy_study.cli:main"
-cucu-advanced-study = "cucu_advanced_study.cli:main"
-cucu-confirmatory-study = "cucu_confirmatory_study.cli:main"
-cucu-external-validation = "cucu_external_validation.cli:main"
-cucu-validation-extension = "cucu_validation_extension.cli:main"
-cucu-assr-validation = "cucu_assr_validation.cli:main"
-cucu-support-study = "cucu_support_study.cli:main"
+eeg-replication = "eeg_replication.cli:main"
+eeg-detection = "eeg_detection.cli:main"
+eeg-improvement = "eeg_improvement.cli:main"
+eeg-raw-replication = "eeg_raw_replication.cli:main"
+eeg-algorithm-study = "eeg_algorithm_study.cli:main"
+eeg-accuracy-study = "eeg_accuracy_study.cli:main"
+eeg-advanced-study = "eeg_advanced_study.cli:main"
+eeg-confirmatory-study = "eeg_confirmatory_study.cli:main"
+eeg-external-validation = "eeg_external_validation.cli:main"
+eeg-validation-extension = "eeg_validation_extension.cli:main"
+eeg-assr-validation = "eeg_assr_validation.cli:main"
+eeg-support-study = "eeg_support_study.cli:main"
 
 [build-system]
 requires = ["hatchling"]
@@ -40,12 +40,12 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = [
-  "src/cucu_replication", "src/cucu_detection", "src/cucu_improvement",
-  "src/cucu_raw_replication", "src/cucu_article", "src/cucu_algorithm_study",
-  "src/cucu_accuracy_study", "src/cucu_advanced_study",
-  "src/cucu_confirmatory_study", "src/cucu_external_validation",
-  "src/cucu_validation_extension", "src/cucu_assr_validation",
-  "src/cucu_support_study",
+  "src/eeg_replication", "src/eeg_detection", "src/eeg_improvement",
+  "src/eeg_raw_replication", "src/eeg_core", "src/eeg_algorithm_study",
+  "src/eeg_accuracy_study", "src/eeg_advanced_study",
+  "src/eeg_confirmatory_study", "src/eeg_external_validation",
+  "src/eeg_validation_extension", "src/eeg_assr_validation",
+  "src/eeg_support_study", "src/eeg_exposure_study",
 ]
 
 [tool.pytest.ini_options]
